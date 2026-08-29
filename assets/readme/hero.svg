@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Academic Paper Writing</title>
+  <desc id="desc">A restrained editorial hero showing an academic manuscript progressing from Chinese draft to journal English and reviewer revision.</desc>
+
+  <rect width="1200" height="390" rx="28" fill="#F7F3E8"/>
+  <rect x="1" y="1" width="1198" height="388" rx="27" fill="none" stroke="#D8D2C4" stroke-width="2"/>
+
+  <g transform="translate(62 54)">
+    <text x="0" y="0" dominant-baseline="hanging" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2.2" fill="#147D75">CODEX SKILL · ACADEMIC MANUSCRIPT</text>
+    <text x="0" y="70" font-family="Georgia, Songti SC, serif" font-size="58" font-weight="700" fill="#132238">Academic Paper</text>
+    <text x="0" y="132" font-family="Georgia, Songti SC, serif" font-size="58" font-weight="700" fill="#132238">Writing</text>
+    <text x="2" y="185" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="22" fill="#3E4A59">中文初稿 · 期刊英文 · 审稿返修</text>
+    <line x1="0" y1="224" x2="565" y2="224" stroke="#C7C0B2" stroke-width="1.5"/>
+    <text x="0" y="260" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="19" font-weight="600" fill="#132238">先写清楚，再写完整；证据冲突，由作者决定。</text>
+    <g transform="translate(0 296)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.1">
+      <text x="0" y="0" fill="#147D75">EVIDENCE-ALIGNED</text>
+      <text x="174" y="0" fill="#8A8275">/</text>
+      <text x="196" y="0" fill="#D95D39">CLAIM DECISIONS</text>
+      <text x="365" y="0" fill="#8A8275">/</text>
+      <text x="387" y="0" fill="#132238">EDITABLE OMML</text>
+    </g>
+  </g>
+
+  <g transform="translate(755 42)">
+    <rect x="20" y="14" width="330" height="286" rx="12" fill="#DED7C8" opacity="0.65"/>
+    <rect x="38" y="30" width="330" height="286" rx="12" fill="#EAE4D8"/>
+    <rect x="58" y="48" width="330" height="286" rx="12" fill="#FFFEFA" stroke="#CFC7B8" stroke-width="1.5"/>
+
+    <text x="86" y="82" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7A7266">MANUSCRIPT / 03</text>
+    <line x1="86" y1="101" x2="350" y2="101" stroke="#D7D0C2" stroke-width="1.5"/>
+
+    <circle cx="90" cy="135" r="6" fill="#147D75"/>
+    <text x="108" y="141" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="700" fill="#132238">01 中文初稿</text>
+    <line x1="108" y1="154" x2="328" y2="154" stroke="#BFC8C5" stroke-width="7" stroke-linecap="round"/>
+
+    <circle cx="90" cy="196" r="6" fill="#355F8A"/>
+    <text x="108" y="202" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="700" fill="#132238">02 Journal English</text>
+    <line x1="108" y1="215" x2="342" y2="215" stroke="#C5CCD5" stroke-width="7" stroke-linecap="round"/>
+
+    <circle cx="90" cy="257" r="6" fill="#D95D39"/>
+    <text x="108" y="263" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="18" font-weight="700" fill="#132238">03 Reviewer Revision</text>
+    <line x1="108" y1="276" x2="318" y2="276" stroke="#E1C8BE" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M332 122 C365 128 365 154 344 164" fill="none" stroke="#D95D39" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M340 160 L347 164 L341 170" fill="none" stroke="#D95D39" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="303" y="116" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#D95D39">claim?</text>
+
+    <rect x="86" y="296" width="244" height="24" rx="12" fill="#E4F0EC"/>
+    <text x="208" y="313" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#147D75">EVIDENCE → DECISION → PROSE</text>
+  </g>
+</svg>

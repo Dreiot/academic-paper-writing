@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Academic paper writing workflow</title>
+  <desc id="desc">Three writing phases share an evidence boundary, user-controlled Claim Decision, anti-overdefensive prose checks, and editable OMML validation.</desc>
+
+  <rect width="1200" height="500" rx="26" fill="#132238"/>
+  <text x="58" y="58" font-family="Georgia, Songti SC, serif" font-size="36" font-weight="700" fill="#F7F3E8">从研究材料到可投稿论文</text>
+  <text x="58" y="88" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.7" fill="#8EBEB6">ONE ARGUMENT · THREE PHASES · ONE EVIDENCE BOUNDARY</text>
+
+  <g transform="translate(58 126)">
+    <rect width="318" height="194" rx="16" fill="#F7F3E8"/>
+    <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" fill="#147D75">01 / DRAFT</text>
+    <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#132238">中文初稿</text>
+    <text x="24" y="110" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="17" fill="#4B5563">结构 · 逻辑 · 方法 · 公式</text>
+    <line x1="24" y1="136" x2="292" y2="136" stroke="#D4CDC0" stroke-width="1.5"/>
+    <text x="24" y="166" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#6B7280">先建立完整论证，不追求表面润色</text>
+  </g>
+
+  <path d="M392 223 H430" stroke="#8EBEB6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M424 216 L432 223 L424 230" fill="none" stroke="#8EBEB6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(441 126)">
+    <rect width="318" height="194" rx="16" fill="#F7F3E8"/>
+    <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" fill="#355F8A">02 / OPTIMIZE</text>
+    <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#132238">期刊英文</text>
+    <text x="24" y="110" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="17" fill="#4B5563">自然英译 · 期刊适配 · claim 保真</text>
+    <line x1="24" y1="136" x2="292" y2="136" stroke="#D4CDC0" stroke-width="1.5"/>
+    <text x="24" y="166" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#6B7280">翻译论证关系，不逐句复制中文形状</text>
+  </g>
+
+  <path d="M775 223 H813" stroke="#8EBEB6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M807 216 L815 223 L807 230" fill="none" stroke="#8EBEB6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(824 126)">
+    <rect width="318" height="194" rx="16" fill="#F7F3E8"/>
+    <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" fill="#D95D39">03 / REVISE</text>
+    <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="27" font-weight="700" fill="#132238">审稿返修</text>
+    <text x="24" y="110" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="17" fill="#4B5563">真实意见 · 自然修改 · 可信回复</text>
+    <line x1="24" y1="136" x2="292" y2="136" stroke="#D4CDC0" stroke-width="1.5"/>
+    <text x="24" y="166" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#6B7280">回答被提出的问题，不预演下一轮质疑</text>
+  </g>
+
+  <g transform="translate(58 354)">
+    <rect width="1084" height="92" rx="16" fill="#1D3048" stroke="#35516E" stroke-width="1.5"/>
+    <circle cx="37" cy="46" r="12" fill="#D95D39"/>
+    <text x="37" y="51" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" font-weight="700" fill="#FFFFFF">?</text>
+    <text x="66" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#F7F3E8">Claim Decision</text>
+    <text x="66" y="64" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#BCC9D5">证据与 claim 矛盾或不清晰时，由用户选择证据一致的处理方式</text>
+
+    <line x1="520" y1="24" x2="520" y2="68" stroke="#405872" stroke-width="1.5"/>
+    <text x="552" y="39" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#8EBEB6">SHARED CHECKS</text>
+    <text x="552" y="64" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="15" fill="#F7F3E8">去过度防御 · 证据边界 · OMML 结构与渲染验证</text>
+  </g>
+</svg>

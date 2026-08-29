@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Paper Writing"
+  short_description: "Draft, journal-optimize, and revise academic papers"
+  default_prompt: "Use $academic-paper-writing to draft, optimize, or revise my academic manuscript while preserving its evidence and claim boundaries."
+policy:
+  allow_implicit_invocation: true
