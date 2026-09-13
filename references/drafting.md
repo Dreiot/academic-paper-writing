@@ -6,6 +6,8 @@ Use this phase to turn verified research materials into a coherent academic-pape
 
 Identify the research question, the limitation in existing work, the central idea, the method that realizes it, the evidence available, and the conclusion that evidence supports. Maintain a private claim-to-evidence map when it helps consistency; do not insert that production artifact into the paper.
 
+Apply [literature-and-rhetoric.md](literature-and-rhetoric.md) to every part of the draft whose scientific meaning, positioning, design rationale, comparison, interpretation, or application context depends on external scholarship. A complete journal-paper draft requires the comprehensive literature route before those passages can be treated as final; this obligation is not limited to the Introduction or Related Work.
+
 If the target journal is unknown, use a journal-neutral structure and continue. If a missing fact is local and does not affect a scientific claim, use one clear placeholder or leave the affected sentence unwritten. If evidence and a claim conflict or the scientific meaning is unclear, use the Claim Decision process from `SKILL.md`.
 
 The final layout may adapt to the field and paper type. For an empirical methods paper, a useful default is:
@@ -73,6 +75,7 @@ Draft evidence-bearing sections before relying on the abstract or contribution l
 
 - The research question, gap, method, experiments, and conclusion form one argument.
 - Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
+- Every literature-dependent statement has passed the required focused or comprehensive literature gate, including claim-level source support and any required journal-rhetoric study.
 - The Introduction establishes problem, gap, design need, response, and contribution as connected reasoning rather than a compressed compliance list.
 - Related Work synthesizes prior mechanisms on explicit comparison axes and leaves a precise unresolved question rather than repeating the Introduction or Method.
 - Symbols and component names remain consistent across text, formulas, tables, and figures.

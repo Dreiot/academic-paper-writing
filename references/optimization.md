@@ -6,6 +6,8 @@ Use this phase for a Chinese manuscript or mixed-language draft that must become
 
 For journal-specific work, obtain the journal name and article type. Verify the current official author instructions and use an official or user-supplied template when available. If the journal is not yet selected, offer journal-neutral English rather than guessing a venue.
 
+When optimization changes disciplinary framing, background, novelty, method positioning, comparison, interpretation, discussion, or another literature-dependent proposition, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting it. A complete target-journal adaptation also studies recent journal-rhetoric exemplars; polishing language or matching formatting alone is not intellectual journal adaptation.
+
 Read the complete relevant manuscript before whole-paper optimization. For a restructuring that would materially change emphasis, section order, or claim presentation, first provide a concise change plan and obtain the user's decision when multiple credible structures exist. Local paragraph polishing and reversible edits should proceed directly.
 
 ## Translate meaning and argument, not sentence shape
@@ -53,5 +55,6 @@ Do not add a declaration, experiment, citation, or claim solely because it is co
 - Journal requirements were verified from the official source or supplied template.
 - Translation did not add hedges or raise claims.
 - Citations remain real and correctly attached to the statements they support.
+- New or materially changed literature-dependent content passed the required literature search and claim-level verification rather than relying on translation fluency.
 - Word mathematics remains editable OMML when DOCX is the requested format.
 - The anti-overdefense checks pass in both Chinese remnants and English prose.

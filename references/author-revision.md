@@ -31,9 +31,11 @@ Before editing, create a compact private map for each requested change:
 5. the wording, structure, data, and claim boundaries that must remain fixed;
 6. an observable acceptance test in the final manuscript.
 
-Carry forward each item as `open`, `partially satisfied`, `satisfied`, `superseded`, or `withdrawn`. A generated revision note cannot mark its own item `satisfied`; that status follows only from inspection of the final manuscript against the acceptance test.
+Carry forward each item as `open`, `partially satisfied`, `ready for verification`, `satisfied`, `superseded`, or `withdrawn`. A generated revision note cannot mark its own item `satisfied`; that status follows only from inspection of the final manuscript against the acceptance test. When [manuscript-quality-control.md](manuscript-quality-control.md) applies, drafting advances a material item to `ready for verification`; a separate source-first verification pass or an actual independent reviewer assigns final `satisfied` after inspecting the exact candidate and direct evidence.
 
 Keep this map temporary unless the user asks to see it. Do not turn it into a reader-facing checklist or append it to the manuscript.
+
+When a requested change depends on external scholarship, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting the affected content. This applies wherever the revision changes background, novelty, theory, design rationale, comparisons, interpretation, application context, discussion, limitations, future work, or a reviewer-facing factual response. Adding citations to the old paragraph structure is not implementation if the requested outcome requires a different scholarly argument.
 
 ## Distinguish substantive revision from textual churn
 
@@ -51,7 +53,9 @@ Synonym substitution, shortening, sentence reordering, retaining the same paragr
 
 Translate detailed prompt bullets into connected academic reasoning. Do not write one sentence per instruction item or make a paragraph read like a compliance checklist.
 
-## Test the Introduction and Related Work by function
+## Test every affected section by function
+
+Judge the revision first by the author's required outcome and the scientific job of the affected passage. Verify that new literature changes the reasoning where warranted, that method or result material remains in its proper section, and that every new factual relationship is supported. Paragraph counts, headings, keywords, citation counts, and text difference remain presentation or artifact checks rather than semantic acceptance.
 
 For an Introduction revision, verify that:
 
@@ -84,4 +88,6 @@ After editing:
 6. generate any revision note from the verified final manuscript rather than using the note as evidence that a change occurred;
 7. identify any request that is only partially satisfied and state the remaining gap without relabeling it as complete.
 
-Claim completion only when the final artifact passes both the author's requested outcome and the relevant scientific evidence boundary. Report the material changes and unresolved author decisions concisely; do not expose the private revision contract unless requested.
+When the task meets the manuscript-quality criteria, freeze the candidate and apply [manuscript-quality-control.md](manuscript-quality-control.md) after the drafting pass. Resolve every `Blocker` and `Major` finding and derive final revision-contract status from the rechecked candidate. Use an independent reviewer when requested or materially beneficial; otherwise use a separated source-first verification pass and report that mode accurately.
+
+Claim completion only when the final artifact passes the author's requested outcome, the relevant scientific evidence boundary, the applicable literature gate, and the manuscript-quality gate. Report the material changes, verification mode, and unresolved author decisions concisely; do not expose the private revision contract unless requested.

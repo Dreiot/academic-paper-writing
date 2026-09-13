@@ -6,6 +6,8 @@ Use this phase after submission to analyze editor and reviewer comments, revise 
 
 Read the editor decision, all current reviewer comments, the current manuscript, and any previous response letter needed to understand the round. If a required artifact is unavailable, request that specific artifact; do not infer the missing comment or manuscript state.
 
+If a comment asks for new citations, broader context, novelty clarification, comparison with prior methods, theoretical support, interpretation, limitations, application claims, or any other literature-dependent change, follow [literature-and-rhetoric.md](literature-and-rhetoric.md). Use focused search for a narrow claim and comprehensive search when the response materially reconstructs the paper's scholarly position. Do not answer a literature concern by adding convenient citations without reading and using them in the argument.
+
 For each comment, privately identify:
 
 - the explicit request;
@@ -61,6 +63,7 @@ Do not report a change, experiment, line number, or result that has not been ver
 - Every claimed manuscript change exists in the delivered version and at the cited location.
 - Manuscript, response letter, supplement, tables, figures, and numerical results agree.
 - Revisions do not introduce a stronger unsupported claim or contradict another section.
+- Every new or materially changed literature-dependent proposition passed the appropriate search and claim-level source check.
 - New explanations read naturally and do not duplicate defensive language elsewhere.
 - The response does not answer questions the reviewers did not ask.
 - Clean, marked, and response-letter versions are produced only when requested or required by the journal.
