@@ -21,6 +21,8 @@ The final layout may adapt to the field and paper type. For an empirical methods
 
 Do not create a section merely because this list contains it. Merge, split, or omit sections when the paper's argument or target venue calls for a different structure.
 
+A Chinese first draft is a working academic manuscript, not a designed report. Use the minimum styling needed to make the title, section hierarchy, body, equations, figures, tables, and references clear. Unless the user or target venue requests them, do not append a `技术注与补充材料索引`, evidence inventory, verification log, production note, repository map, or other internal traceability section. Keep such working material outside the reader-facing manuscript.
+
 ## Give each section a scientific job
 
 ### Abstract
@@ -44,6 +46,8 @@ Explain why each major component exists and how it addresses the stated limitati
 ### Experiments and results
 
 Make the experimental questions visible through the organization, but do not force every question into a heading. Report only datasets, baselines, splits, metrics, settings, ablations, sensitivity studies, and statistical analyses that actually exist or that the user has asked to plan. Separate observed results from interpretation.
+
+When the section contains numerical performance results, follow [numeric-reporting.md](numeric-reporting.md) for percentage scale, displayed precision, percentage-point differences, and exceptions that require more digits.
 
 Place an important negative, mixed, or scope-limiting result beside the conclusion it changes. Do not request more baselines, robustness checks, or experiments merely to make the draft look comprehensive.
 
@@ -69,4 +73,5 @@ Draft evidence-bearing sections before relying on the abstract or contribution l
 - Equations needed to understand the method are present and explained; decorative derivations are absent.
 - Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.
 - Placeholders are visible and specific without taking over the prose.
+- No unrequested technical-note, evidence-index, or supplementary-index section has been appended to the Chinese first draft.
 - The anti-overdefense checks pass.

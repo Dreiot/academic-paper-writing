@@ -29,6 +29,8 @@ Follow the target journal or supplied Word template. In the absence of a specifi
 
 When a journal requires a particular mathematics font, set the document math font and mathematical runs consistently; changing only the surrounding body font is insufficient. Preserve an existing template's working math configuration unless the user asks to replace it.
 
+The body-font fallback does not select the mathematics font. In particular, do not set the document math font to Times New Roman solely because Western prose and digits use Times New Roman. Preserve a compatible working math font or apply the target journal's required mathematics font across the document.
+
 Treat a display equation as part of its sentence. Apply punctuation and explanatory prose according to the sentence logic and journal style. Number only equations that are referenced or required by the venue.
 
 ## Convert source mathematics carefully
