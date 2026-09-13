@@ -44,6 +44,14 @@ If the reviewer request, manuscript claim, and evidence conflict or the intended
 - Place definitions, motivation, limitations, and results where they belong scientifically instead of appending defensive paragraphs.
 - Preserve the existing structure when a local repair is sufficient. Restructure only when the comment exposes a real argument-level problem.
 
+## Use text generation to integrate, not append
+
+First determine whether a comment is text-resolvable or evidence-requiring. Text-resolvable comments can be answered through clearer logic, definitions, synthesis, scope, organization, or prose. Evidence-requiring comments need an authorized analysis, experiment, source, or author decision; do not simulate that evidence with more confident wording.
+
+For text-resolvable comments, rewrite the smallest complete argumentative unit rather than attaching one new sentence or defensive paragraph to the old text. When several comments affect the same reasoning chain, integrate them once in the manuscript while keeping their response-letter answers individually traceable. Preserve the author's voice, vary sentence and paragraph rhythm naturally, and make every transition arise from the scientific relation rather than from the order of reviewer bullets.
+
+Avoid repeated thanks, agreement formulas, mirrored reviewer wording, one-comment-one-paragraph manuscript patches, and sequences of similarly shaped sentences. The revised manuscript must read as if the reasoning had been written correctly before review; the response letter carries the review history.
+
 ## Write a concise, credible response letter
 
 For each comment, normally:
@@ -65,5 +73,6 @@ Do not report a change, experiment, line number, or result that has not been ver
 - Revisions do not introduce a stronger unsupported claim or contradict another section.
 - Every new or materially changed literature-dependent proposition passed the appropriate search and claim-level source check.
 - New explanations read naturally and do not duplicate defensive language elsewhere.
+- Text-resolvable comments were integrated into complete argumentative units, while evidence-requiring comments were not disguised as prose-only fixes.
 - The response does not answer questions the reviewers did not ask.
 - Clean, marked, and response-letter versions are produced only when requested or required by the journal.

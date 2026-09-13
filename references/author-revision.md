@@ -74,6 +74,14 @@ For a Related Work revision, verify that:
 - the section does not repeat the Introduction's compressed survey or pre-write the Method section;
 - literature study requested by the author changes the organization or reasoning where warranted, rather than appearing only in a separate evidence log.
 
+For other affected sections, apply their scientific jobs from [drafting.md](drafting.md) and verify the requested change in the final candidate:
+
+- an Abstract revision changes the problem-gap-method-evidence-conclusion summary without introducing a claim absent from the paper;
+- a Method revision repairs definitions, rationale, information flow, or reproducibility rather than only renaming symbols or adding decorative derivation;
+- an Experiments or Results revision preserves the actual protocol and evaluation boundary, reports verified observations, and keeps interpretation distinct from measurement;
+- a Discussion or Limitations revision uses literature and results to change interpretation or scope without repeating generic caveats;
+- a Conclusion revision answers the research question at the supported level and introduces no new evidence, application, or superiority claim.
+
 Across both sections, confirm the same research gap connects coherently to the method design, experimental questions, results, and final claim. If those sections use different gaps, reconcile them before completion.
 
 ## Verify implementation in the final artifact

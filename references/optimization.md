@@ -1,6 +1,6 @@
 # English optimization and journal adaptation
 
-Use this phase for a Chinese manuscript or mixed-language draft that must become natural academic English and conform to a user-selected journal. Translation, argument repair, and journal compliance are related but distinct operations.
+Use this phase for a content-complete Chinese master manuscript or mixed-language manuscript that must become natural academic English and conform to a user-selected journal. Translation, journal adaptation, and local argument refinement are related operations, but this phase is not the default place to repair a missing scientific spine.
 
 ## Confirm the consequential target
 
@@ -9,6 +9,8 @@ For journal-specific work, obtain the journal name and article type. Verify the 
 When optimization changes disciplinary framing, background, novelty, method positioning, comparison, interpretation, discussion, or another literature-dependent proposition, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting it. A complete target-journal adaptation also studies recent journal-rhetoric exemplars; polishing language or matching formatting alone is not intellectual journal adaptation.
 
 Read the complete relevant manuscript before whole-paper optimization. For a restructuring that would materially change emphasis, section order, or claim presentation, first provide a concise change plan and obtain the user's decision when multiple credible structures exist. Local paragraph polishing and reversible edits should proceed directly.
+
+If the target-journal work reveals a material gap in the research problem, literature synthesis, method rationale, evidence, result interpretation, or conclusion, repair the content-authoritative Chinese manuscript or use the author-revision route first, then propagate that accepted meaning into English. Do not hide an unfinished Chinese argument behind fluent translation or formatting compliance.
 
 ## Translate meaning and argument, not sentence shape
 
@@ -53,6 +55,7 @@ Do not add a declaration, experiment, citation, or claim solely because it is co
 - Terms, tense, voice, symbols, abbreviations, and section references are consistent.
 - Every numerical statement matches its source table or result.
 - Journal requirements were verified from the official source or supplied template.
+- The adaptation did not become an unacknowledged substitute for a missing submission-grade Chinese argument.
 - Translation did not add hedges or raise claims.
 - Citations remain real and correctly attached to the statements they support.
 - New or materially changed literature-dependent content passed the required literature search and claim-level verification rather than relying on translation fluency.

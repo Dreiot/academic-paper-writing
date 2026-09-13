@@ -45,7 +45,7 @@ For each conceptual figure:
 3. do not invent modules, causal arrows, equations, variables, datasets, performance values, or biological or physical structures;
 4. minimize text embedded by the image model. Add precision-critical labels, equations, symbols, numbers, and panel letters afterward with a deterministic editable overlay when necessary;
 5. inspect the generated image for arrow direction, topology, duplicated or missing components, label accuracy, visual ambiguity, and unintended quantitative implications;
-6. iterate with one targeted correction while retaining the shared style brief and all verified invariants;
+6. iterate with targeted corrections while retaining the shared style brief and all verified invariants; stop when semantic and placement checks pass, or report the unresolved limitation instead of continuing cosmetic variations;
 7. save the selected project-bound image with a stable descriptive name and retain enough prompt and source context to reproduce its visual intent.
 
 A conceptual illustration explains the method; it is not experimental evidence. Write the caption so that readers cannot mistake generated visual appearance, spatial arrangement, or relative size for an observed quantitative result.

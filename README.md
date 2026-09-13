@@ -1,28 +1,28 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Academic Paper Writing：从中文初稿、期刊英文优化到审稿返修的证据约束型 Codex Skill">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Academic Paper Writing：从投稿级中文母稿、期刊英文适配到审稿返修的证据约束型 Codex Skill">
 </p>
 
 <p align="center">
   <strong>把真实研究证据写成结构清楚、语言自然、不过度防御的学术论文。</strong>
 </p>
 
-`academic-paper-writing` 是一个面向学术论文正文的 Codex Skill。它覆盖中文初稿、目标期刊英文优化和投稿后返修，并在 Word 文稿中使用可继续编辑的 OMML 公式。
+`academic-paper-writing` 是一个面向学术论文正文的 Codex Skill。它覆盖投稿级中文母稿、目标期刊英文适配和投稿后返修，并在 Word 文稿中使用可继续编辑的 OMML 公式。
 
 它不会把每句话写成提前答辩，也不会用模糊限定掩盖证据与 claim 的冲突。真正不清楚的科学判断会形成一个简洁的 `Claim Decision`，由用户选择证据一致的处理方式。
 
 ## 一条可控的论文写作路径
 
 <p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="中文初稿、期刊英文优化和审稿返修共享证据边界、Claim Decision 与 OMML 验证的工作流">
+  <img src="./assets/readme/workflow.svg" width="100%" alt="投稿级中文母稿、期刊英文适配和审稿返修共享证据边界、Claim Decision 与 OMML 验证的工作流">
 </p>
 
 ## 三个阶段
 
 | 阶段 | 主要目标 | 默认结果 |
 | --- | --- | --- |
-| **初稿** | 用中文建立研究问题、文献缺口、方法、实验、结论和必要公式之间的完整逻辑 | 结构完整、证据边界清楚的中文论文初稿 |
-| **优化** | 进行段落级学术英译，并按照用户确定的目标期刊和文章类型调整内容与格式 | 自然的英文稿及期刊适配结果 |
-| **返修** | 分析真实编辑与审稿意见，修改正文并在需要时撰写逐点回复 | 自然融入修改的论文和可信的 response letter |
+| **中文母稿** | 用中文完成研究问题、文献缺口、方法、实验、讨论、结论、图表、公式和参考文献 | 内容、证据和叙事达到投稿水平的中文权威稿 |
+| **期刊适配** | 进行自然学术英译，并按目标期刊和文章类型调整篇幅、栏目、引用与格式 | 不重建核心论证的英文投稿候选稿 |
+| **返修** | 分析真实编辑与审稿意见，将文本修改自然融入正文，并在需要时撰写逐点回复 | 不带补丁感的修订论文和可信 response letter |
 
 每次只加载当前阶段的详细规则。涉及文献依赖型内容时加载文献检索与期刊写作研究规则；完整论文、重大修订或复合任务加载稿件质量控制规则；涉及实质写作时共享去过度防御检查，涉及 Word 数学时再加载 OMML 规则。
 
@@ -40,7 +40,7 @@
 
 完整期刊稿采用自适应检索量，而不是统一配额。通常先以筛查约 20–30 篇、全文精读约 8–12 篇、研究约 3–5 篇近期目标期刊写作范例作为计划区间；跨多个研究分支、涉及强创新性主张或持续发现新证据时继续扩大，窄领域或局部问题则可以收窄。真正的硬门槛是覆盖所有进入正文的重要研究分支、逐一核实点名比较方法和最接近创新性的工作，并继续到追加检索与引用追踪不再改变方法类别、竞争关系或 claim。不会为了达到数字而阅读无关论文，也不会因为达到数字便提前停止。
 
-必要全文无法取得时，Skill 会依次尝试出版社、DOI、开放获取版本、作者稿或预印本、机构知识库、本地 Zotero 和已授权连接。需要机构或出版社权限时，可以请用户在自己的浏览器或连接流程中登录，或提供合法取得的 PDF；不会要求用户在对话中发送密码、Cookie、访问令牌或验证码。
+必要全文无法取得时，Skill 会依次尝试出版社、DOI、开放获取版本、作者稿或预印本、机构知识库、本地 Zotero 和已授权连接。首次建立访问配置或本地会话失效时，可以请用户在自己的浏览器或连接流程中完成登录，或提供合法取得的 PDF；已完成首次核对的配置优先自动复用本地会话，不会要求用户在对话中发送密码、Cookie、访问令牌或验证码。
 
 Skill 会在稿件之外保留检索记录、source-claim matrix 和跨论文 rhetorical-pattern map。它学习多篇优秀论文如何建立问题、组织研究脉络、推出缺口、衔接方法并界定贡献，但不会复制某篇论文的句子、特色措辞或整套结构。文献数量、关键词和日志文件存在本身不能代替内容验收。
 
@@ -66,7 +66,7 @@ Skill 会在稿件之外保留检索记录、source-claim matrix 和跨论文 rh
 
 若采用独立审稿人，其必须读取作者原始要求、权威基线、冻结候选稿和直接证据，但不读取主笔的完成自评或预期结论。若不采用独立审稿，则在候选稿冻结后重新从作者原始要求和证据建立验收清单，进行与起草过程分离的复核。只有 `Blocker` 和 `Major` 问题全部解决才能宣称完成；交付说明会准确写明采用了独立审稿、专家核验、分阶段自检或其他哪一种方式，绝不把自检称为独立审稿。
 
-当任务需要创建或实质修改 DOCX 时，Skill 还会加载学术稿件专用规则：期刊模板和原稿样式优先；无模板的中文初稿使用 A4，标题和正文均采用宋体中文与 Times New Roman 西文，仅通过字号、粗细和间距建立层级；表格和算法默认采用三线表；Windows 已安装 Word 时优先用 Word 验证最终稿，LibreOffice 作为可用时的备用或跨平台检查。
+当任务需要创建或实质修改 DOCX 时，Skill 还会加载学术稿件专用规则：期刊模板和原稿样式优先；无模板的投稿级中文母稿使用 A4，标题和正文均采用宋体中文与 Times New Roman 西文，仅通过字号、粗细和间距建立层级；表格和算法默认采用三线表；Windows 已安装 Word 时优先用 Word 验证最终稿，LibreOffice 作为可用时的备用或跨平台检查。
 
 ## 它如何控制 claim
 
@@ -100,6 +100,14 @@ Skill 会在稿件之外保留检索记录、source-claim matrix 和跨论文 rh
 
 `需要强调的是`、`this does not imply` 或 `not merely ... but ...` 等表达不是禁词。Skill 检查的是它们是否承担真实逻辑功能；删除后事实、逻辑和边界均不变化时才删除。
 
+“一段一个中心”不等于“一篇文献、一个公式或一条结果各占一段”。相同论证阶段中的判断、证据、机制和必要解释应保持连贯；只有进入新的问题、比较轴、证据角色或推理阶段时才分段。相邻段落若只是继续同一说明则合并，并用上一段的结论自然引出下一阶段，避免整齐重复的 AI 式段落节奏。
+
+正文完成后再进行一次作者化表达检查：不改变科学含义，连续阅读段落次序、首尾句、句式和节奏，删除重复开场和机械转折。结构正确不代表文本完成；中文母稿只有在专家读者能够把它作为完整期刊论文审阅时才算通过。若英文适配阶段仍发现核心缺口，应先回到中文母稿或作者修订阶段修复。
+
+## 机构全文访问
+
+当必要论文需要机构或出版社认证时，Skill 按需读取独立的访问规则，并使用固定本地文件 `$HOME/.agents/private/academic-paper-writing/literature-access-profiles.yaml` 保存访问路由、本地不透明凭据引用和首次核对状态。首次使用由用户人工确认官方入口、跳转链和实际访问权限；之后，Work Local 的已批准浏览器可以自动复用其本地会话或令牌登录和查看论文，不必逐篇重复确认。账号、密码、Cookie 和令牌值始终由本地浏览器密码管理器、浏览器会话或操作系统凭据库持有，Skill 不读取、复制、显示、截图、记录或上传这些值。论文网页内容按普通获授权文献处理；Work Cloud 不使用本地凭据引用。
+
 ## Word 原生数学公式
 
 DOCX 输出使用可编辑的 Office Math Markup Language：
@@ -112,9 +120,9 @@ DOCX 输出使用可编辑的 Office Math Markup Language：
 
 LaTeX 论文继续使用原生 LaTeX 数学，不强行转换成 OMML。
 
-## 中文初稿的简洁格式与数值
+## 投稿级中文母稿的简洁格式与数值
 
-- 中文初稿只保留清楚的标题层级、正文、公式、图表和参考文献，不自动加入“技术注与补充材料索引”、证据清单或制作说明。
+- 投稿级中文母稿只保留清楚的标题层级、正文、公式、图表和参考文献，不自动加入“技术注与补充材料索引”、证据清单或制作说明。
 - 标题样式显式设置中文宋体、西文和数字 Times New Roman，不依赖可能解析为 MS Gothic 或 Calibri 的 Word 主题字体。
 - 普通表格和算法块默认使用三线表，不使用全网格、项目符号或无必要的单元格 `keepNext` 设置。
 - AUC、ACC 等率类性能指标默认按百分比呈现；普通数值默认保留两位小数。整数计数、p 值、阈值及两位小数会掩盖实质差异的情况按其专门规则处理。
@@ -136,10 +144,12 @@ Skill 会先判断图像承担的是“解释”还是“证据”：
 
 Zotero 是按需启用的引用能力，而不是本 Skill 的硬依赖。当用户要求使用 Zotero、稿件包含可能受编辑影响的 Zotero 动态引用域，或确实需要从本地文献库检索引用时，Skill 会调用可用的 Zotero 能力。
 
-- 本地库检索和 BibTeX 导出可以按需进行；向 Zotero 库导入记录仍需明确授权。
+- 本地库检索、条目核对和只读 BibTeX 导出可以按需进行。
 - LaTeX 和 Markdown 可以插入 Zotero 导出的 citation key；Word 中的动态引用必须通过 Zotero Word 加载项或其他经过验证的域保留路径处理。
 - 不把 Zotero 引用域拍平成普通文本，也不宣称尚未实际执行的刷新已经完成。
 - 参考文献字体和悬挂缩进优先通过 CSL 与 Word 的 `Bibliography` 样式控制，避免逐条直接格式在刷新后丢失。
+- 当前暂停所有 Zotero 库写入，包括 BibTeX/RIS 导入、连接器保存、附件保存、collection 创建或归属、移动、合并、删除、重标记和元数据改写。需要收集文献时先生成去重后的本地 `.bib`/RIS 或来源清单，不导入 Zotero。
+- 只有用户以后重新明确启用，且插件已经验证能够创建/选择目标 collection、把新旧条目准确归入其中、查重并核实附件状态时，才恢复导入规则。
 
 ## 安装
 
@@ -153,26 +163,26 @@ npx skills add Dreiot/academic-paper-writing
 
 ```powershell
 git clone https://github.com/Dreiot/academic-paper-writing.git `
-  "$env:USERPROFILE\.codex\skills\academic-paper-writing"
+  "$env:USERPROFILE\.agents\skills\academic-paper-writing"
 ```
 
 ### macOS / Linux
 
 ```bash
 git clone https://github.com/Dreiot/academic-paper-writing.git \
-  ~/.codex/skills/academic-paper-writing
+  ~/.agents/skills/academic-paper-writing
 ```
 
-重新启动或刷新 Codex 后即可调用 `$academic-paper-writing`。
+当前 OpenAI 文档将 `$HOME/.agents/skills` 作为 Codex 用户级本地 Skill 位置；已有且能够正常发现的旧位置不必仅为迁移而移动。Codex CLI 或 IDE 中使用 `$academic-paper-writing`，ChatGPT 与 Work 中从可用 Skill 选择器使用 `@academic-paper-writing`。本地 Codex 文件夹用于本机发现；若要让 Skill 通过 Chat/Work 等界面稳定分发，应将其安装到对应界面或封装为插件，不能仅凭某个本地 Codex 路径推断另一界面已经加载。
 
 ## 使用示例
 
-### 中文初稿
+### 投稿级中文母稿
 
 ```text
 使用 $academic-paper-writing，根据当前方法设计、实验表格和已有文献，
-撰写论文中文初稿。对所有依赖外部学术知识的内容先完成相应检索，并从
-目标期刊高质量论文中学习其论证组织；再建立问题、缺口、方法和实验结论之间的完整逻辑，
+撰写投稿级中文母稿。对所有依赖外部学术知识的内容先完成相应检索，并从
+目标期刊高质量论文中学习其论证组织和叙述节奏；完成问题、缺口、方法、实验、讨论和结论的完整逻辑，
 公式使用 Word 原生 OMML；证据与 claim 冲突时交给我决定。
 ```
 
@@ -197,8 +207,8 @@ Information Sciences 的英文论文。保持现有证据强度，先修复段�
 
 ```text
 使用 $academic-paper-writing，结合编辑决定、审稿意见、当前论文和上一轮回复信，
-完成本轮返修。只回应真实意见及其必要科学关切，不扩展审稿人没有提出的问题，
-并同步核验论文与 response letter 中的修改位置和数值。
+完成本轮返修。将文本可解决的问题自然融入完整论证；需要新证据的问题不得用措辞替代。
+只回应真实意见及其必要科学关切，并同步核验论文与 response letter 中的修改位置和数值。
 ```
 
 ## 与 Codex Research Workflow 的关系
@@ -215,10 +225,13 @@ academic-paper-writing/
 ├── README.md
 ├── agents/
 │   └── openai.yaml
+├── evals/
+│   └── behavior-cases.md
 ├── references/
 │   ├── drafting.md
 │   ├── author-revision.md
 │   ├── literature-and-rhetoric.md
+│   ├── literature-access.md
 │   ├── manuscript-quality-control.md
 │   ├── optimization.md
 │   ├── revision.md

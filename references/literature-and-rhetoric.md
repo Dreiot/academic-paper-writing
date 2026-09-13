@@ -4,6 +4,10 @@ Read this reference whenever manuscript work introduces, removes, reframes, inte
 
 Pure formatting, citation-style conversion, faithful translation, and local copyediting do not require a new search when they preserve every scientific meaning, claim boundary, and citation attachment. If such work changes or adds a literature-dependent proposition, apply this reference to that proposition before finalizing it.
 
+Direct reporting of verified local results, exact definitions of the paper's own method, and local code or artifact facts do not trigger literature search by themselves. Apply this reference when the manuscript compares them with external work, interprets them through external knowledge, generalizes beyond the observed evidence, or uses them to support novelty or disciplinary positioning.
+
+If the user explicitly defines a closed evidence corpus or prohibits external browsing, work within that boundary. Verify relevant sources in the permitted corpus, identify the result as corpus-bounded outside the manuscript when needed, and do not claim current, exhaustive, or global novelty coverage. Use a Claim Decision only when the requested scholarly claim cannot be made credibly within that boundary.
+
 ## Choose the necessary search depth
 
 Use the smallest search that can support the requested scholarly outcome, but never substitute a token search for a literature-dependent judgment.
@@ -45,6 +49,8 @@ If a demonstrably narrow literature, inaccessible full text, or unavailable scho
 
 ## Recover access to necessary full text
 
+When institutional or publisher authentication, a reusable signed-in session, or an additional account may be needed, also read [literature-access.md](literature-access.md).
+
 When a source is necessary but its full text is unavailable, try lawful access routes in this order as applicable:
 
 1. the official publisher page, DOI record, open-access copy, accepted author manuscript, preprint, or institutional repository;
@@ -52,7 +58,7 @@ When a source is necessary but its full text is unavailable, try lawful access r
 3. an institutional subscription or publisher account that the user can authenticate in their own browser or connected session;
 4. a legally obtained PDF that the user uploads or identifies by local path.
 
-It is acceptable to ask which institutional or publisher access the user has and to ask the user to sign in through the normal site or connector flow. Never ask the user to paste a password, session cookie, access token, MFA code, or other secret into the conversation, and never store such credentials in the manuscript workspace. After the user completes authentication, retry through that authorized session. If access still fails, identify the exact paper and affected claim, use the abstract only for bibliographic discovery or a claim it plainly establishes, and keep any deeper interpretation unverified.
+It is acceptable to ask which institutional or publisher access the user has and, on first enrollment or after a session expires, to ask the user to sign in through the normal site or connector flow. Never ask the user to paste a password, session cookie, access token, MFA code, or other secret into the conversation, and never store such credentials in the manuscript workspace. After first human verification, prefer automatic reuse of the approved local session under [literature-access.md](literature-access.md). If access still fails, identify the exact paper and affected claim, use the abstract only for bibliographic discovery or a claim it plainly establishes, and keep any deeper interpretation unverified.
 
 ## Verify sources at claim level
 
@@ -80,19 +86,24 @@ For comprehensive journal work, inspect the relevant full sections of the journa
 - how the need for a design choice leads into the proposed method;
 - how contributions are separated and connected to later evidence;
 - how methods, experiments, discussion, limitations, and conclusion are kept in their proper roles;
-- how the venue handles paragraph scale, transitions, citation placement, and claim strength.
+- how the venue handles paragraph scale, transitions, citation placement, and claim strength;
+- how many studies are synthesized within one paragraph, where paragraph breaks mark a genuine argumentative turn, and how the final sentence of one paragraph prepares the next.
 
 Use patterns that recur across several strong papers to design the manuscript's own reasoning. Do not copy sentences, distinctive phrasing, or the complete organization of one paper. Learning journal rhetoric is evidence for editorial decisions, not permission to imitate an author's expression.
+
+Prefer rhetoric exemplars with the same article type and a related methodological domain. Keep their editorial role separate from scientific evidence: a paper chosen to study writing style supports a manuscript claim only when its content independently supports that claim.
+
+For Related Work, use the fewest paragraphs that preserve real changes in research question, comparison axis, or synthesis role. Discuss several studies together when they contribute to the same comparison; do not assign a paragraph to each paper or method merely because the search log lists them separately. A blank line must reflect an argumentative turn, not the boundary between two source notes.
 
 ## Keep private working evidence
 
 Maintain task-local temporary records proportionate to the search:
 
 - a search log containing date, discovery route, query, candidate, inclusion/exclusion reason, and full-text status;
-- a source-claim matrix connecting each manuscript proposition to the primary source and exact support location, with status `verified`, `inference`, `conflict`, or `unsupported`;
+- a source-claim matrix connecting each manuscript proposition to a stable source identity, intended citation key or live field, exact support location, and manuscript location, with status `verified`, `inference`, `conflict`, or `unsupported`;
 - for comprehensive work, a cross-paper rhetorical-pattern map recording shared conventions, useful alternatives, and paper-specific choices that must not be copied.
 
-These records are quality-control material. Keep them outside the reader-facing manuscript and do not add a literature evidence index, verification log, or technical appendix unless the user requests it.
+These records are quality-control material. Keep them outside the reader-facing manuscript and, by default, outside tracked manuscript deliverables; do not commit or deliver them unless the user requests it. Do not add a literature evidence index, verification log, or technical appendix to the paper unless requested.
 
 ## Pass the literature gate
 
@@ -101,6 +112,7 @@ Do not call the affected manuscript content final until:
 - the required search depth and coverage are complete;
 - every material literature-dependent statement is linked to appropriate primary evidence;
 - bibliographic identities and citation attachments are correct;
+- DOI/title duplicates, citation keys or live fields, in-text citations, and final bibliography entries resolve to one consistent source identity without orphaned additions;
 - novelty and broad comparative wording matches what the search can actually establish;
 - the rhetorical study has changed the organization or reasoning where the previous draft was inadequate;
 - unresolved conflicts and inaccessible decisive sources are disclosed outside the manuscript.

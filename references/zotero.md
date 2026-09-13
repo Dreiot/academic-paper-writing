@@ -1,10 +1,10 @@
 # Zotero-aware citation workflow
 
-Read this reference when the user explicitly asks to use Zotero, a DOCX contains live Zotero fields that the task may affect, or a needed citation should be retrieved from the user's local Zotero library. Use the installed Zotero capability for library operations when it is available.
+Read this reference when the user explicitly asks to use Zotero, a DOCX contains live Zotero fields that the task may affect, or a needed citation should be retrieved from the user's local Zotero library. Use the installed Zotero capability for permitted read-only library operations when it is available. Zotero-library writes are paused until the integration can safely create, select, and assign paper-specific collections and the user explicitly re-enables writes.
 
 ## Trigger Zotero proportionately
 
-- Use Zotero for a targeted local-library search, item verification, BibTeX export or synchronization, or citation insertion into supported LaTeX and Markdown drafts when the task requires it.
+- Use Zotero for a targeted local-library search, item verification, read-only BibTeX export, or citation-key retrieval for supported LaTeX and Markdown drafts when the task requires it.
 - Do not inventory or scan the whole library when the manuscript already has sufficient verified sources. Literature search alone remains outside this Skill's scope.
 - Check Zotero readiness only after one of these triggers occurs. If Zotero is merely optional and unavailable, continue with the supplied sources or an explicit unresolved citation placeholder instead of changing application settings.
 - If the user explicitly asked Codex to operate Zotero, follow the Zotero capability's readiness and enablement procedure. Report an exact blocker if the application, local API, connector, or requested item is unavailable.
@@ -22,12 +22,19 @@ For Word manuscripts:
 
 For LaTeX or Markdown, use Zotero-exported BibTeX keys and keep the associated `.bib` file synchronized. Distinguish Zotero item keys from exported BibTeX citation keys when reporting or resolving ambiguity.
 
-## Protect the Zotero library
+## Keep the Zotero library read-only for now
 
 - Target read-only searches narrowly by title, author, DOI, year, or claim topic and verify the selected item's identity before citing it.
-- Metadata presence is not evidence that a paper supports a scientific claim. Use only source content actually available and authorized for the task; retrieve attachment paths or indexed full text only when the user asks for that content.
-- Treat imports and connector saves as Zotero-library writes. Confirm the exact record or source and destination unless the user's request already explicitly authorizes that import.
-- Check for likely duplicates before importing. Do not silently merge, delete, retag, relocate, or rewrite existing library items.
+- Metadata presence is not evidence that a paper supports a scientific claim. An explicit manuscript request that requires literature grounding authorizes reading the selected in-scope Zotero attachment or indexed text after its identity is verified; it does not authorize a broad scan of unrelated library content. For other tasks, retrieve attachment paths or indexed full text only when the user asks for that content.
+- Do not call `import-bibtex`, `import-ris`, connector save, attachment save, collection creation, collection assignment, retagging, relocation, merge, deletion, metadata rewrite, or another Zotero-library write. A request to collect papers does not override this pause; explain that imports are deferred and offer a local `.bib`/RIS file or a verified source list instead.
+- Do not change Zotero application settings merely to work around the pause. Readiness probes, narrow searches, collection listings, selected-target inspection, item/attachment inspection, and exports that do not modify the library remain allowed.
+- Citation insertion or revision in the manuscript may use already existing verified Zotero items when the available route preserves the document's citation mechanism; the Zotero library itself must remain unchanged.
+
+## Defer collection organization and imports
+
+Do not create or populate a paper-specific collection during this paused period, even if the user previously gave general permission to organize references. If the user asks to save newly gathered literature, prepare a deduplicated local `.bib`/RIS file or source list containing only the selected cited, core-comparison, and journal-rhetoric papers, then leave Zotero import pending. Excluded screening results are not included by default.
+
+Re-enable library writes only after the user makes a new explicit decision and the active integration has been verified to create or select the intended collection, assign both new and existing items to it, detect duplicates, and confirm the final destination and attachment state. At that time, revise this reference before performing imports; do not silently treat improved tooling as authorization.
 
 ## Keep citation style and Word formatting stable
 
@@ -35,3 +42,4 @@ For LaTeX or Markdown, use Zotero-exported BibTeX keys and keep the associated `
 - Treat CSL output and the Word `Bibliography` paragraph style as separate layers. Apply font, spacing, indentation, and tab-stop corrections at the style level when possible; direct formatting of individual entries may be lost on the next Zotero refresh.
 - After an authorized citation refresh or style change, verify representative in-text citations, ranges, disambiguation, bibliography ordering, hanging indents, fonts, and multi-digit label alignment in the final Word render.
 - Confirm that every added citation supports the attached statement and that the bibliography contains no uncited or unresolved item introduced by the current task.
+- When literature grounding is in scope, reconcile its source-claim matrix with Zotero item identity, exported citation key or live Word field, DOI/title deduplication, in-text order, and the final bibliography. Preserve unresolved mismatches instead of silently substituting a similarly titled item.

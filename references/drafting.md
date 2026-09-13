@@ -1,6 +1,6 @@
-# Chinese-first initial drafting
+# Submission-grade Chinese-first manuscript
 
-Use this phase to turn verified research materials into a coherent academic-paper draft. The target is a scientifically complete argument in natural Chinese, not final journal English or perfect typesetting.
+Use this phase to turn verified research materials into the content-authoritative Chinese master manuscript. The target is submission-grade scientific content and prose in Chinese, so later target-journal work can concentrate on language, length, and formal compliance rather than rebuilding the paper's argument.
 
 ## Establish the paper's spine
 
@@ -8,7 +8,7 @@ Identify the research question, the limitation in existing work, the central ide
 
 Apply [literature-and-rhetoric.md](literature-and-rhetoric.md) to every part of the draft whose scientific meaning, positioning, design rationale, comparison, interpretation, or application context depends on external scholarship. A complete journal-paper draft requires the comprehensive literature route before those passages can be treated as final; this obligation is not limited to the Introduction or Related Work.
 
-If the target journal is unknown, use a journal-neutral structure and continue. If a missing fact is local and does not affect a scientific claim, use one clear placeholder or leave the affected sentence unwritten. If evidence and a claim conflict or the scientific meaning is unclear, use the Claim Decision process from `SKILL.md`.
+If the target journal is unknown, use a journal-neutral structure informed by high-quality venues in the field. A private production placeholder may be used temporarily for a missing local fact, but the reader-facing manuscript cannot be called submission-grade while a scientific, bibliographic, or narrative placeholder remains. Author-supplied administrative metadata such as final affiliations or funding identifiers may remain an external completion item when it does not change the paper's scientific argument. If evidence and a claim conflict or the scientific meaning is unclear, use the Claim Decision process from `SKILL.md`.
 
 The final layout may adapt to the field and paper type. For an empirical methods paper, a useful default is:
 
@@ -23,7 +23,7 @@ The final layout may adapt to the field and paper type. For an empirical methods
 
 Do not create a section merely because this list contains it. Merge, split, or omit sections when the paper's argument or target venue calls for a different structure.
 
-A Chinese first draft is a working academic manuscript, not a designed report. Use the minimum styling needed to make the title, section hierarchy, body, equations, figures, tables, and references clear. Unless the user or target venue requests them, do not append a `技术注与补充材料索引`, evidence inventory, verification log, production note, repository map, or other internal traceability section. Keep such working material outside the reader-facing manuscript.
+A Chinese master manuscript is a complete academic paper, not a rough outline or a designed report. It must contain the arguments, evidence, explanations, figures, tables, equations, captions, and references needed for scholarly evaluation. Use the minimum styling needed to make them clear. Unless the user or target venue requests them, do not append a `技术注与补充材料索引`, evidence inventory, verification log, production note, repository map, or other internal traceability section. Keep such working material outside the reader-facing manuscript.
 
 ## Give each section a scientific job
 
@@ -66,12 +66,13 @@ Answer the research question at the level established by the paper. Summarize th
 - Prefer established Chinese academic terminology; give a necessary English abbreviation at first occurrence and then use one stable form.
 - Preserve official method, dataset, benchmark, variable, and metric identities.
 - Build paragraphs from connected sentences rather than labels, fragments, or status language.
+- Treat paragraph breaks as changes in argumentative stage, question, comparison, or evidence role. Do not create one paragraph per paper, equation, result, or prompt bullet when the material belongs to the same line of reasoning.
 - Choose connectives from the actual relation: continuation, progression, parallelism, contrast, cause, or consequence.
 - Keep internal Git, Gate, review, authority, artifact, and workflow terminology outside the manuscript.
 
 Draft evidence-bearing sections before relying on the abstract or contribution list. The authoring order may differ from the final reading order.
 
-## Check the initial draft
+## Check the submission-grade Chinese manuscript
 
 - The research question, gap, method, experiments, and conclusion form one argument.
 - Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
@@ -81,6 +82,7 @@ Draft evidence-bearing sections before relying on the abstract or contribution l
 - Symbols and component names remain consistent across text, formulas, tables, and figures.
 - Equations needed to understand the method are present and explained; decorative derivations are absent.
 - Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.
-- Placeholders are visible and specific without taking over the prose.
-- No unrequested technical-note, evidence-index, or supplementary-index section has been appended to the Chinese first draft.
+- No unresolved scientific, bibliographic, or narrative placeholder remains in the reader-facing manuscript; any pending author-only administrative metadata is reported outside it.
+- A later target-journal adaptation should not need to reconstruct the core problem, literature gap, method rationale, result interpretation, or conclusion. If it does, reopen this phase before adapting the journal format.
+- No unrequested technical-note, evidence-index, or supplementary-index section has been appended to the Chinese master manuscript.
 - The anti-overdefense checks pass.

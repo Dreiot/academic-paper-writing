@@ -1,6 +1,6 @@
 interface:
   display_name: "Academic Paper Writing"
-  short_description: "Draft, journal-optimize, and revise academic papers"
-  default_prompt: "Use $academic-paper-writing to draft, optimize, or revise my academic manuscript while preserving its evidence and claim boundaries."
+  short_description: "Submission-grade drafting, journal adaptation, and revision"
+  default_prompt: "Use $academic-paper-writing to produce a submission-grade Chinese manuscript, adapt a content-complete paper to a target journal, or integrate reviewer revisions with evidence-grounded natural prose."
 policy:
   allow_implicit_invocation: true

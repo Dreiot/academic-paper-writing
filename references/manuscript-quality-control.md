@@ -22,6 +22,10 @@ Use one or more of these mechanisms according to what materially improves reliab
 
 Do not call a review independent unless a reviewer that did not participate in drafting inspected the exact candidate and direct evidence. Lack of an independent reviewer does not by itself prevent completion unless the user explicitly requires one or unresolved risk makes the scientific result non-credible; report the verification mode accurately.
 
+## Protect scholarly work in compound tasks
+
+For a compound manuscript task, respect four dependency phases: establish literature and scientific evidence; build and verify the scholarly argument and prose; produce formulas, figures, tables, supplements, and document layout from that stable content; then inspect the integrated final artifact. This is a dependency order, not a requirement to run every activity serially or create separate deliverables. Independent work may overlap, but technical production must not substitute for semantic acceptance or consume an unresolved claim as if it were final. If later evidence changes the method, interpretation, or claim, reopen the affected prose and its downstream artifacts.
+
 ## Use explicit responsibility contracts when delegating
 
 When delegation is useful, give each contributor:

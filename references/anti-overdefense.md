@@ -46,6 +46,10 @@ Delete sentences whose main function is to announce that the author is cautious,
 
 Let a paragraph explain one mechanism, establish one result, make one comparison, or complete one turn in the argument. Do not require every paragraph to contain benefits, limitations, risks, alternatives, future work, and a summary.
 
+One main function does not mean one source, equation, result, or checklist item per paragraph. Keep a claim, its supporting evidence, mechanism, and necessary interpretation together while they form one argumentative step. Start a new paragraph when the reasoning enters a genuinely new stage, question, comparison axis, or evidence role. Merge adjacent paragraphs when the latter merely continues the same explanation; split only when keeping the moves together would obscure the progression.
+
+Vary paragraph length and opening structure naturally. Avoid a sequence in which every paragraph begins by naming a category, summarizes one source or result, and ends with the same explicit contrast or limitation. Use the preceding conclusion to lead into the next point when the relationship is real rather than resetting the discussion at every paragraph break.
+
 ## Concentrate necessary boundaries
 
 - State a limitation next to the result or claim it changes.
@@ -54,6 +58,12 @@ Let a paragraph explain one mechanism, establish one result, make one comparison
 - In reviewer revision, answer the real comment in the response letter and integrate only reader-relevant clarification into the manuscript.
 
 Do not repeat the same limitation in several sections merely to appear safe. Do not weaken a supported conclusion by giving unsupported possibilities equal space.
+
+## Run a final authoring-quality pass
+
+After the scientific content is correct, review the prose as a continuous manuscript rather than a collection of locally acceptable paragraphs. Preserve every claim and evidence boundary while improving paragraph order, transitions, sentence openings, cadence, and the balance between explanation and detail. Merge repeated setup or reset sentences, but do not shorten away a mechanism or necessary qualification.
+
+Compare the manuscript's narrative movement with several strong papers of the same article type and field. Learn how they sustain a line of reasoning across paragraph boundaries and vary paragraph density; do not copy their phrases or force the manuscript into their paragraph count. The final pass should make the author's reasoning easier to follow without adding new claims or decorative language.
 
 ## Final prose audit
 
@@ -65,5 +75,7 @@ Before delivery, check:
 - Has any sentence answered a question no reader, source, editor, or reviewer raised?
 - Can attitude language be replaced by a more specific mechanism, condition, or result?
 - Is each material limitation stated clearly without being repeated?
+- Does every paragraph boundary mark a real development in the argument, and do adjacent paragraphs connect without formulaic reset sentences?
+- Do several consecutive paragraphs or sentences repeat the same opening pattern, cadence, contrast formula, or conclusion shape?
 
 Revise the argumentative order before performing word-level synonym replacement. Removing a few marker phrases is insufficient when the paragraph is still organized as a pre-emptive defense.
