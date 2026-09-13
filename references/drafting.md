@@ -33,9 +33,13 @@ State the problem, precise gap, central method idea, most important supported re
 
 Move from the concrete research problem to the unresolved limitation, then explain the paper's response and contributions. Treat contribution statements as distinct scientific contributions, not a list of modules, implementation details, or engineering safeguards. Do not create a straw-man version of prior work merely to make the gap appear larger.
 
+Judge the Introduction by whether this reasoning is established, not by paragraph count, length, citation count, or coverage of an instruction checklist. When revising an existing Introduction in response to author feedback, follow [author-revision.md](author-revision.md) and verify the requested argumentative change in the final manuscript.
+
 ### Related work
 
 Organize literature by research question, assumption, mechanism, or limitation. Synthesize relationships among studies instead of producing one sentence per paper. End each subsection with the exact connection to the present work only when that connection advances the argument.
+
+Use one meaningful comparison axis within each subsection and make prior mechanisms lead to the unresolved question addressed by the paper. A fixed subsection count, a renamed heading, or the same paragraph roles under new wording does not by itself constitute a substantive Related Work revision.
 
 ### Problem formulation and method
 
@@ -69,6 +73,8 @@ Draft evidence-bearing sections before relying on the abstract or contribution l
 
 - The research question, gap, method, experiments, and conclusion form one argument.
 - Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
+- The Introduction establishes problem, gap, design need, response, and contribution as connected reasoning rather than a compressed compliance list.
+- Related Work synthesizes prior mechanisms on explicit comparison axes and leaves a precise unresolved question rather than repeating the Introduction or Method.
 - Symbols and component names remain consistent across text, formulas, tables, and figures.
 - Equations needed to understand the method are present and explained; decorative derivations are absent.
 - Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.

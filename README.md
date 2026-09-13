@@ -26,6 +26,8 @@
 
 每次只加载当前阶段的详细规则。涉及实质写作时共享去过度防御检查；涉及 Word 数学时再加载 OMML 规则。
 
+作者要求对现有稿件作实质修订时，Skill 另外启用作者修订路由：最新作者版本是唯一文字起点，但版本链中尚未落实的作者要求不会因生成了新版本或修改说明而自动关闭。Skill 会区分目标、硬约束和建议手段，并以最终稿中的实际论证变化验收，而不是以段落数量、文字差异或 DOCX/Markdown 同步代替内容完成。
+
 当任务需要创建或实质修改 DOCX 时，Skill 还会加载学术稿件专用规则：期刊模板和原稿样式优先；无模板的中文初稿使用 A4，标题和正文均采用宋体中文与 Times New Roman 西文，仅通过字号、粗细和间距建立层级；表格和算法默认采用三线表；Windows 已安装 Word 时优先用 Word 验证最终稿，LibreOffice 作为可用时的备用或跨平台检查。
 
 ## 它如何控制 claim
@@ -135,6 +137,15 @@ git clone https://github.com/Dreiot/academic-paper-writing.git \
 公式使用 Word 原生 OMML；证据与 claim 冲突时交给我决定。
 ```
 
+### 作者主导的实质修订
+
+```text
+使用 $academic-paper-writing，以我最新修改的稿件和本轮具体意见为准，
+实质修订引言与相关工作。先区分我要达到的论证目标、必须保留的约束和
+仅供参考的组织手段；完成后对照最终稿核实每项要求，不以改写字数、段落数量
+或修改说明代替实际落实。
+```
+
 ### 英文优化与期刊适配
 
 ```text
@@ -167,6 +178,7 @@ academic-paper-writing/
 │   └── openai.yaml
 ├── references/
 │   ├── drafting.md
+│   ├── author-revision.md
 │   ├── optimization.md
 │   ├── revision.md
 │   ├── anti-overdefense.md
