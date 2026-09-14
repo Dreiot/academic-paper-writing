@@ -4,9 +4,7 @@ Overdefensive writing spends substantial space answering objections that do not 
 
 ## Use claim-first order
 
-Prefer:
-
-`core judgment -> mechanism or reason -> evidence -> necessary boundary`
+Lead with the best-supported point when that makes the reasoning clearer. Claim-first is a default orientation, not a four-step template for every paragraph. Problem development, literature comparison, method explanation and result reporting can use different rhythms and orders.
 
 Avoid beginning with stacked conditions, disclaimers, imagined misunderstandings, and balanced positions before the paper states what it found or proposes. A boundary may appear earlier when it is required to define the claim correctly, but it should not become a ceremonial opening.
 
@@ -52,8 +50,11 @@ Vary paragraph length and opening structure naturally. Avoid a sequence in which
 
 ## Concentrate necessary boundaries
 
-- State a limitation next to the result or claim it changes.
-- State an assumption where it defines the method or validity of the analysis.
+- Place substantive negative or mixed findings beside the result interpretation they change; concision must not erase them.
+- Put conditions defining model or analysis validity in the method.
+- Put units, metric definitions and comparison identities in the experimental setup or table notes, retaining local reminders only when needed to interpret the passage.
+- An internal reminder about an unperformed experiment belongs in the paper only when it changes a claim actually being made. Express the supported scope directly rather than transcribing controls as a list of “cannot claim” statements.
+- Keep recomputation, version, validation and production records outside academic narration.
 - Address a known counterexample where it materially tests the argument.
 - In reviewer revision, answer the real comment in the response letter and integrate only reader-relevant clarification into the manuscript.
 
@@ -69,7 +70,7 @@ Compare the manuscript's narrative movement with several strong papers of the sa
 
 Before delivery, check:
 
-- Does the opening sentence of each substantive paragraph reveal its main point?
+- Can the reader identify each paragraph's argumentative function without requiring an identical opening or sentence order?
 - Are qualifiers tied to an identifiable evidence or scope reason?
 - Are contrast words expressing a real logical contrast?
 - Has any sentence answered a question no reader, source, editor, or reviewer raised?

@@ -74,6 +74,16 @@ Ask to save cited and core papers into a paper-specific Zotero collection while 
 
 Success means no Zotero write occurs, even if an import tool and a selected collection are available or the request would previously have authorized an import. The workflow may search and export the existing library read-only, and it prepares a deduplicated local `.bib`/RIS file or source list for later use. It states that imports remain deferred until the user explicitly re-enables them after the integration can safely create or select the intended collection, assign new and existing records, detect duplicates, and verify the destination and attachment state.
 
+## Argument-construction and continuity suite
+
+Use [argument-fixtures.md](argument-fixtures.md) for actual closed-corpus requests, evidence, observable pass conditions and failure examples. Give writers only the request/input/evidence; reserve pass/fail criteria for verification. Run M (motivation) and B1 (related-work/method boundary) against both the pre-change Skill and the candidate with identical input, evidence and requested scope in separate contexts. Explicitly load each version's `SKILL.md` and routed references from isolated directories; do not rely on the globally installed skill name alone. Save the actual outputs and the loaded-version identities.
+
+Run O (overlapping classification), D (review-language contamination), N1/N2 (already-continuous/local-format negatives), B2–B4 (other section boundaries), and L (rhetorical transfer with reused evidence) as focused candidate regressions. Inspect output meaning, not exact words or paragraph totals. Existing cases 1–11 remain available for changes affecting their routes; this focused suite does not imply they were rerun.
+
+When authorized private manuscript fragments are available, use the requested real boundary in place of B1 for the paired comparison. Keep its input, exact source location, original and generated prose outside the public repository. Never commit unpublished text, precise study results, PDFs, screenshots, or third-party full text. Public fixtures stay synthetic and project-neutral.
+
+A reviewer in a separate context reads the requests, raw evidence and actual outputs before any producer notes or completion claims. Report whether review was independent or a separated self-check, which cases actually ran, failed/repaired outputs, and remaining uncertainty. One paired run can demonstrate behavior on that input, not a general model improvement. Do not mark an unexecuted case passed or deploy a candidate merely to run the tests.
+
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.

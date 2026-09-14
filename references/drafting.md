@@ -4,7 +4,16 @@ Use this phase to turn verified research materials into the content-authoritativ
 
 ## Establish the paper's spine
 
-Identify the research question, the limitation in existing work, the central idea, the method that realizes it, the evidence available, and the conclusion that evidence supports. Maintain a private claim-to-evidence map when it helps consistency; do not insert that production artifact into the paper.
+Construct the argument by separating four kinds of information before writing:
+
+- **Original need:** the practical or modeling problem that existed before the proposed method, and why addressing it matters.
+- **Chosen objective and conditions:** what this study elects to achieve and hold fixed. An author-selected budget, architecture, variable, or evaluation condition is not automatically a requirement for the entire field.
+- **Supported technical obstacle:** the model relationship, known mechanism, or observed phenomenon that obstructs that objective, with its source or local evidence.
+- **Downstream design problem:** an approximation, proxy, architecture, or solver choice may introduce another difficulty. Explain it as a consequence of this design and show how the method handles it; do not recast it as a gap that earlier work universally overlooked.
+
+Connect the need and chosen conditions through the supported obstacle to the method response and testable evidence. “We intend to use this solver” is an objective or means, not a motivation. Different variables, hardware, or step ordering alone do not establish innovation. When no general literature gap is supported, state the specific research objective and design tradeoff clearly without inventing failures of existing methods. These distinctions are an internal reasoning aid, not four compulsory paragraphs, a permanent table, or an approval step.
+
+Screen potential contributions by their role: a new design or research object; definitions and derivations needed to explain it; empirical findings that test it; or basic practices that make the study correct. State a contribution only when its scientific content and evidence warrant it. Explaining a formula, checking data, ordinary refitting, and passing verification are not automatically contributions. A combination must explain what capability, learning relationship, or verifiable outcome the combination changes; novelty still requires literature support. Use a private claim-to-evidence map only when useful.
 
 Apply [literature-and-rhetoric.md](literature-and-rhetoric.md) to every part of the draft whose scientific meaning, positioning, design rationale, comparison, interpretation, or application context depends on external scholarship. A complete journal-paper draft requires the comprehensive literature route before those passages can be treated as final; this obligation is not limited to the Introduction or Related Work.
 
@@ -29,11 +38,11 @@ A Chinese master manuscript is a complete academic paper, not a rough outline or
 
 ### Abstract
 
-State the problem, precise gap, central method idea, most important supported result, and resulting conclusion. Use exact numbers only when verified. Do not fill the abstract with background, generic importance, defensive limitations, or contributions absent from the paper.
+State the problem, supported gap or specific study objective, central method idea, most important supported result, and resulting conclusion. Use exact numbers only when verified. Do not fill the abstract with background, generic importance, defensive limitations, or contributions absent from the paper.
 
 ### Introduction
 
-Move from the concrete research problem to the unresolved limitation, then explain the paper's response and contributions. Treat contribution statements as distinct scientific contributions, not a list of modules, implementation details, or engineering safeguards. Do not create a straw-man version of prior work merely to make the gap appear larger.
+Move from the concrete research need through the supported obstacle and chosen objective to the paper's response. Apply the contribution screening above; do not force a universal unresolved limitation when the evidence supports a narrower design question.
 
 Judge the Introduction by whether this reasoning is established, not by paragraph count, length, citation count, or coverage of an instruction checklist. When revising an existing Introduction in response to author feedback, follow [author-revision.md](author-revision.md) and verify the requested argumentative change in the final manuscript.
 
@@ -74,11 +83,11 @@ Draft evidence-bearing sections before relying on the abstract or contribution l
 
 ## Check the submission-grade Chinese manuscript
 
-- The research question, gap, method, experiments, and conclusion form one argument.
+- The research need, chosen objective, supported obstacle, method, experiments, and conclusion form one argument; a claimed literature gap has direct support.
 - Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
 - Every literature-dependent statement has passed the required focused or comprehensive literature gate, including claim-level source support and any required journal-rhetoric study.
 - The Introduction establishes problem, gap, design need, response, and contribution as connected reasoning rather than a compressed compliance list.
-- Related Work synthesizes prior mechanisms on explicit comparison axes and leaves a precise unresolved question rather than repeating the Introduction or Method.
+- Related Work synthesizes prior mechanisms on explicit comparison axes and establishes the supported gap or selected design question rather than repeating the Introduction or Method.
 - Symbols and component names remain consistent across text, formulas, tables, and figures.
 - Equations needed to understand the method are present and explained; decorative derivations are absent.
 - Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.

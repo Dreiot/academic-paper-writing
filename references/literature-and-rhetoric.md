@@ -16,7 +16,9 @@ Use the smallest search that can support the requested scholarly outcome, but ne
 - **Focused search:** appropriate for a narrow paragraph, definition, mechanism, comparison, interpretation, or missing citation. Search every named or directly implicated source and enough independent primary papers to support the scope of the sentence. A synthesis or generalization requires at least three directly relevant full-text primary papers for that claim cluster unless the literature is demonstrably smaller.
 - **Citation verification:** appropriate when checking whether an existing citation supports an unchanged claim. Open the cited primary source and verify the exact proposition and source location. Broaden to a focused or comprehensive search when the claim is broader than the source, the source disagrees, or the cited work is not primary.
 
-Search before drafting the affected passage. A fresh search requires live use of available scholarly search, publisher, DOI, or connected-library tools; model memory and the manuscript's existing bibliography cannot establish current coverage. User-supplied references and a local Zotero library are valuable starting points, but they do not by themselves establish comprehensive coverage. If live discovery is unavailable, focused verification may proceed from supplied full texts, while a comprehensive-search gate remains unpassed and must be reported as such.
+Establish source support before drafting the affected passage. Reuse earlier verified sources, claim locations and coverage records while their propositions and scope remain valid; a new version label or local rhetorical edit does not restart comprehensive retrieval. For new claims, changed comparisons, closest-neighbor novelty gaps or newly found contradictions, perform targeted additional retrieval and update the affected coverage. Strong novelty positioning and cross-family synthesis still require sufficient primary support and current coverage; reuse is not an exemption from that requirement.
+
+A fresh search requires live scholarly discovery, publisher, DOI, or connected-library tools; model memory and an unverified bibliography cannot establish current coverage. If live discovery is unavailable, proceed within supplied full texts or valid earlier evidence where possible, and report only the coverage condition that actually remains unmet. Do not repeat a completed full search or read unrelated papers merely to fill a quota.
 
 ## Build a coverage map
 
@@ -89,7 +91,9 @@ For comprehensive journal work, inspect the relevant full sections of the journa
 - how the venue handles paragraph scale, transitions, citation placement, and claim strength;
 - how many studies are synthesized within one paragraph, where paragraph breaks mark a genuine argumentative turn, and how the final sentence of one paragraph prepares the next.
 
-Use patterns that recur across several strong papers to design the manuscript's own reasoning. Do not copy sentences, distinctive phrasing, or the complete organization of one paper. Learning journal rhetoric is evidence for editorial decisions, not permission to imitate an author's expression.
+For a borrowed writing practice that materially affects organization, add a compact entry to the existing private pattern map: exact source section/paragraph/page -> argumentative action -> why it fits this manuscript -> actual changed passage and its new function. Relevant actions include establishing importance, separating technical difficulties, deriving design requirements from literature, introducing the method without previewing every step, deriving experiments from the method, and moving from results to explanation and conclusion. Verify the transfer in the resulting prose; a praise-only reading log cannot establish implementation. If a practice is not applicable, do not force a textual change to prove that it was studied.
+
+Use patterns that recur across several strong papers to design the manuscript's own reasoning. Do not copy sentences, distinctive phrasing, the complete organization of one paper, or a motivation unsupported for this study. Learning journal rhetoric is evidence for editorial decisions, not permission to imitate an author's expression.
 
 Prefer rhetoric exemplars with the same article type and a related methodological domain. Keep their editorial role separate from scientific evidence: a paper chosen to study writing style supports a manuscript claim only when its content independently supports that claim.
 
@@ -101,7 +105,7 @@ Maintain task-local temporary records proportionate to the search:
 
 - a search log containing date, discovery route, query, candidate, inclusion/exclusion reason, and full-text status;
 - a source-claim matrix connecting each manuscript proposition to a stable source identity, intended citation key or live field, exact support location, and manuscript location, with status `verified`, `inference`, `conflict`, or `unsupported`;
-- for comprehensive work, a cross-paper rhetorical-pattern map recording shared conventions, useful alternatives, and paper-specific choices that must not be copied.
+- for comprehensive work, a cross-paper rhetorical-pattern map recording shared conventions, useful alternatives, and the source-to-prose transfers described above; extend an existing map instead of creating another transfer log.
 
 These records are quality-control material. Keep them outside the reader-facing manuscript and, by default, outside tracked manuscript deliverables; do not commit or deliver them unless the user requests it. Do not add a literature evidence index, verification log, or technical appendix to the paper unless requested.
 

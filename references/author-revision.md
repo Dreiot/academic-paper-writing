@@ -39,6 +39,8 @@ When a requested change depends on external scholarship, follow [literature-and-
 
 ## Distinguish substantive revision from textual churn
 
+When repairing motivation or contributions, use the need/objective/obstacle/design-consequence distinctions and contribution screening in [drafting.md](drafting.md#establish-the-papers-spine). Do not require a general field-wide gap when a source-supported, specific design question meets the author's request.
+
 A revision is substantive when it changes at least one relevant relationship in the paper, for example:
 
 - makes the research problem or unresolved gap more precise;
@@ -53,6 +55,24 @@ Synonym substitution, shortening, sentence reordering, retaining the same paragr
 
 Translate detailed prompt bullets into connected academic reasoning. Do not write one sentence per instruction item or make a paragraph read like a compliance checklist.
 
+## Build continuity before polishing connectives
+
+This method also applies to substantial drafting; it does not require an author-revision contract for a new paper. Read the core judgment and conclusion of each affected paragraph in order. Determine whether the next paragraph continues, deepens, contrasts, changes the object, or needlessly restarts. Repair the sequence and missing reasoning before choosing connective words.
+
+Keep adjacent comparisons on an explicit axis. When the classification axis changes, explain the relationship: for example, what is selected and how a budget is enforced are different questions, not mutually exclusive method families. Integrate a study that crosses classifications into the relevant comparison instead of introducing it repeatedly as a new source. Resolve a literature-to-present-study-to-literature zigzag by grouping the source synthesis and consolidating the present study's positioning at the boundary where it becomes useful. Concatenating short paragraphs or adding “此外”, “然而”, or “因此” cannot supply a missing logical relationship.
+
+At an important boundary, use only the bridging functions the reader needs: synthesize the knowledge just established, identify the resulting question or design requirement, and introduce the object the next part actually develops. Put this in the preceding ending, following opening, or a short separate paragraph as appropriate; add nothing when continuity already exists. Honor an explicit request for an independent bridging paragraph. Revise the following opening with the bridge so that it advances the argument instead of restarting broad background. A bridge is not a contents preview, a repeated abstract or contribution list, or an inventory of all method steps.
+
+Apply this reasoning to the affected boundaries:
+
+- **Related work to method:** synthesize what the earlier mechanisms establish, identify the study's selected question and needed model relationships, and lead into formal definitions. A transition cannot establish unverified novelty.
+- **Method to experiments:** derive the experimental questions from intended effects and testable method properties, without announcing success or retelling the training algorithm.
+- **Main comparison to ablation or diagnosis:** name the local question that the overall result leaves unresolved and the analysis that can address it. Overall performance does not independently establish each component's effect.
+- **Results to conclusion:** identify what the evidence answered and why it matters, retaining material mixed findings without listing every number again.
+- **Peer subsections:** keep terms, comparison axis and research object continuous; explain why the perspective changes when it genuinely does.
+
+These are boundary types to inspect where relevant, not mandatory sections or one bridge per heading. Use the reader-recovery test in [manuscript-quality-control.md](manuscript-quality-control.md#test-what-the-reader-can-recover) within the existing verification pass.
+
 ## Test every affected section by function
 
 Judge the revision first by the author's required outcome and the scientific job of the affected passage. Verify that new literature changes the reasoning where warranted, that method or result material remains in its proper section, and that every new factual relationship is supported. Paragraph counts, headings, keywords, citation counts, and text difference remain presentation or artifact checks rather than semantic acceptance.
@@ -60,7 +80,7 @@ Judge the revision first by the author's required outcome and the scientific job
 For an Introduction revision, verify that:
 
 - the opening establishes the actual research object, stakes, and unresolved problem before introducing the proposed method;
-- the prior-mechanism discussion leads to the precise gap rather than functioning as a compressed literature list;
+- the prior-mechanism discussion leads to the supported gap or selected design question rather than functioning as a compressed literature list;
 - every transition advances problem, limitation, design need, method response, or evidence;
 - the proposed components are introduced through their scientific necessity and relationship, not as an implementation inventory;
 - contribution items are non-overlapping, identify the new element, and correspond to later method and evidence sections;
@@ -70,7 +90,7 @@ For a Related Work revision, verify that:
 
 - each subsection has one explicit comparison axis, such as what is selected, how structure is represented, what objective is optimized, or what must be learned after selection;
 - representative studies are compared on that axis using claims verified from the actual sources;
-- the synthesis identifies what existing approaches establish, where their mechanisms differ, and which unresolved question motivates the present design;
+- the synthesis identifies what existing approaches establish, where their mechanisms differ, and which supported obstacle or selected question motivates the present design;
 - the section does not repeat the Introduction's compressed survey or pre-write the Method section;
 - literature study requested by the author changes the organization or reasoning where warranted, rather than appearing only in a separate evidence log.
 
@@ -82,7 +102,7 @@ For other affected sections, apply their scientific jobs from [drafting.md](draf
 - a Discussion or Limitations revision uses literature and results to change interpretation or scope without repeating generic caveats;
 - a Conclusion revision answers the research question at the supported level and introduces no new evidence, application, or superiority claim.
 
-Across both sections, confirm the same research gap connects coherently to the method design, experimental questions, results, and final claim. If those sections use different gaps, reconcile them before completion.
+Across affected sections, confirm the same research question connects coherently to the method design, experimental questions, results, and final claim. Reconcile conflicting motivations or gaps and inspect their boundaries using the continuity method above.
 
 ## Verify implementation in the final artifact
 

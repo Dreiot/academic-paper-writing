@@ -68,6 +68,12 @@ Classify findings as:
 
 Paragraph counts, keywords, citation totals, textual difference, schema checks, DOCX/Markdown agreement, and successful rendering may support artifact validation but cannot close a Blocker or Major semantic finding.
 
+## Test what the reader can recover
+
+Within the existing source-first or independent verification pass, set aside the writer's change note and completion assessment. Use the author's request, relevant sources and actual output to recover what the study aims to achieve, why it matters, and what specifically makes it difficult. Distinguish prior facts from author-selected goals and conditions, then identify how the method addresses the difficulties, why the next section follows, and which evidence supports each conclusion. Apply only the questions relevant to the edited material.
+
+Point to the sentences or relationships that enable these answers. Repeating method or workflow names is not evidence of an established motivation. If the answer depends on an explanation outside the manuscript, repair the missing reasoning in the candidate. Check transitions with [author-revision.md](author-revision.md#build-continuity-before-polishing-connectives); do not create another universal review layer or demand extra bridges where the existing text is continuous.
+
 ## Close the quality gate
 
 Repair supported findings and recheck every material change against the candidate and direct evidence. If an independent reviewer is used, return material repairs to that reviewer when practical; otherwise perform a focused new verification pass that does not rely on the earlier completion explanation.

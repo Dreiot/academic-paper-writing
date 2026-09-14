@@ -1,6 +1,6 @@
 ---
 name: academic-paper-writing
-description: "Draft, translate, journal-adapt, and revise evidence-grounded academic manuscripts and manuscript figures across submission-grade Chinese-first manuscripts, target-journal English adaptation, author and reviewer revision, ImageGen conceptual diagrams, local-data-only result figures, and editable Word OMML mathematics. Use for substantial scholarly-paper writing or revision; do not use for literature search alone, general translation, routine copyediting, research discussion reports, or ordinary document formatting."
+description: "Draft, translate, journal-adapt, or substantially revise academic manuscripts and manuscript figures, including author revisions and reviewer responses. Do not use for standalone literature searches, general translation, routine copyediting, research discussion reports, or ordinary document formatting."
 ---
 
 # Academic Paper Writing
@@ -24,7 +24,7 @@ Infer the phase from the request and available artifacts. Ask only when choosing
 - **Target-journal adaptation:** read [references/optimization.md](references/optimization.md). Translate or rewrite into natural academic English and adapt a content-complete manuscript to the user-selected journal and article type. Reopen the Chinese-manuscript or author-revision phase when a material scientific or rhetorical gap remains.
 - **Reviewer revision:** read [references/revision.md](references/revision.md). Analyze actual editor and reviewer comments, revise the manuscript naturally, and prepare response text when requested.
 
-For a substantial author-directed revision of an existing draft outside a post-submission reviewer cycle, also read [references/author-revision.md](references/author-revision.md). Treat the author's exact request and latest author-controlled manuscript as the revision record; do not route ordinary author feedback through the reviewer-response workflow.
+For a substantial author-directed revision of an existing draft outside a post-submission reviewer cycle, also read [references/author-revision.md](references/author-revision.md). It supplies the revision record and concrete paragraph/section continuity method; use that continuity method for substantial drafting as well. Treat the author's exact request and latest author-controlled manuscript as the revision record; do not route ordinary author feedback through the reviewer-response workflow.
 
 Whenever the task creates, changes, interprets, compares, or verifies content whose scholarly validity depends on external literature, read [references/literature-and-rhetoric.md](references/literature-and-rhetoric.md). The trigger follows the claim rather than the section name: it applies to literature-dependent background, novelty, theory, method choices, comparisons, experimental interpretation, discussion, limitations, application context, future work, reviewer responses, and figure or table narration. Literature search alone remains outside this Skill, but literature search required for the requested claim is part of the manuscript task. Honor an explicit closed-corpus or no-browsing instruction and keep the resulting literature claims corpus-bounded.
 
@@ -71,7 +71,7 @@ Offer only scientifically permissible options. If a stronger factual claim is un
 - Do not fabricate references or use secondary descriptions when a cited scientific claim requires the primary paper. Search snippets and bibliographic metadata cannot establish detailed method, comparison, or novelty claims. Preserve citation identities, live reference-manager fields, and unresolved citation placeholders explicitly.
 - Preserve source files by default and create a new version unless overwrite is unambiguous or explicitly authorized.
 - Classify each manuscript figure as conceptual/illustrative or result/evidence-bearing before choosing its production route. Do not use a generative image model for measured results, quantitative study-flow counts, exact plots, or any panel whose visual marks encode research evidence.
-- For a DOCX deliverable, use the installed document-authoring capability together with the academic-manuscript decisions in [references/docx-manuscript.md](references/docx-manuscript.md). Produce editable OMML, not equation images or Unicode pseudo-formulas. If visual rendering is unavailable, perform structural checks and disclose that limitation.
+- For a DOCX deliverable, use the installed document-authoring capability together with the academic-manuscript decisions in [references/docx-manuscript.md](references/docx-manuscript.md). Produce editable OMML, not equation images or Unicode pseudo-formulas. If visual rendering is unavailable, complete content and structural checks and deliver with that limitation; do not claim a visual pass. Visual verification blocks completion only when the user explicitly requires it.
 - For LaTeX output, retain native LaTeX mathematics; OMML applies only to Word-compatible output.
 
 ## Deliver only what the user needs
