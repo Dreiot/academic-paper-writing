@@ -39,7 +39,7 @@ When a requested change depends on external scholarship, follow [literature-and-
 
 ## Distinguish substantive revision from textual churn
 
-When repairing motivation or contributions, use the need/objective/obstacle/design-consequence distinctions and contribution screening in [drafting.md](drafting.md#establish-the-papers-spine). Do not require a general field-wide gap when a source-supported, specific design question meets the author's request.
+When repairing motivation or contributions, apply the research-value construction and contribution screening in [drafting.md](drafting.md#establish-the-papers-spine). A source-supported, specific design question may avoid a false field-wide gap, but it still needs consequential positioning against the nearest work. Do not close a request for that positioning merely because the revised method description is accurate and coherent.
 
 A revision is substantive when it changes at least one relevant relationship in the paper, for example:
 
@@ -77,10 +77,12 @@ These are boundary types to inspect where relevant, not mandatory sections or on
 
 Judge the revision first by the author's required outcome and the scientific job of the affected passage. Verify that new literature changes the reasoning where warranted, that method or result material remains in its proper section, and that every new factual relationship is supported. Paragraph counts, headings, keywords, citation counts, and text difference remain presentation or artifact checks rather than semantic acceptance.
 
+Keep the Abstract, Introduction and Related Work responsibilities defined in [drafting.md](drafting.md#give-each-section-a-scientific-job) distinct while preserving the author's explicit structure. When motivation or analysis is weak, supported expansion may be necessary. Cut repeated background and secondary implementation detail before cutting the reasoning that establishes significance; shortening is not the default repair.
+
 For an Introduction revision, verify that:
 
 - the opening establishes the actual research object, stakes, and unresolved problem before introducing the proposed method;
-- the prior-mechanism discussion leads to the supported gap or selected design question rather than functioning as a compressed literature list;
+- the prior-mechanism discussion establishes why the supported gap or selected question remains worth investigating relative to the nearest work, rather than merely naming a different design;
 - every transition advances problem, limitation, design need, method response, or evidence;
 - the proposed components are introduced through their scientific necessity and relationship, not as an implementation inventory;
 - contribution items are non-overlapping, identify the new element, and correspond to later method and evidence sections;
@@ -90,13 +92,13 @@ For a Related Work revision, verify that:
 
 - each subsection has one explicit comparison axis, such as what is selected, how structure is represented, what objective is optimized, or what must be learned after selection;
 - representative studies are compared on that axis using claims verified from the actual sources;
-- the synthesis identifies what existing approaches establish, where their mechanisms differ, and which supported obstacle or selected question motivates the present design;
+- the synthesis derives source-supported boundaries and their consequences using the [nearest-work comparison](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work); a final bridge does not compensate for missing comparison analysis;
 - the section does not repeat the Introduction's compressed survey or pre-write the Method section;
 - literature study requested by the author changes the organization or reasoning where warranted, rather than appearing only in a separate evidence log.
 
 For other affected sections, apply their scientific jobs from [drafting.md](drafting.md) and verify the requested change in the final candidate:
 
-- an Abstract revision changes the problem-gap-method-evidence-conclusion summary without introducing a claim absent from the paper;
+- an Abstract revision conveys the need and specific question alongside the design response and results within its normal scope; generic importance followed by a method name does not establish motivation;
 - a Method revision repairs definitions, rationale, information flow, or reproducibility rather than only renaming symbols or adding decorative derivation;
 - an Experiments or Results revision preserves the actual protocol and evaluation boundary, reports verified observations, and keeps interpretation distinct from measurement;
 - a Discussion or Limitations revision uses literature and results to change interpretation or scope without repeating generic caveats;

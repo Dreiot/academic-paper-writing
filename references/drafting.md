@@ -11,7 +11,11 @@ Construct the argument by separating four kinds of information before writing:
 - **Supported technical obstacle:** the model relationship, known mechanism, or observed phenomenon that obstructs that objective, with its source or local evidence.
 - **Downstream design problem:** an approximation, proxy, architecture, or solver choice may introduce another difficulty. Explain it as a consequence of this design and show how the method handles it; do not recast it as a gap that earlier work universally overlooked.
 
-Connect the need and chosen conditions through the supported obstacle to the method response and testable evidence. “We intend to use this solver” is an objective or means, not a motivation. Different variables, hardware, or step ordering alone do not establish innovation. When no general literature gap is supported, state the specific research objective and design tradeoff clearly without inventing failures of existing methods. These distinctions are an internal reasoning aid, not four compulsory paragraphs, a permanent table, or an approval step.
+Connect the need and chosen conditions through the supported obstacle to the method response and testable evidence. “We intend to use this solver” is an objective or means, not a motivation. A specific objective may replace an unsupported broad literature gap, but it cannot replace the explanation of why the objective is worth studying. These distinctions are an internal reasoning aid, not four compulsory paragraphs, a permanent table, or an approval step.
+
+For original research requiring motivation and novelty positioning, establish what prior work already provides; what remains unanswered, condition-dependent, or newly possible for the present task; why that matters for knowledge, model capability, practical use, or interpretation; and what this study adds and how the available evidence evaluates it. Distinguish a descriptive difference from a technically consequential difference under the stated conditions, and then from the research question or contribution that this consequence supports. Author-selected hardware, budget, variables, or step order initially define conditions or means: explain their significance before treating them as research value. A design-induced approximation error remains a consequence of this choice, not a field-wide defect.
+
+Value can come from an explanation, modeling relationship, applicability condition, implementation capability, efficiency tradeoff, or empirical finding. Give that value a precise meaning and supporting basis; another way to perform the same task alone is insufficient. Use the nearest-work comparison in [literature-and-rhetoric.md](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work). If the nearest work already answers the proposed question, acknowledge that coverage and identify only the additional contribution the evidence supports and what remains missing. Renaming or recoding it cannot create novelty. Do not change the method, add experiments, or raise a claim to make the prose appear complete.
 
 Screen potential contributions by their role: a new design or research object; definitions and derivations needed to explain it; empirical findings that test it; or basic practices that make the study correct. State a contribution only when its scientific content and evidence warrant it. Explaining a formula, checking data, ordinary refitting, and passing verification are not automatically contributions. A combination must explain what capability, learning relationship, or verifiable outcome the combination changes; novelty still requires literature support. Use a private claim-to-evidence map only when useful.
 
@@ -38,19 +42,17 @@ A Chinese master manuscript is a complete academic paper, not a rough outline or
 
 ### Abstract
 
-State the problem, supported gap or specific study objective, central method idea, most important supported result, and resulting conclusion. Use exact numbers only when verified. Do not fill the abstract with background, generic importance, defensive limitations, or contributions absent from the paper.
+Within normal abstract length, compress the actual need, specific question, design response and principal supported result. “The field is important” followed by “we propose a method” does not establish motivation. Let the question indicate why the response matters, without requiring a literature review, a particular connective or a fixed sentence count. Use exact numbers only when verified and introduce no contribution absent from the paper.
 
 ### Introduction
 
-Move from the concrete research need through the supported obstacle and chosen objective to the paper's response. Apply the contribution screening above; do not force a universal unresolved limitation when the evidence supports a narrower design question.
+Establish why the research question matters and its specific position relative to what is already known, then introduce the method and verifiable contributions. Apply the research-value and contribution tests above. A declaration of the study objective or an inventory of method components does not replace this reasoning; a narrower design question still needs a reason to be investigated.
 
 Judge the Introduction by whether this reasoning is established, not by paragraph count, length, citation count, or coverage of an instruction checklist. When revising an existing Introduction in response to author feedback, follow [author-revision.md](author-revision.md) and verify the requested argumentative change in the final manuscript.
 
 ### Related work
 
-Organize literature by research question, assumption, mechanism, or limitation. Synthesize relationships among studies instead of producing one sentence per paper. End each subsection with the exact connection to the present work only when that connection advances the argument.
-
-Use one meaningful comparison axis within each subsection and make prior mechanisms lead to the unresolved question addressed by the paper. A fixed subsection count, a renamed heading, or the same paragraph roles under new wording does not by itself constitute a substantive Related Work revision.
+Supply the research development, nearest-work comparisons and source-supported boundary analysis that substantiate the Introduction's position, following [literature-and-rhetoric.md](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work). Use meaningful comparison axes rather than one procedure description per source. The ending may lead into the method, but a bridge cannot replace comparison reasoning missing from the body. The Abstract, Introduction and Related Work serve the same research question at different levels; do not copy the same motivation paragraph across them or impose a fixed paragraph template. Honor explicit author structure requirements.
 
 ### Problem formulation and method
 
@@ -81,13 +83,15 @@ Answer the research question at the level established by the paper. Summarize th
 
 Draft evidence-bearing sections before relying on the abstract or contribution list. The authoring order may differ from the final reading order.
 
+Remove redundancy without removing reasoning needed to establish research significance. When an author identifies weak motivation or literature analysis, add supported comparisons and explanations where necessary; fewer words or paragraphs are not the default improvement. Under an explicit length limit, compress repeated background and secondary implementation details first.
+
 ## Check the submission-grade Chinese manuscript
 
 - The research need, chosen objective, supported obstacle, method, experiments, and conclusion form one argument; a claimed literature gap has direct support.
 - Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
 - Every literature-dependent statement has passed the required focused or comprehensive literature gate, including claim-level source support and any required journal-rhetoric study.
-- The Introduction establishes problem, gap, design need, response, and contribution as connected reasoning rather than a compressed compliance list.
-- Related Work synthesizes prior mechanisms on explicit comparison axes and establishes the supported gap or selected design question rather than repeating the Introduction or Method.
+- Motivation and positioning requirements pass the substantive level of the [reader-recovery test](manuscript-quality-control.md#test-what-the-reader-can-recover); coherent method description alone does not close them.
+- Related Work supports that position through source-grounded comparisons rather than repeating the Introduction or Method.
 - Symbols and component names remain consistent across text, formulas, tables, and figures.
 - Equations needed to understand the method are present and explained; decorative derivations are absent.
 - Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.

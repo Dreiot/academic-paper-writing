@@ -70,3 +70,39 @@ Input: 本文使用预算分组。文献 S1 讨论记录数，S2 讨论错误率
 Evidence: Application audits can review only a fixed number of records per day. S1 section 2, paragraphs 1–2, establishes review capacity before comparing allocation units (records versus groups). S2 section 3 explains that reducing reviewed records and preserving error detection are separate questions. This study chooses groups to reuse reviewer context; no superiority result is available. S1/S2 are writing exemplars here, and the supplied application facts support the present design objective.
 Pass: The output establishes capacity, motivates the chosen unit, and connects to the two evaluation questions; its private note links exact source locations, argument actions, applicability and actual output changes. Does not restart full retrieval for a renamed version or import source-specific motivations.
 Fail example: A praise-only source log with unchanged prose, or fabricated claims that grouping improves detection.
+
+## P. Research value and nearest-work positioning
+
+This group tests an accurate, fluent draft whose positioning may still be insufficient. F1 below is a self-authored fictional technical-source extract for testing, not a real publication. Supply its raw excerpt and study records to writers, not the pass criteria. Prefer a legally held primary-source excerpt for a private execution and record its page/section and actual wording outside the public repository; do not substitute a polished answer map for that excerpt.
+
+F1, section 2 (fictional extract): “Given a finite collection of candidate vectors v_i with energy E_i, define Z(t)=sum_i exp(-E_i/t), w_i=exp(-E_i/t)/Z(t), t>0. Return v_bar=sum_i w_i v_i. The temperature is a parameter of the aggregation.”
+
+### P1. Source-driven construction
+
+Request: Revise the supplied Abstract, Introduction and Related Work fragments using F1 and the following study record. Establish the research position the evidence supports, preserve the method, and put any unresolved evidential needs in a separate note. This is a closed-corpus local task, not a full manuscript.
+
+Record: The study uses the same finite pool and aggregation as F1, but replaces E_i with (E_i-min E)/(max E-min E), using uniform weights for equal energies, and sets t=1. Two client interfaces describe the same pool with energies E and 10E+7. For v=(0,1), E=(0,1), raw aggregation gives 0.268941421370; for (7,17) it gives 0.000045397869. The proposed implementation gives 0.268941421370 for both. These are deterministic toy calculations; no prediction, hardware, sampling or timing results exist. A client needs an aggregation interface consuming both record formats. F1 does not require its temperature to be held fixed across energy units.
+
+Draft Abstract: 候选解组合是模型实现中的一个问题。已有方法根据能量分配权重，本文采用另一种处理方式。我们先归一化，再通过两个接口记录展示组合输出。
+Draft Introduction: F1 已经用概率权重组合候选向量。本文固定候选池和参数，在组合前归一化能量。这与直接使用能量有所不同，形成本文目标。
+Draft Related Work: F1 定义配分函数与概率权重，再计算加权向量。本文改变能量表示后使用同样的权重形式，计算安排有所不同。下一节定义方法。
+
+Pass: Derives consequential relations from the source formula and record, including what the nearest method can already do and what the present interface convention adds; makes the research significance explicit and bounded. Recognizes an appropriate temperature rescaling can already compensate energy scaling, so normalization is not a newly invented estimator or proof of prior failure. Distinguishes algebraic/interface interpretation from predictive benefit or physical-sampling claims. Abstract, Introduction and Related Work perform different jobs. Acknowledging that broader originality remains unsupported is compatible with a useful, well-positioned local revision.
+Fail: Only strengthens adjectives or adds length; says F1 cannot handle changed energy units; asserts improved accuracy or global novelty; merely says “we use a different representation”.
+
+### P2. Covered question or unsupported value
+
+Request: Use the same source and editorial request as P1 with this alternate record and draft.
+Record: The method uses exactly F1's formula, candidates, energies and temperature, in another software framework, renamed “temperature-weighted candidates.” Its only recorded output matches F1 on v=(0,1), E=(0,1), t=1. No new supported inputs, measured efficiency or implementation constraint is supplied.
+Draft: F1 已经依据能量为候选分配概率。本文以温度加权候选重新组织同一过程，并用另一软件框架实现。该实现给出连续组合，为候选利用提供了新的路径。下一节介绍计算。
+
+Pass: Identifies the covered question and missing basis for a meaningful addition, gives useful bounded text, and specifies what evidence or comparative relationship would be needed. Does not call the original contribution claim established. Does not change the method or launch experiments.
+Fail: Uses software renaming, an equivalent variable or a familiar formula as an independent scientific contribution, invents a prior defect, or marks positioning complete because the text flows.
+
+### P0. Fluent but insufficient: reviewer challenge
+
+Request to the verifier: The author requested substantive motivation and nearest-work positioning. Given F1 and P1's study record, decide whether the following passage closes that request and locate the reasoning that justifies the verdict. Do not repair it first.
+Text: 候选解组合可采用不同的计算安排。F1 根据能量计算概率权重并形成组合向量；本文先处理能量表示，再采用相同的权重形式。两种实现使用的表示不同，本文选择后一方式作为研究目标。基于上述联系，下一节给出归一化及组合定义。
+
+Pass: Recognizes coherent, basically accurate description while rejecting sufficient research positioning: the text lacks the comparative consequence and why it matters. Identifies what is missing rather than judging a connective or word count. This is an intentionally inadequate test text; do not expose this verdict to the writer/verifier being tested.
+Fail: Accepts it solely for accurately naming methods, citation compatibility, or a natural bridge.

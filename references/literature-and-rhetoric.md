@@ -78,6 +78,14 @@ Give complete claim-level attention to:
 
 If sources conflict, preserve the conflict, determine whether the scope or conditions explain it, and use the Claim Decision process when the manuscript's conclusion would materially change.
 
+## Derive positioning from the nearest work
+
+For sources that directly carry the study's motivation, examine their task, mechanism and already solved part, then determine any applicability boundary under the present conditions and its technical consequence. Support that boundary and consequence with the original source, an explicit mathematical relationship or existing evidence. Failure to discuss the present task is not by itself a method defect. Some sources provide foundations, some are nearest alternatives, and some delimit scope; do not criticize every paper.
+
+Ask what directly applying the nearest available method would already answer and what would still require research. If it can already achieve the stated objective, acknowledge this and explain the independent question or knowledge the present study adds, if supported. Analyze consequential differences rather than stopping at distinct variables, architecture, hardware, or sequence. If their significance cannot be established, identify the missing comparison or source instead of inventing a limitation or declaring positioning complete.
+
+Show how research questions, structural representations or learning relationships develop, branch and complement one another. Do not fabricate a linear replacement history, organize solely by year, or substitute a sequence of method summaries for this synthesis. Analyze deeply only the boundaries that determine the present position.
+
 ## Learn how strong papers construct the argument
 
 For comprehensive journal work, inspect the relevant full sections of the journal-rhetoric exemplars, not only their abstracts or individual sentences. Build a private cross-paper pattern map covering:
@@ -91,13 +99,13 @@ For comprehensive journal work, inspect the relevant full sections of the journa
 - how the venue handles paragraph scale, transitions, citation placement, and claim strength;
 - how many studies are synthesized within one paragraph, where paragraph breaks mark a genuine argumentative turn, and how the final sentence of one paragraph prepares the next.
 
-For a borrowed writing practice that materially affects organization, add a compact entry to the existing private pattern map: exact source section/paragraph/page -> argumentative action -> why it fits this manuscript -> actual changed passage and its new function. Relevant actions include establishing importance, separating technical difficulties, deriving design requirements from literature, introducing the method without previewing every step, deriving experiments from the method, and moving from results to explanation and conclusion. Verify the transfer in the resulting prose; a praise-only reading log cannot establish implementation. If a practice is not applicable, do not force a textual change to prove that it was studied.
+For a borrowed writing practice that materially affects organization, add a compact entry to the existing private pattern map: exact source section/paragraph/page -> argumentative action -> why it fits this manuscript -> actual changed passage and its new function. Relevant actions include establishing importance, separating technical difficulties, deriving design requirements from literature, introducing the method without previewing every step, deriving experiments from the method, and moving from results to explanation and conclusion. For a motivation or positioning repair, verify that sources produced supported comparison relationships and research significance in the prose; added citations, categories or a bridge alone do not establish that outcome. If a practice is not applicable, do not force a textual change to prove that it was studied.
 
 Use patterns that recur across several strong papers to design the manuscript's own reasoning. Do not copy sentences, distinctive phrasing, the complete organization of one paper, or a motivation unsupported for this study. Learning journal rhetoric is evidence for editorial decisions, not permission to imitate an author's expression.
 
 Prefer rhetoric exemplars with the same article type and a related methodological domain. Keep their editorial role separate from scientific evidence: a paper chosen to study writing style supports a manuscript claim only when its content independently supports that claim.
 
-For Related Work, use the fewest paragraphs that preserve real changes in research question, comparison axis, or synthesis role. Discuss several studies together when they contribute to the same comparison; do not assign a paragraph to each paper or method merely because the search log lists them separately. A blank line must reflect an argumentative turn, not the boundary between two source notes.
+For Related Work, keep paragraph boundaries aligned with changes in question, comparison axis or synthesis role, and retain the explanation needed to establish research significance. Discuss several studies together when they contribute to the same comparison; do not assign a paragraph to each paper merely because the search log lists it separately. A blank line must reflect an argumentative turn, not a source-note boundary; minimizing paragraph count is not the objective.
 
 ## Keep private working evidence
 
@@ -118,7 +126,7 @@ Do not call the affected manuscript content final until:
 - bibliographic identities and citation attachments are correct;
 - DOI/title duplicates, citation keys or live fields, in-text citations, and final bibliography entries resolve to one consistent source identity without orphaned additions;
 - novelty and broad comparative wording matches what the search can actually establish;
-- the rhetorical study has changed the organization or reasoning where the previous draft was inadequate;
+- the rhetorical study has changed the deficient reasoning, including supported comparative consequences and research significance when motivation or positioning is in scope;
 - unresolved conflicts and inaccessible decisive sources are disclosed outside the manuscript.
 
 Keyword presence, citation count, paragraph count, a populated evidence log, or successful document rendering cannot satisfy this gate. In the delivery note, state the search scope, full-text coverage, and any unresolved literature limitation concisely; provide the private records only when requested.

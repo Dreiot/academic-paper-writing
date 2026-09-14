@@ -86,6 +86,16 @@ When authorized private manuscript fragments are available, use the requested re
 
 A reviewer in a separate context reads the requests, raw evidence and actual outputs before any producer notes or completion claims. Report whether review was independent or a separated self-check, which cases actually ran, failed/repaired outputs, and remaining uncertainty. One paired run can demonstrate behavior on that input, not a general model improvement. Do not mark an unexecuted case passed or deploy a candidate merely to run the tests.
 
+## Positioning-depth suite
+
+For changes to research-value or nearest-work acceptance, use group P in [argument-fixtures.md](argument-fixtures.md#p-research-value-and-nearest-work-positioning). Run P1 and P2 once each with the actual pre-change Skill and candidate in separate contexts using identical raw inputs and evidence; explicitly load each isolated `SKILL.md` and its corresponding references. Do not supply the completed motivation chain, standard comparison answer or evaluation criteria to the writer. Keep the actual outputs; do not rerun or select variants merely to make the candidate win.
+
+Test the candidate's verification behavior on P0 as a separate request, supplying the fluent passage, author request and source material without its expected verdict. Run only the existing D, N1 and N2 regressions for mixed-result preservation, already continuous prose and pure formatting. Retain all other fixtures without claiming they ran.
+
+Use at least one actual source-excerpt-driven task, preferentially with already authorized local material; identify the source/version and exact extract locations. If only synthetic technical excerpts are available, label them as such and report the real-source range untested. Keep unpublished drafts, precise research results and third-party text outside the public repository. Public examples may be self-authored or appropriately licensed, with fictional source labels explicitly marked.
+
+An independent context, when available, judges the requests, raw sources and actual outputs before producer explanations. Report separate coherence/accuracy and positioning judgments where applicable, source overreach, missing reasoning, ties, unexecuted tasks and any failure. Rejecting an unsupported novelty claim with useful partial prose can be successful behavior on P2; an unresolved manuscript requirement must still be labeled unresolved. Structure/link checks cannot establish this semantic result.
+
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.

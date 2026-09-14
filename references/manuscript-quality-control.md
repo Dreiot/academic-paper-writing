@@ -70,9 +70,14 @@ Paragraph counts, keywords, citation totals, textual difference, schema checks, 
 
 ## Test what the reader can recover
 
-Within the existing source-first or independent verification pass, set aside the writer's change note and completion assessment. Use the author's request, relevant sources and actual output to recover what the study aims to achieve, why it matters, and what specifically makes it difficult. Distinguish prior facts from author-selected goals and conditions, then identify how the method addresses the difficulties, why the next section follows, and which evidence supports each conclusion. Apply only the questions relevant to the edited material.
+Within the existing source-first or independent verification pass, set aside the writer's change note and completion assessment. Use the author's request, sources and actual output to distinguish two completion levels:
 
-Point to the sentences or relationships that enable these answers. Repeating method or workflow names is not evidence of an established motivation. If the answer depends on an explanation outside the manuscript, repair the missing reasoning in the candidate. Check transitions with [author-revision.md](author-revision.md#build-continuity-before-polishing-connectives); do not create another universal review layer or demand extra bridges where the existing text is continuous.
+- **A — coherent and basically accurate:** the reader can recover what was done, the main facts and the connections between sections without a material error.
+- **B — motivation and research position established:** the reader can also explain why the study remains worth undertaking after prior research, what specifically it adds relative to the nearest work, and how the method and evidence answer that question. Passing A cannot close an author's B-level request.
+
+For B, point to comparison relationships and technical consequences in the actual prose. Ask: What would direct reuse of the closest method already answer, and what would still require research? Why does this difference have scientific or practical significance rather than only a different form? Distinguish prior facts, chosen conditions and design-induced problems. Quoting “we focus on”, “another division of work”, “more direct variables” or “real hardware” alone does not answer these questions. If the reasoning is present only in a production note, it is still missing from the manuscript.
+
+Apply B to motivation, positioning, relevant substantive revisions and complete original-research manuscripts. Do not extend it to pure formatting, faithful translation or expressly limited local wording edits. Missing support requires an exact textual location and the needed source or comparison; deliver useful local work but keep the motivation requirement unresolved. Never manufacture defects, effects or new experiments to pass it. Check continuity with [author-revision.md](author-revision.md#build-continuity-before-polishing-connectives) within this same pass, without adding a review layer or bridges to already continuous text.
 
 ## Close the quality gate
 
