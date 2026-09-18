@@ -24,6 +24,21 @@ Evidence: S1 selects binary sensor subsets under maintenance costs and refits a 
 Pass: Chooses a meaningful main axis (e.g. selected object and relation to predictor), incorporates each study coherently, and explains where budget is a separate condition. The chosen study follows from its object/requirements.
 Fail example: Merely concatenates the original statements, repeats S1 in separate categories, or says discrete variables alone imply novelty.
 
+### O1. Concept entry and source-supported achievements
+
+The following source excerpts are self-authored fictional test material, not published papers or real experiment results. F1 has two fictional authors, F2 one, and F3 a group author.
+
+- F1, Lin Lan and Chen Ning (林岚、陈宁), section 2: “Residual-guided Growth (RG) adds a local prediction unit when its residual trigger fires. Backward Extraction (BE) then deletes units under the validation criterion and refits retained coefficients.” Section 4: “On toy regression datasets A and B, with the same split and three seeds, mean unit counts changed from 40 to 24 and 32 to 20 respectively. RMSE changed from 0.21 to 0.22 and 0.18 to 0.18. The comparison is BE against its pre-extraction RG model. No statistical significance analysis was performed.”
+- F2, Xu Heng (许衡), section 3: “Binary Extraction (BX) assigns z_j in {0,1} to a fixed set of units. The evaluation E(z)=||y-Hz||^2+lambda sum_j z_j is quadratic for fixed H. It specifies subset inclusion and penalizes retained size. This note supplies a formulation and no predictive or runtime experiment.”
+- F3, Structural Learning Group (结构学习工作组), section 2: “Continuous Gate Learning (CGL) jointly updates continuous unit gates and prediction coefficients under a gate penalty. A threshold maps gates to retained units, whose coefficients are refitted. The scope here is the update-and-extraction mechanism; no result table is supplied.”
+
+Author request: Rewrite this Related Work fragment to make the conceptual entry understandable and coordinate author–method introductions in the form “X proposed/used ... to enable/obtain ...” while respecting the actual authors and source support. Preserve source labels. Discuss studies through the common research question rather than separate source cards. Closed corpus, local revision only.
+Input: RG 先增加局部单元。BE 再删掉单元并重拟合 [F1]。BX 使用二进制变量、平方项和基数项 [F2]。CGL 更新门和系数，再用阈值提取 [F3]。这些方法不同，本文也进行结构选择。
+Local context: A candidate pool determines available local prediction units; deployment cost depends on how many are retained. The present study fixes that pool and examines selection and subsequent coefficient learning; it has no performance result in this task.
+
+Pass: Establishes why size control and the generation/extraction distinction matter, then compares mechanisms and achievements. F1's limited findings retain the comparator, tasks and mixed RMSE behavior; F2/F3 provide capabilities, not invented performance. Author forms remain correct, and studies serve shared comparisons.
+Fail example: “林岚等使用 RG 增加单元，再用 BE 删减并重拟合 [F1]。另一方面，许衡使用 BX 表达二进制选择 [F2]。进一步，结构学习工作组使用 CGL 更新门和系数 [F3]。因此，本文研究固定候选池的结构选择。” Even with correct author forms and no invented performance, the reason to control size and the source-supported achievements advancing the comparison remain missing.
+
 ## D. Review language in results
 
 Request: Produce a results paragraph; identify any material moved elsewhere in a separate short note.
@@ -52,6 +67,34 @@ Fail example: Demands full papers before renaming headers or multiplies the perc
 Request: Write the necessary transition and following opening for each boundary from the supplied evidence. Add a separate bridge only where needed.
 
 B1 related work to method: S1 selects sensor sets then refits; S2 jointly learns gates and parameters. Authors choose binary sets under maintenance slots. III defines a quadratic proposal proxy and a subset-specific predictor. A single closing positioning paragraph is explicitly requested; the next opening should introduce the fixed pool and mask, without repeating the entire pipeline.
+
+For a depth-allocation revision of B1, use the following B1-depth input instead of duplicating the simple transition test. Its sources are fictional technical excerpts.
+
+- G1, Representation note, section 2: “Inclusion/exclusion can be represented by binary z. Fixed unary costs plus pairwise interaction costs have a quadratic polynomial form. This represents that stated objective; extra terms in another training objective require their own treatment.”
+- G2, Learning note, section 3: “For retained local units, f_z(x;theta)=sum_j z_j h_j(x) g_j(x;theta_j) / sum_j z_j h_j(x), defined for positive retained response. Coefficients theta are fitted for each subset. For fixed full-pool response matrix H, ||y-Hz||^2+lambda sum_j z_j is a quadratic subset proxy; it contains no fitted local coefficients and is not an identity for the complete normalized training loss.”
+
+Author roles: A (domain review) introduces direction and representational fit; B (optimization review) adds prior modeling foundations and feasible paths; Method formally defines the current proxy and subset prediction. Do not change these roles or the method. Return revised A/B/Method and, separately, the destination of removed implementation details. Keep the evaluation pair at the end naturally continuous; edit it only if necessary.
+
+Draft A: 我们选择二次求解器，所以需要解决把训练目标塞进接口的困难。为此本文提出二进制掩码、固定响应代理、子集归一化、重拟合和验证选择，调用接口 20 次，将参数 seed=7 写入配置并检查恢复点。本文研究这一完整流程。
+Draft B: 局部模型是重要的预测方法，模型结构值得研究。另一方面，G1 使用二进制形式。G2 拟合系数。为此本文再次提出掩码、代理、归一化、重拟合和选择。由于形式天然适配，完整训练目标可直接精确求解并取得加速。
+Draft Method: 近年来，局部模型受到了广泛关注。本文研究掩码、代理、归一化、重拟合和选择。为比较结构规模与预测质量，所有候选使用相同的数据划分。下一节在这一划分下报告保留单元数及预测误差。
+
+Local record: The pool is fixed. Binary inclusion and retained count describe the study's structural choice. The prescribed proxy is E(z)=||y-Hz||^2+lambda sum_j z_j with fixed H and lambda>=0; a backend returns finite masks. Each nonempty valid subset renormalizes retained responses, refits coefficients and is validation-evaluated. The complete predictor is G2's f_z; positive retained response is required. Twenty calls, seed=7 and recovery-state checking are implementation facts, not comparative evidence. There are no verified speed or prediction gains, no exact full-objective conversion, and no guarantee of a globally optimal returned mask.
+
+Pass: A introduces selection properties and their useful representational match before route-induced issues; B adds G1/G2 relations and correctly locates feasibility at the proxy/formulation layer; Method begins formal objects instead of broad background. Preserves necessary learning relationships without repeating the complete method in every section. Moves interface details appropriately and leaves the already continuous evaluation pair without an extra bridge. Not every source needs a criticism or a performance result.
+Fail example: “因此本文采用二次求解器；然而，G1提出二进制形式；为此，本文在两个综述小节再次介绍全部训练步骤。” Reject the remaining reverse motivation and repeated information even if it avoids explicit unsupported speedup.
+
+For owner-integration maintenance, extend B1-depth rather than rerunning O1/B1-depth as separate prior tests. Use its fictional G1/G2 extracts and the following additional context and fresh draft. Author request: revise the domain-review ending, adjacent optimization review and Method opening in one authorization; choose blocks by dependency, retain their actual draft text, check relevant neighbors, then have the same owner edit one continuous candidate and verify it source-first. Do not copy an earlier test output. No new experiments, method changes or per-block approval are requested.
+
+Whole-paper question: within a fixed pool of local prediction units, how can discrete retention and subset-specific prediction learning be organized to study the size/quality tradeoff? Confirmed terms are “candidate pool,” “retained unit,” “quadratic structural proxy,” and “validation prediction error”; use z for the mask, m for pool size, K for retained size. A prepares the direction, B develops source-based modeling relations, and Method defines this study's objects. Author-approved style sample: “候选池界定可以选择的结构，保留规模刻画最终使用的单元数。” This guides expression only.
+
+Additional local record: the method uses B1-depth's E(z) and f_z; H is fixed on structural-training data, and coefficients are fitted per valid subset. The author chooses a held-out validation split to rank these fitted candidates by prediction error, breaking ties by smaller K. That ranking/tie rule is a study record, not a statement in G1/G2. No speed, test-accuracy or globally optimal-mask result is provided. Shared evaluation context remains: “各候选沿用同一数据划分。后文在此基础上比较保留单元数与预测误差。”
+
+Fresh draft A: 为了运行二次后端，我们研究局部规则。本文采用 B 掩码、固定响应、重新归一化、参数训练和验证选择。我们的完整训练流程包括所有这些步骤。由于二次形式适合接口，本研究具有计算收益。
+Fresh draft B: 模型压缩一直很重要。G1 讨论二进制，G2 拟合模型，因此本文使用规则掩码、固定响应、重新归一化、参数训练和验证选择。拟合后以验证误差和规模排序的机制来自 G2。我们研究这一流程。
+Fresh draft Method: 本文再次提出以上流程。b 是规则子集，H 是响应，结构损失等于完整模型损失。保留规模记为 R。各子集拟合系数并以验证误差、较小规模选出最终模型 [G2]。各候选沿用同一数据划分。后文在此基础上比较保留单元数与预测误差。
+
+Observe actual block and integration artifacts rather than a plan alone. Pass requires owner edits across the boundary, consistent argument/terms/symbols, new information in each part, source citations that stop at their supported clauses, and study-specific validation rules attributed to the local record. Local checks and an integrated check have different scopes; neither reopens untouched evidence or requires another user approval. No fixed block count, agent count or comparative model experiment is needed. A preserved local draft may contain a later-repaired issue; judge the final integrated text and the documented repair without relabeling its history.
 
 B2 method to experiments: Method is intended to reduce retained sensors while preserving prediction quality; no outcomes given. Experiments compare retained count and accuracy under a fixed budget.
 

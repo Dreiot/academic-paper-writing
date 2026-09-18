@@ -80,11 +80,15 @@ If sources conflict, preserve the conflict, determine whether the scope or condi
 
 ## Derive positioning from the nearest work
 
-For sources that directly carry the study's motivation, examine their task, mechanism and already solved part, then determine any applicability boundary under the present conditions and its technical consequence. Support that boundary and consequence with the original source, an explicit mathematical relationship or existing evidence. Failure to discuss the present task is not by itself a method defect. Some sources provide foundations, some are nearest alternatives, and some delimit scope; do not criticize every paper.
+For representative sources carrying the main comparison or motivation, identify the research object, core mechanism, source-supported contribution or result, and role in the current comparison. Distinguish a method contribution (a structure-update, learning, selection or solution capability) from an experimental finding (observed behavior on particular tasks and comparisons). Report only the supported kind of achievement: a method description needs no invented performance benefit, and a limited experiment retains its task and comparison scope. Do not add generalization, statistical significance, universal superiority or application effectiveness to complete an “achieved” sentence. Use the existing claim-level source checks, not another literature-record system.
+
+Then determine any applicability boundary under the present conditions and its technical consequence. Support both with the original source, an explicit mathematical relationship or existing evidence. Failure to discuss the present task is not by itself a method defect. Some sources provide foundations, some are nearest alternatives, and some delimit scope; do not criticize every paper.
 
 Ask what directly applying the nearest available method would already answer and what would still require research. If it can already achieve the stated objective, acknowledge this and explain the independent question or knowledge the present study adds, if supported. Analyze consequential differences rather than stopping at distinct variables, architecture, hardware, or sequence. If their significance cannot be established, identify the missing comparison or source instead of inventing a limitation or declaring positioning complete.
 
 Show how research questions, structural representations or learning relationships develop, branch and complement one another. Do not fabricate a linear replacement history, organize solely by year, or substitute a sequence of method summaries for this synthesis. Analyze deeply only the boundaries that determine the present position.
+
+If the author requests an author–method–achievement introduction such as “X et al. proposed/used ... to enable/obtain ...”, apply that style consistently using the actual author and method identities; single and group authors need their correct forms. This is a task-specific presentation choice, not a universal sentence template. Synthesize studies serving the same comparison rather than expanding every source into its own paragraph or a sequence of literature cards.
 
 ## Learn how strong papers construct the argument
 

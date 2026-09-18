@@ -96,6 +96,18 @@ Use at least one actual source-excerpt-driven task, preferentially with already 
 
 An independent context, when available, judges the requests, raw sources and actual outputs before producer explanations. Report separate coherence/accuracy and positioning judgments where applicable, source overreach, missing reasoning, ties, unexecuted tasks and any failure. Rejecting an unsupported novelty claim with useful partial prose can be successful behavior on P2; an unresolved manuscript requirement must still be labeled unresolved. Structure/link checks cannot establish this semantic result.
 
+## Concept entry, literature achievements and subsection depth
+
+For this narrower maintenance scope, execute O1 and the B1-depth variant in [argument-fixtures.md](argument-fixtures.md) once with the explicitly loaded isolated candidate and its corresponding references. Supply only each request, draft, local record and raw source excerpts to the writer, not pass criteria. The existing O/B fixtures are extended; no baseline comparison or unrelated full-suite rerun is required for this scope. Keep the actual inputs and outputs outside the repository and use a separate source-first verification pass, identifying it honestly if performed by the same agent.
+
+Check the actual relationships: reasons to introduce concepts, source-supported mechanism and achievement with the right scope, route fit before route-induced difficulty, and new information at each boundary. Assess a retained superficial-rewrite example against the same request; connecting words and author–method phrasing cannot substitute for these relationships. Cite source and output locations for findings. Preserve the natural-continuity control within B1-depth and do not repeat samples to select a favorable output.
+
+## Dependency blocks and owner integration
+
+For orchestration changes, execute the owner-integration extension of B1-depth in [argument-fixtures.md](argument-fixtures.md) once with the actual isolated candidate and routed references. Give the writer the fresh draft, direct excerpts, study records, section responsibilities and any author-approved style sample, but not assessment criteria or earlier successful outputs. Preserve the brief task-local context, actual block prose, relevant neighboring checks and owner-edited integrated text. Do not substitute an execution plan or concatenate the previous test outputs.
+
+Verify the final text source-first, including the distinction between a source's subset-fitting mechanism and the study's validation/selection rule. Record the real collaboration mode, any repaired local defect and unresolved issue; separated self-verification is acceptable when there is no independent reviewer. This single simulated execution tests the requested orchestration behavior, not stable superiority of block writing or multi-agent production. Do not rerun unrelated suites or deploy merely to validate.
+
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.

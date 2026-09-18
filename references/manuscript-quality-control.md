@@ -6,7 +6,9 @@ The hard requirement is a traceable separation between producing a candidate and
 
 ## Keep one authoritative candidate
 
-Identify one manuscript owner and one authoritative candidate. The owner integrates the prose, resolves evidence conflicts, and preserves a consistent argument and voice. When multiple agents or tools contribute, do not let them independently overwrite the same section or final file.
+Identify one manuscript owner and one authoritative candidate. One authorization to complete a task does not require generating all prose in one pass: the owner may draft dependent parts in stages and deliver one integrated result. Contributors submit scoped candidate text rather than independently overwriting the main file or redefining the paper's contribution. The owner must actually edit the returned material for terminology, emphasis, repetition, citation scope and continuity; concatenating individually checked blocks is not completed integration.
+
+Reuse a brief, temporary working brief from the current manuscript and effective decisions: the shared argument, confirmed terms and evidence boundaries needed for this revision. On continuation, retain the current candidate, settled reasoning, unresolved issues and next action; do not copy the full history or mechanically recheck still-valid sources. Reuse existing task records rather than introducing another permanent coordination log.
 
 Freeze or clearly identify the candidate before a completion review. A plan, source draft, revision note, change summary, search log, paragraph count, keyword check, or successful render cannot serve as proof that the candidate contains the required scientific change.
 
@@ -26,24 +28,30 @@ Do not call a review independent unless a reviewer that did not participate in d
 
 For a compound manuscript task, respect four dependency phases: establish literature and scientific evidence; build and verify the scholarly argument and prose; produce formulas, figures, tables, supplements, and document layout from that stable content; then inspect the integrated final artifact. This is a dependency order, not a requirement to run every activity serially or create separate deliverables. Independent work may overlap, but technical production must not substitute for semantic acceptance or consume an unresolved claim as if it were final. If later evidence changes the method, interpretation, or claim, reopen the affected prose and its downstream artifacts.
 
+Within the writing phase, partition work by content dependencies and subsection responsibilities, not chapter numbers or fixed word, paragraph, chapter or agent counts. From the question, author request and sources, distinguish independently treatable work from passages that need joint editing. Establish the roles of related parts, draft them in dependency order, and read the necessary neighboring context while each is edited. Coordinate repeated explanations, transitions and depth; reopen a stable part only when a relevant change affects it. The owner then edits the parts into one continuous candidate.
+
+For example, a Related Work ending and Method opening need joint treatment; the Abstract, contributions and Conclusion must answer the same question but need not be drafted simultaneously; independent source checks may overlap, while final novelty positioning stays with the owner. These are dependency examples, not a fixed writing order. Do not make blocks approval gates or ask for renewed permission to continue each one. Pause only the affected work when a core-method, evidence-boundary or material-claim decision genuinely exceeds the existing authorization.
+
+Use local checks for newly added or changed scientific statements, source attribution, paragraph function and adjacent relationships. They do not trigger wholesale literature or research review of untouched sections. After owner integration, inspect the final candidate for correspondence among question, contribution, method and conclusion; consistent terms, symbols and evaluation objects; repeated method introductions or missing explanations; separation of literature facts, study-specific choices and inferences; and changes to another part's claim meaning. A local pass does not replace this integrated check. Conversely, integration does not mean rerunning all experiments, re-accepting established research results or independently reviewing every block again. Repair and recheck only affected parts using the existing A/B semantic criteria below. Intermediate blocks and execution records remain outside the delivered paper.
+
 ## Use explicit responsibility contracts when delegating
 
-When delegation is useful, give each contributor:
+Use delegation when the work is separable and available capabilities offer a concrete benefit. Favor independent literature checks, formula or number verification, local analysis and bounded drafting; do not default to one author per chapter. When delegating prose, use the existing responsibility contract to give each contributor:
 
-1. the exact requested outcome and active author instructions;
-2. the authoritative manuscript baseline and candidate, if one exists;
-3. the evidence and literature it may use, including exact local paths or source links;
-4. its owned responsibility and any files it may modify;
-5. protected facts, claim boundaries, and prohibited assertions;
-6. the required output and acceptance evidence.
+1. the whole-paper question, exact requested outcome, the part's specific job and active author instructions;
+2. the authoritative baseline/candidate, necessary preceding and following context, and confirmed terminology;
+3. permitted direct sources and study records, with exact paths or locations;
+4. its owned scope, editable files and interfaces with neighboring work; the main candidate remains owner-controlled;
+5. protected facts and claim boundaries, plus a short author-approved style sample if one exists; style is not scientific evidence;
+6. candidate prose or findings for owner integration, source locations, unresolved issues and the required acceptance evidence.
 
-Useful roles include literature and rhetoric research, scientific evidence verification, artifact production, and manuscript review. These are examples rather than a mandatory team shape. Run them in parallel only when their inputs and write ownership do not overlap.
+Run independent contributions in parallel only when their inputs and write ownership permit it. These roles are optional, not a required team. Without subagents, the same owner can execute the stages and use the existing separated verification pass; this neither blocks completion nor constitutes independent review.
 
 Require factual outputs to use `verified`, `inference`, `conflict`, or `unsupported` and to name the exact source location. A bibliography, search snippet, revision note, or another contributor's assertion is not evidence by itself. The manuscript owner must inspect returned evidence and reconcile contradictions; do not resolve disagreement by majority vote.
 
 ## Verify high-impact facts completely
 
-Check every numerical, statistical, novelty/priority, method-characterization, comparative, causal, clinical, policy, and current-platform claim against its direct authority. Verify that every citation supports the exact sentence to which it is attached. Derived values must either be recomputed from authorized data or matched to an accepted result whose derivation and scope are known.
+For affected content and its integration dependencies, check every numerical, statistical, novelty/priority, method-characterization, comparative, causal, clinical, policy, and current-platform claim against its direct authority; reuse still-valid verification elsewhere. Verify that every citation supports the exact sentence to which it is attached. Derived values must either be recomputed from authorized data or matched to an accepted result whose derivation and scope are known.
 
 No contributor or verification pass may fill a missing fact from plausibility, copy an unverified description from another paper, or convert an inference into an established result. A verification finding must identify the exact passage, unmet requirement or scientific issue, supporting evidence, practical consequence, and repair direction.
 
@@ -77,7 +85,9 @@ Within the existing source-first or independent verification pass, set aside the
 
 For B, point to comparison relationships and technical consequences in the actual prose. Ask: What would direct reuse of the closest method already answer, and what would still require research? Why does this difference have scientific or practical significance rather than only a different form? Distinguish prior facts, chosen conditions and design-induced problems. Quoting “we focus on”, “another division of work”, “more direct variables” or “real hardware” alone does not answer these questions. If the reasoning is present only in a production note, it is still missing from the manuscript.
 
-Apply B to motivation, positioning, relevant substantive revisions and complete original-research manuscripts. Do not extend it to pure formatting, faithful translation or expressly limited local wording edits. Missing support requires an exact textual location and the needed source or comparison; deliver useful local work but keep the motivation requirement unresolved. Never manufacture defects, effects or new experiments to pass it. Check continuity with [author-revision.md](author-revision.md#build-continuity-before-polishing-connectives) within this same pass, without adding a review layer or bridges to already continuous text.
+In the affected passages, also ask whether a new concept arrives with a reason to introduce it before the reader is asked to accept the route ([drafting.md](drafting.md#establish-the-papers-spine)); whether representative studies supply the mechanisms and source-supported achievements needed for the comparison ([literature-and-rhetoric.md](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work)); and whether adjacent parts add evidence or definitions rather than reintroducing the same method ([author-revision.md](author-revision.md#build-continuity-before-polishing-connectives)). Judge these relationships in the prose, not the presence of connecting words or author–method phrases.
+
+Apply B to motivation, positioning, relevant substantive revisions and complete original-research manuscripts. Do not extend it to pure formatting, faithful translation or expressly limited local wording edits. Missing support requires an exact textual location and the needed source or comparison; deliver useful local work but keep the motivation requirement unresolved. Never manufacture defects, effects or new experiments to pass it. These questions belong to the same verification pass, without adding a review layer or bridges to already continuous text.
 
 ## Close the quality gate
 
