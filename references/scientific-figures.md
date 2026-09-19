@@ -48,7 +48,7 @@ For each conceptual figure:
 6. iterate with targeted corrections while retaining the shared style brief and all verified invariants; stop when semantic and placement checks pass, or report the unresolved limitation instead of continuing cosmetic variations;
 7. save the selected project-bound image with a stable descriptive name and retain enough prompt and source context to reproduce its visual intent.
 
-A conceptual illustration explains the method; it is not experimental evidence. Write the caption so that readers cannot mistake generated visual appearance, spatial arrangement, or relative size for an observed quantitative result.
+A conceptual illustration explains the method; it is not experimental evidence. Use a concise caption to identify it as a schematic where needed, and explain its relationships and scientific role in the main text under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text). Neither caption nor prose may turn generated appearance, spatial arrangement or relative size into an observed quantitative result.
 
 ## Generate result figures only from authentic local data
 
@@ -74,7 +74,7 @@ Check the complete manuscript figure set, not only each image in isolation:
 - result figures use a compatible typographic and color system without imitating generated illustration textures;
 - the same component, dataset, method, group, or variable uses consistent naming and color across figures unless a clear legend explains a necessary change;
 - every label, equation, number, and arrow is readable at intended single- or double-column size;
-- captions distinguish schematic explanation from observed results and state the data scope needed to interpret result figures;
-- figure numbering and in-text references are consistent;
+- captions distinguish schematic explanation from observed results and retain essential decoding information and required data scope; substantial explanation and interpretation follow the shared main-text rules;
+- numbering and panel references agree, and the body actually introduces and explains each figure's role, findings or design relationships rather than only citing its number;
 - raster images meet actual resolution requirements, vector outputs remain genuinely vector, and no watermark, model artifact, malformed text, or clipped element remains;
 - the final DOCX or PDF render preserves figure sharpness, placement, captions, and page flow.

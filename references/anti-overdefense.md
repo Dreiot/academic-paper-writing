@@ -52,7 +52,7 @@ Vary paragraph length and opening structure naturally. Avoid a sequence in which
 
 - Place substantive negative or mixed findings beside the result interpretation they change; concision must not erase them.
 - Put conditions defining model or analysis validity in the method.
-- Put units, metric definitions and comparison identities in the experimental setup or table notes, retaining local reminders only when needed to interpret the passage.
+- Put general metric definitions and comparison settings in the methods/setup or relevant prose, and keep units and decoding keys clear in axes, table headers or concise notes as needed. Follow [the shared figure/table explanation rules](drafting.md#explain-figures-and-tables-in-the-main-text) for information placement; extended analysis belongs in the body.
 - An internal reminder about an unperformed experiment belongs in the paper only when it changes a claim actually being made. Express the supported scope directly rather than transcribing controls as a list of “cannot claim” statements.
 - Keep recomputation, version, validation and production records outside academic narration.
 - Address a known counterexample where it materially tests the argument.

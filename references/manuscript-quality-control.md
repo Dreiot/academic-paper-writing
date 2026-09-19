@@ -67,6 +67,7 @@ Whether review is independent or performed as a separated evidence-based pass, i
 - whether active author or reviewer requests are visibly implemented in the candidate;
 - whether the target journal's relevant scientific and rhetorical conventions are met;
 - whether the delivered artifact preserves the reviewed content.
+- for affected figures and tables, whether their numbered mentions lead readers to the relevant comparison, observation or design relationship, evidence-grounded interpretation and supported conclusion in the body, while captions/notes retain necessary decoding information without carrying the main analysis; apply [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text) proportionately, not a paragraph quota.
 
 Classify findings as:
 

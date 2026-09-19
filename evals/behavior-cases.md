@@ -108,6 +108,10 @@ For orchestration changes, execute the owner-integration extension of B1-depth i
 
 Verify the final text source-first, including the distinction between a source's subset-fitting mechanism and the study's validation/selection rule. Record the real collaboration mode, any repaired local defect and unresolved issue; separated self-verification is acceptable when there is no independent reviewer. This single simulated execution tests the requested orchestration behavior, not stable superiority of block writing or multi-agent production. Do not rerun unrelated suites or deploy merely to validate.
 
+## Main-text figure and table explanation
+
+For changes to caption/body responsibilities, run D1 in [argument-fixtures.md](argument-fixtures.md) with the current explicitly loaded Skill, source record and editorial request, withholding evaluation criteria from the writer. Judge the actual body and revised captions/notes together: explicit numbered references, useful reading guidance, evidence-grounded interpretation and conclusion, retained decoding information, and proportionate treatment of the simple table. This text-only fixture does not test figure rendering, real-data reconstruction or journal-specific compliance. Reuse existing evidence and verification routes; no full-suite rerun or fixed narrative template is required.
+
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.

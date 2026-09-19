@@ -76,6 +76,16 @@ Place an important negative, mixed, or scope-limiting result beside the conclusi
 
 Answer the research question at the level established by the paper. Summarize the method and evidence without repeating the abstract sentence by sentence. Do not introduce a new claim, experiment, application area, or speculative defense.
 
+## Explain figures and tables in the main text
+
+Apply this division of work to manuscript prose in any language or writing phase. Keep figure/table titles and captions concise, and minimize explanatory table footnotes. Retain information needed to identify and correctly decode the display, such as panel identities, units, abbreviations, sample scope, error-bar definitions or symbol meanings that are not already clear in the display. Follow explicit journal requirements, including any requirement for self-contained legends. Put extended background, procedural explanation, comparisons, interpretation and conclusions in the relevant main-text passage rather than accumulating them below the figure or table.
+
+Explicitly introduce every figure and table by its number where the argument uses it, naming relevant panels when useful. Expressions such as “as shown in Figure/Table X” are examples, not mandatory wording. A number-only mention does not explain the display's role. Tell the reader which question it addresses and, when the encoding is not obvious, how to read the important axes, groups, colors, panels or comparisons. Preserve short visual keys and essential local definitions; do not make readers hunt through prose merely to decode a symbol.
+
+Use the main text to develop the observations that matter, their evidence-grounded interpretation and the conclusion they support. For complex figures, explain how panels or visual relationships jointly answer the question. For tables, select the comparisons, tradeoffs and exceptions that advance the argument instead of narrating every cell. Conceptual figures need explanation of their relationships and design roles, not invented empirical findings. These are argumentative functions, not a fixed sequence or one paragraph per display; discuss several related displays together when that makes the reasoning clearer. A simple display may need only a brief, substantive explanation.
+
+Keep the observation, its interpretation and its evidential limits distinguishable. Explain plausible mechanisms only to the degree supported by the sources and results, preserving material negative or mixed findings. Visual differences alone do not establish statistical significance, causation or component efficacy. Do not move a long caption wholesale into the body and call it analysis, repeat the same explanation in both places, or substitute “better performance” for the actual comparison and its meaning. Existing literature rules apply when the interpretation adds an external scholarly claim; direct reporting of supplied results does not itself restart retrieval.
+
 ## Write natural Chinese academic prose
 
 - Prefer established Chinese academic terminology; give a necessary English abbreviation at first occurrence and then use one stable form.

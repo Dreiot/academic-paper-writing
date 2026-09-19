@@ -36,6 +36,8 @@ For any substantial drafting or rewriting, also read [references/anti-overdefens
 
 When presenting quantitative results in manuscript prose, tables, or figures, read [references/numeric-reporting.md](references/numeric-reporting.md) and apply one consistent reader-facing scale and precision without changing the underlying data.
 
+When writing or revising manuscript discussion of figures or tables, follow [the main-text explanation rules](references/drafting.md#explain-figures-and-tables-in-the-main-text), including for existing displays. This prose task does not itself require regenerating figures or invoking document production.
+
 If the user asks to use Zotero, the source DOCX contains live Zotero citation fields, or a citation task genuinely needs the user's local Zotero library, also read [references/zotero.md](references/zotero.md) and use the installed Zotero capability when available. Zotero is a conditional integration, not a prerequisite for ordinary drafting, translation, or revision. Zotero-library imports and other library writes are currently paused; use only the read-only operations permitted by that reference until the user explicitly re-enables writes after the integration is improved.
 
 When creating or substantially revising manuscript figures, read [references/scientific-figures.md](references/scientific-figures.md). Use ImageGen for non-evidentiary workflow, principle, mechanism, and method-overview illustrations; generate every result or evidence-bearing figure from authentic local data without a generative image model.

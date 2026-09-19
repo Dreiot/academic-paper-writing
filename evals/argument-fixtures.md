@@ -50,6 +50,20 @@ Evidence: These numbers and shared split are verified; the author requests no ro
 Pass: Retains accuracy gain and recall loss together with calibrated interpretation; moves alignment to method, units/comparator to setup or table note; omits production records and irrelevant unperformed-work reminders. No significance claim.
 Fail example: Deletes the recall loss to sound confident, or retains “不能声称” as the paragraph's organizing device.
 
+### D1. Figure/table explanation belongs in the body
+
+This is a synthetic text-editing fixture, not a real experiment or a figure-production task. Request: rewrite the supplied body and verbose captions/notes in Chinese, preserving numbering and supplied values. Help readers understand the figure and table and the supported implications; use concise captions with necessary decoding information. Also handle the simple Table 2 proportionately. No external interpretation, new analysis or asset regeneration is requested.
+
+Record: Figure 2 has a shared x-axis K (retained units). Panel (a) plots mean AUC (%) at K=8,16,32 as 91.00,93.00,93.20, with SD error bars 0.40,0.30,0.50 over five repeated runs. Panel (b) plots corresponding mean runtime in seconds 1.00,2.00,5.00, with no error bars. All use the same specified data splits; no significance test, causal mechanism or task-utility preference is supplied. Table 1 compares those K=32 and K=16 models: AUC (%) 93.20/93.00, recall (%) 88.00/81.00, runtime (s) 5.00/2.00. Table 2 only identifies fixed split sizes: training 600, validation 200, test 200.
+
+Old body: 结果如图2和表1所示，效果较好。表2列出样本数。
+Old Figure 2 caption: 图2. 规模研究。横轴是保留单元数。图(a)是 AUC，误差条是五次重复的标准差，图(b)是秒计的时间。规模增加时 AUC 上升，16之后变化较小，时间仍增长，所以读者应该看两个子图的关系，而不是只看最高点。32到16速度更快，但这还需要与表1的召回率一起考虑。正文应该详细解释为什么这个取舍重要。
+Old Table 1 note: 表1. 两个模型的对比。这里应该详细解释规模、AUC、召回率和时间之间的取舍。16个单元的模型不能只因为 AUC 相近就被称作全面更好，读者需要理解召回率差异及部署选择。
+Old Table 2 caption: 表2. 数据划分。
+
+Pass: Body introduces Figure 2 and its relevant panels, explains their joint evidence and key tradeoff, connects Table 1's recall decline to the conclusion, and explicitly addresses Table 2 briefly. Figure caption retains panel identity, units or clear encoding, and SD/repetition meaning where needed; analytical prose moves into the argument without being pasted unchanged. Does not claim statistical equivalence, significance, causal explanation or universal best K. Does not enumerate all cells or force a full analysis paragraph for Table 2.
+Fail example: Shortens captions but leaves “如图2所示，效果较好” as the entire body; removes SD meaning to minimize caption length; or reads a higher AUC point as proof of universal superiority.
+
 ## N. Already continuous and local-only work
 
 Request N1: Polish only if needed; preserve naturally continuous reasoning.
