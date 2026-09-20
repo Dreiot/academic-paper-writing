@@ -42,13 +42,10 @@ Treat a display equation as part of its sentence. Apply punctuation and explanat
 
 ## Validate the DOCX
 
-Use the installed document-authoring capability and its current verification instructions. At minimum:
+Use [docx-manuscript.md](docx-manuscript.md#render-with-the-tool-that-matches-the-deliverable) for renderer choice, verification scope, reuse of unaffected page checks, and unavailable-renderer handling. For affected mathematics:
 
 1. inspect the DOCX package and confirm expected `<m:oMath>` and `<m:oMathPara>` elements exist;
-2. confirm every source display equation and required inline expression is present and editable;
+2. confirm required source expressions are present and editable; for a complete conversion, cover every source display equation and required inline expression;
 3. check that no formula was replaced by an image or left as raw LaTeX or Unicode pseudo-math;
 4. verify symbol names, indices, equation references, and numbering against the manuscript text;
-5. render the latest DOCX and inspect every page at readable zoom for clipped fractions, misplaced limits, broken matrices, missing glyphs, bad line breaks, and detached equation numbers;
-6. re-render after any OOXML or layout-sensitive correction.
-
-When possible, verify the final file in Microsoft Word because alternate renderers may differ. If rendering is unavailable, perform structural OOXML checks, state that visual formula QA was not completed, and do not claim that the render passed.
+5. inspect the affected rendered pages and adjacent pagination for clipped fractions, misplaced limits, broken matrices, missing glyphs and detached equation numbers; use whole-document checks when the impact is global, without repeating still-valid checks after a local correction.

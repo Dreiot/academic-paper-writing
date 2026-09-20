@@ -80,6 +80,19 @@ Fragment 6: 结果表明，在相同划分及评价预算下，这一诊断与�
 Pass: Figure 3/Table 4 jointly develop one size/time/quality tradeoff, including the recall decline, without one paragraph per metric or separating every observation from its interpretation. Table 5's distinct component question has an intelligible transition and appropriate separation. Remove repeated opening formulas and edit the reasoning, not just whitespace. Preserve the 0.20-point AUC, 7.00-point recall and 1.00-point diagnostic differences without significance or general efficacy claims. No numeric paragraph quota; keeping everything in one undifferentiated paragraph is not sufficient.
 Fail: Six slightly reworded micro-paragraphs; a raw concatenation; removal of the recall decline to shorten the text; or conflating the size comparison and component diagnostic into one causal conclusion.
 
+### D3. Full-rewrite substance versus mechanical completion
+
+Synthetic maintenance fixture, not a real manuscript. Request: review the supplied rewritten manuscript package against a full-paper request, identify unresolved substantive work, then rewrite only its results passage using the given record. Do not create images or a full manuscript. The author gave no page limit and did not separately ask for a flowchart.
+
+Record: The method has view-specific encoders, a shared target that feeds back into those encoders, feature scores and a final allocation step whose weights differ from the learning weights. A prior editable overview asset exists but must be checked against this actual flow before reuse. Closest source S1 optimizes a global exact-size selection; the study uses per-view allocation. Supplied source records identify the two selection rules, but no nearest-method performance comparison exists. Raw view-construction and dimension records exist outside the manuscript; its data table lists only total size. Comparator “Combined” is not identified beyond an internal alias.
+
+Curve record: at budgets 5/20/35%, method A has NMI 0.42/0.44/0.45 and comparator B 0.38/0.42/0.44. Across three datasets at 20%, A minus B is +0.08,+0.01,-0.03. No formal significance or causal diagnosis is provided.
+
+Submitted package: Introduction says “S1 selects features; we allocate them differently.” Related Work gives one mechanism sentence per neighbor without explaining global versus per-view allocation's consequences. Method consists of numbered component equations with no connected overview or figure. Only result plots are embedded. Results says “As shown in Figure 1, curves vary with budget. All budgets are reported separately; this does not establish universal superiority.” Several one-paragraph headings restate those same observations. Numerical cells, equation counts, fonts and page bounds pass a script; its `major_content_findings=[]` is a literal constant.
+
+Pass: Does not equate mechanical passes or fluent caution with scholarly completion; identifies the missing comparison, whole-method explanation, meaningful results and empirical identities. Recommends an overview based on the actual coupled relationships and available asset, without claiming every paper must have one. Keeps meaningful headings, removes redundant recaps without inventing a count target, and does not imply absent comparative experiments exist. The revised results interprets the gap shrinking from 0.04 to 0.01 alongside dataset heterogeneity, preserving the adverse dataset and avoiding statistical/causal claims. This is a local text test, not evidence of whole-paper readiness or image-production success.
+Fail: Accepts because the numbers/render passed, treats all missing depth as unavoidable caution, demands a fixed page/citation/heading quota, or invents a mechanism for the negative dataset.
+
 ## N. Already continuous and local-only work
 
 Request N1: Polish only if needed; preserve naturally continuous reasoning.

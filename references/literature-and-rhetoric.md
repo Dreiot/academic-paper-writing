@@ -12,9 +12,9 @@ If the user explicitly defines a closed evidence corpus or prohibits external br
 
 Use the smallest search that can support the requested scholarly outcome, but never substitute a token search for a literature-dependent judgment.
 
-- **Comprehensive search:** required for a complete journal manuscript, a new or substantially reconstructed scientific section, a cross-family synthesis, novelty or state-of-the-art positioning, target-journal intellectual adaptation, or a major author/reviewer revision that changes the paper's scholarly argument.
-- **Focused search:** appropriate for a narrow paragraph, definition, mechanism, comparison, interpretation, or missing citation. Search every named or directly implicated source and enough independent primary papers to support the scope of the sentence. A synthesis or generalization requires at least three directly relevant full-text primary papers for that claim cluster unless the literature is demonstrably smaller.
-- **Citation verification:** appropriate when checking whether an existing citation supports an unchanged claim. Open the cited primary source and verify the exact proposition and source location. Broaden to a focused or comprehensive search when the claim is broader than the source, the source disagrees, or the cited work is not primary.
+- **Comprehensive coverage:** needed for a complete article, cross-family synthesis, novelty positioning or a major change in scholarly argument. Evaluate coverage across the research families and nearest alternatives actually used; extend existing valid research where needed rather than automatically repeating it.
+- **Focused retrieval:** suitable for a bounded mechanism, comparison, interpretation or missing citation. Consult the implicated primary sources and enough independent evidence for the breadth of the claim; there is no minimum paper count. A narrow direct claim and a field-wide generalization require different support.
+- **Citation verification:** check the proposition and precise source location, reusing a valid earlier verification for the unchanged claim. Broaden only when the source, scope, disagreement or currency makes that necessary.
 
 Establish source support before drafting the affected passage. Reuse earlier verified sources, claim locations and coverage records while their propositions and scope remain valid; a new version label or local rhetorical edit does not restart comprehensive retrieval. For new claims, changed comparisons, closest-neighbor novelty gaps or newly found contradictions, perform targeted additional retrieval and update the affected coverage. Strong novelty positioning and cross-family synthesis still require sufficient primary support and current coverage; reuse is not an exemption from that requirement.
 
@@ -31,23 +31,15 @@ Before a comprehensive search, identify the literature families that the manuscr
 - application-domain evidence invoked in the manuscript;
 - the target journal and the closest high-quality venues.
 
-Form multiple query families from these concepts rather than repeating one broad query. Use at least two independent scholarly discovery routes, plus target-journal searching and backward/forward or related-work citation chasing when those routes are available. Prefer official publisher pages, DOI records, discipline-specific scholarly indexes, and author manuscripts only when the publisher full text is unavailable.
+Use complementary queries, discovery routes and citation chasing where they address an actual coverage gap or reduce dependence on one source. No fixed number of routes or automatic extra full pass is required. Consult primary publisher, proceedings, author or repository versions with clear identity; metadata and snippets serve discovery, not detailed scientific support.
 
 Prioritize peer-reviewed primary research that is directly relevant and exposes enough method or evidence to support the intended claim. Recent papers from the target journal or closest reputable venues and foundational papers both have roles; citation count alone does not define quality. Do not use search snippets, listicles, generic web summaries, or a later paper's description of an earlier method as the final authority for a scientific claim.
 
 ## Set an adaptive comprehensive-search target
 
-Use numeric ranges to plan effort, not as universal minima or completion proof. For a broad, complete journal manuscript, a reasonable starting target is usually to screen about 20–30 potentially relevant peer-reviewed papers, read about 8–12 core papers in full, and study about 3–5 recent target-journal or closest-venue papers as journal-rhetoric exemplars. Increase the search when the manuscript spans several research families, makes a strong novelty claim, or new sources continue to change the map. Reduce it for a demonstrably narrow field or a tightly bounded task. Do not stop merely because a count was reached or continue reading irrelevant papers to satisfy a quota.
+Set effort from claim breadth, available verified sources and remaining uncertainty, not paper-count quotas. Full articles and strong novelty claims usually need broader discovery than a local edit. Continue while there is a concrete reason to expect a missing family, closer alternative or claim-changing contradiction; stop when those relevant questions and source support are adequately resolved. Do not read unrelated papers to fill a target or treat a fixed count as proof of completeness.
 
-The hard completion conditions are coverage and convergence:
-
-- every major literature family actually used in the manuscript has enough directly relevant primary evidence to support the synthesis; three full-text papers per family is a useful default, while a smaller set is acceptable only when the search demonstrates that the literature itself is smaller and the claim is narrowed accordingly;
-- every named comparator and the work closest to a novelty or priority claim is inspected at its primary source;
-- enough recent target-journal or closest-venue exemplars are studied to identify recurring rhetorical practices rather than copying one paper;
-- an additional complete pass across the planned query families and citation-chasing routes reveals no new major method category, closer competing work, or claim-changing contradiction;
-- the search log explains the achieved coverage, remaining gaps, and why further search is unlikely to change the affected manuscript argument.
-
-If a demonstrably narrow literature, inaccessible full text, or unavailable scholarly source prevents adequate coverage, record the exact shortfall, narrow the affected claim, and continue unaffected work. Do not silently waive the condition, infer unavailable content, or mark the affected section or novelty statement final.
+Sufficient coverage means that each important family and positioning-critical comparator has primary support for the actual comparison, novelty wording fits the search's reach, and journal-rhetoric choices rest on applicable examples rather than imitation. Summarize scope and any consequential gap in the existing task record. Inaccessible decisive material remains an explicit gap; deliver supported work with the affected claim or section provisional instead of inventing content or declaring complete coverage.
 
 ## Recover access to necessary full text
 
@@ -86,13 +78,15 @@ Then determine any applicability boundary under the present conditions and its t
 
 Ask what directly applying the nearest available method would already answer and what would still require research. If it can already achieve the stated objective, acknowledge this and explain the independent question or knowledge the present study adds, if supported. Analyze consequential differences rather than stopping at distinct variables, architecture, hardware, or sequence. If their significance cannot be established, identify the missing comparison or source instead of inventing a limitation or declaring positioning complete.
 
+Give the positioning-critical neighbors enough space to establish the actual relationship among their learned variables, objective/selection rule and the present question. One accurate sentence naming each mechanism can still be insufficient for a full paper. Distinguish foundational citations that may remain brief from neighbors that carry the motivation. Use accessible primary passages or still-valid source-located records to develop that comparison; an access limitation is not a reason to silently replace it with title-level coverage and mark the scholarly task complete. Keep the affected requirement provisional when its necessary support remains unavailable, while continuing useful supported writing.
+
 Show how research questions, structural representations or learning relationships develop, branch and complement one another. Do not fabricate a linear replacement history, organize solely by year, or substitute a sequence of method summaries for this synthesis. Analyze deeply only the boundaries that determine the present position.
 
 If the author requests an author–method–achievement introduction such as “X et al. proposed/used ... to enable/obtain ...”, apply that style consistently using the actual author and method identities; single and group authors need their correct forms. This is a task-specific presentation choice, not a universal sentence template. Synthesize studies serving the same comparison rather than expanding every source into its own paragraph or a sequence of literature cards.
 
 ## Learn how strong papers construct the argument
 
-For comprehensive journal work, inspect the relevant full sections of the journal-rhetoric exemplars, not only their abstracts or individual sentences. Build a private cross-paper pattern map covering:
+For comprehensive journal work, inspect relevant sections of suitable writing exemplars, reusing already studied material while applicable. Use the following questions to guide editorial choices, not as a mandatory extra report:
 
 - how the opening establishes the research object, stakes, and concrete problem;
 - how earlier work is grouped by question, assumption, mechanism, or limitation;
@@ -103,9 +97,9 @@ For comprehensive journal work, inspect the relevant full sections of the journa
 - how the venue handles paragraph scale, transitions, citation placement, and claim strength;
 - how many studies are synthesized within one paragraph, where paragraph breaks mark a genuine argumentative turn, and how the final sentence of one paragraph prepares the next.
 
-For a borrowed writing practice that materially affects organization, add a compact entry to the existing private pattern map: exact source section/paragraph/page -> argumentative action -> why it fits this manuscript -> actual changed passage and its new function. Relevant actions include establishing importance, separating technical difficulties, deriving design requirements from literature, introducing the method without previewing every step, deriving experiments from the method, and moving from results to explanation and conclusion. For a motivation or positioning repair, verify that sources produced supported comparison relationships and research significance in the prose; added citations, categories or a bridge alone do not establish that outcome. If a practice is not applicable, do not force a textual change to prove that it was studied.
+When a borrowed writing practice materially changes organization, briefly link its source location, argumentative function and actual manuscript change in the shared task note when traceability is needed. For motivation or positioning repair, verify supported comparison and significance in the prose; added citations, categories or a bridge alone do not establish that outcome. If a practice is not applicable, do not force a change to prove it was studied.
 
-Use patterns that recur across several strong papers to design the manuscript's own reasoning. Do not copy sentences, distinctive phrasing, the complete organization of one paper, or a motivation unsupported for this study. Learning journal rhetoric is evidence for editorial decisions, not permission to imitate an author's expression.
+Adapt relevant practices from high-quality exemplars to the manuscript's own reasoning, comparing examples when needed to distinguish useful conventions from one author's choices. Do not copy sentences, distinctive phrasing, a complete organization, or a motivation unsupported for this study. Learning journal rhetoric informs editorial decisions rather than imitation.
 
 Prefer rhetoric exemplars with the same article type and a related methodological domain. Keep their editorial role separate from scientific evidence: a paper chosen to study writing style supports a manuscript claim only when its content independently supports that claim.
 
@@ -113,13 +107,9 @@ For Related Work, keep paragraph boundaries aligned with changes in question, co
 
 ## Keep private working evidence
 
-Maintain task-local temporary records proportionate to the search:
+Reuse one task-local note or existing bibliography/evidence record where practical. Retain the source identity and support location for consequential claims, new-search scope when relevant, material changes and unresolved gaps. Record a rhetorical transfer there only when it matters. Small edits need no separate search log, matrix, pattern map or fixed status labels; complex searches or user-requested audits may justify richer records. Keep facts, inferences and uncertainty distinguishable regardless of record format.
 
-- a search log containing date, discovery route, query, candidate, inclusion/exclusion reason, and full-text status;
-- a source-claim matrix connecting each manuscript proposition to a stable source identity, intended citation key or live field, exact support location, and manuscript location, with status `verified`, `inference`, `conflict`, or `unsupported`;
-- for comprehensive work, a cross-paper rhetorical-pattern map recording shared conventions, useful alternatives, and the source-to-prose transfers described above; extend an existing map instead of creating another transfer log.
-
-These records are quality-control material. Keep them outside the reader-facing manuscript and, by default, outside tracked manuscript deliverables; do not commit or deliver them unless the user requests it. Do not add a literature evidence index, verification log, or technical appendix to the paper unless requested.
+Working records remain outside the reader-facing manuscript and are neither committed nor delivered unless requested. Their existence cannot establish scholarly sufficiency.
 
 ## Pass the literature gate
 

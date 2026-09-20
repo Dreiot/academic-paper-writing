@@ -8,9 +8,11 @@ The hard requirement is a traceable separation between producing a candidate and
 
 Identify one manuscript owner and one authoritative candidate. One authorization to complete a task does not require generating all prose in one pass: the owner may draft dependent parts in stages and deliver one integrated result. Contributors submit scoped candidate text rather than independently overwriting the main file or redefining the paper's contribution. The owner must actually edit the returned material for terminology, emphasis, repetition, citation scope and continuity; concatenating individually checked blocks is not completed integration.
 
-Reuse a brief, temporary working brief from the current manuscript and effective decisions: the shared argument, confirmed terms and evidence boundaries needed for this revision. On continuation, retain the current candidate, settled reasoning, unresolved issues and next action; do not copy the full history or mechanically recheck still-valid sources. Reuse existing task records rather than introducing another permanent coordination log.
+Reuse a brief task-local note for the current candidate, settled argument/terms, consequential source locations, unresolved issues and next action. It can also serve author-revision and literature traceability needs; maintain separate maps only when task complexity or an explicit request justifies them. On continuation, reuse valid decisions and source checks rather than copying history or rebuilding records.
 
 Freeze or clearly identify the candidate before a completion review. A plan, source draft, revision note, change summary, search log, paragraph count, keyword check, or successful render cannot serve as proof that the candidate contains the required scientific change.
+
+For a complete rewrite, ground closure of the central literature comparison, method overview and experimental questions in their actual manuscript passages and needed visuals. A numerical/layout validator cannot establish an empty scholarly-finding list by construction. Reuse the existing revision record to distinguish those content judgments from mechanical passes; if important explanation or decisive source support is missing, report the remaining scholarly work even when the file saves and its numbers match.
 
 ## Choose a proportionate verification design
 
@@ -47,7 +49,7 @@ Use delegation when the work is separable and available capabilities offer a con
 
 Run independent contributions in parallel only when their inputs and write ownership permit it. These roles are optional, not a required team. Without subagents, the same owner can execute the stages and use the existing separated verification pass; this neither blocks completion nor constitutes independent review.
 
-Require factual outputs to use `verified`, `inference`, `conflict`, or `unsupported` and to name the exact source location. A bibliography, search snippet, revision note, or another contributor's assertion is not evidence by itself. The manuscript owner must inspect returned evidence and reconcile contradictions; do not resolve disagreement by majority vote.
+Require consequential factual outputs to identify direct support and distinguish observations, inferences, conflicts and missing evidence; use status labels only when helpful. The owner must inspect sources and reconcile contradictions, not accept a contributor's confidence or a majority vote as evidence.
 
 ## Verify high-impact facts completely
 
@@ -69,6 +71,7 @@ Whether review is independent or performed as a separated evidence-based pass, i
 - whether the target journal's relevant scientific and rhetorical conventions are met;
 - whether the delivered artifact preserves the reviewed content.
 - for affected figures and tables, whether their numbered mentions lead readers to the relevant comparison, observation or design relationship, evidence-grounded interpretation and supported conclusion in the body, while captions/notes retain necessary decoding information without carrying the main analysis; apply [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text) proportionately, not a paragraph quota.
+- for newly produced or substantially revised visuals, whether scientific accuracy, technical explanation and professional visual quality are jointly satisfied at the intended manuscript size under [scientific-figures.md](scientific-figures.md#treat-visual-quality-as-part-of-scientific-communication); no single layout or decorative style is a universal acceptance criterion.
 
 Classify findings as:
 

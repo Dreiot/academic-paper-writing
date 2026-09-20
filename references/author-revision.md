@@ -18,24 +18,17 @@ Separate three kinds of instruction:
 
 Do not let a suggested means replace the required outcome. Even when a paragraph count or subsection structure is a hard invariant, satisfying that shape does not prove that the requested scientific argument was implemented.
 
+For a whole-paper rewrite, reassess inherited headings and assets by their scientific jobs. Keep a subsection when it supports a distinct, developed question or useful navigation; merge or relocate headings that only isolate a short recap, implementation step or repeated conclusion. Do not split by module/formula automatically, but do not delete meaningful subdivisions merely to meet an invented heading quota. Inspect existing explanatory assets, including diagrams built with tables or shapes rather than image files. Preserve their needed scientific role or replace it with a verified clearer explanation; do not silently lose an overview while recreating only result plots.
+
 If the request for deep reconstruction and a fixed structure can both be satisfied, do so. Ask for a decision only when two explicit requirements are genuinely incompatible and the choice would materially change the manuscript.
 
-## Make a private revision contract
+## Keep a proportionate revision record
 
-Before editing, create a compact private map for each requested change:
+Use the existing task brief or a compact temporary note to retain the requested outcome, relevant passage/source and invariant, and how the final text will demonstrate the change. Track only what helps complete the active revision; a small local edit does not require a separate contract, six fields or a fixed status vocabulary. Complex multi-round revisions may use a detailed map when it prevents missed obligations.
 
-1. the author's request or diagnosed weakness;
-2. the current passage and why it does not yet meet the request;
-3. the intended change in scientific meaning, argumentative function, comparison, or reader understanding;
-4. the evidence or literature that supports the change;
-5. the wording, structure, data, and claim boundaries that must remain fixed;
-6. an observable acceptance test in the final manuscript.
+Keep unresolved requests visible until withdrawn, superseded or verified in the delivered manuscript. Drafting notes cannot certify their own completion; apply the actual-text check below and, when in scope, [manuscript-quality-control.md](manuscript-quality-control.md). Keep working records outside the paper unless requested.
 
-Carry forward each item as `open`, `partially satisfied`, `ready for verification`, `satisfied`, `superseded`, or `withdrawn`. A generated revision note cannot mark its own item `satisfied`; that status follows only from inspection of the final manuscript against the acceptance test. When [manuscript-quality-control.md](manuscript-quality-control.md) applies, drafting advances a material item to `ready for verification`; a separate source-first verification pass or an actual independent reviewer assigns final `satisfied` after inspecting the exact candidate and direct evidence.
-
-Keep this map temporary unless the user asks to see it. Do not turn it into a reader-facing checklist or append it to the manuscript.
-
-When a requested change depends on external scholarship, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting the affected content. This applies wherever the revision changes background, novelty, theory, design rationale, comparisons, interpretation, application context, discussion, limitations, future work, or a reviewer-facing factual response. Adding citations to the old paragraph structure is not implementation if the requested outcome requires a different scholarly argument.
+For literature-dependent changes, follow [literature-and-rhetoric.md](literature-and-rhetoric.md). Adding citations to the old paragraph structure does not implement a request for a different scholarly argument.
 
 ## Distinguish substantive revision from textual churn
 
@@ -79,49 +72,12 @@ These are boundary types to inspect where relevant, not mandatory sections or on
 
 ## Test every affected section by function
 
-Judge the revision first by the author's required outcome and the scientific job of the affected passage. Verify that new literature changes the reasoning where warranted, that method or result material remains in its proper section, and that every new factual relationship is supported. Paragraph counts, headings, keywords, citation counts, and text difference remain presentation or artifact checks rather than semantic acceptance.
+Use the section responsibilities in [drafting.md](drafting.md#give-each-section-a-scientific-job) and the nearest-work analysis in [literature-and-rhetoric.md](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work), rather than maintaining another copy of their checklists. Compare the actual revised argument with the author's requested outcome. Keep Abstract, Introduction and Related Work roles distinct; deepen supported explanation when needed, without treating shortening as the default repair.
 
-Keep the Abstract, Introduction and Related Work responsibilities defined in [drafting.md](drafting.md#give-each-section-a-scientific-job) distinct while preserving the author's explicit structure. When motivation or analysis is weak, supported expansion may be necessary. Cut repeated background and secondary implementation detail before cutting the reasoning that establishes significance; shortening is not the default repair.
-
-For an Introduction revision, verify that:
-
-- the opening establishes the actual research object, stakes, and unresolved problem before introducing the proposed method;
-- the prior-mechanism discussion establishes why the supported gap or selected question remains worth investigating relative to the nearest work, rather than merely naming a different design;
-- every transition advances problem, limitation, design need, method response, or evidence;
-- the proposed components are introduced through their scientific necessity and relationship, not as an implementation inventory;
-- contribution items are non-overlapping, identify the new element, and correspond to later method and evidence sections;
-- paragraph count and word count remain presentation constraints rather than substitutes for these functions.
-
-For a Related Work revision, verify that:
-
-- each subsection has one explicit comparison axis, such as what is selected, how structure is represented, what objective is optimized, or what must be learned after selection;
-- representative studies are compared on that axis using claims verified from the actual sources;
-- the synthesis derives source-supported boundaries and their consequences using the [nearest-work comparison](literature-and-rhetoric.md#derive-positioning-from-the-nearest-work); a final bridge does not compensate for missing comparison analysis;
-- the section does not repeat the Introduction's compressed survey or pre-write the Method section;
-- literature study requested by the author changes the organization or reasoning where warranted, rather than appearing only in a separate evidence log.
-
-For other affected sections, apply their scientific jobs from [drafting.md](drafting.md) and verify the requested change in the final candidate:
-
-- an Abstract revision conveys the need and specific question alongside the design response and results within its normal scope; generic importance followed by a method name does not establish motivation;
-- a Method revision repairs definitions, rationale, information flow, or reproducibility rather than only renaming symbols or adding decorative derivation;
-- an Experiments or Results revision preserves the actual protocol and evaluation boundary, reports verified observations, and keeps interpretation distinct from measurement;
-- a Discussion or Limitations revision uses literature and results to change interpretation or scope without repeating generic caveats;
-- a Conclusion revision answers the research question at the supported level and introduces no new evidence, application, or superiority claim.
-
-Across affected sections, confirm the same research question connects coherently to the method design, experimental questions, results, and final claim. Reconcile conflicting motivations or gaps and inspect their boundaries using the continuity method above.
+Inspect the changed passage and its relevant neighbors for the intended change in reader understanding, correct source attachment, consistent terms and preserved scientific scope. For a carried request, compare with the instruction and passage where it originated; a new version or a completion note does not close it. Counts, headings and character differences do not establish substantive revision.
 
 ## Verify implementation in the final artifact
 
-After editing:
+Check the requested deliverable itself against the active author requests and direct evidence. Confirm each material change at an actual final location, and derive any revision summary from that check. A Markdown source, plan or modification note is not a substitute for the delivered Word/LaTeX artifact.
 
-1. compare the final manuscript with the author-controlled baseline by paragraph function, scientific claim, and logical connection—not only by character or word difference;
-2. for a carried request, also compare against the version and instruction where that request originated, without restoring superseded text;
-3. resolve every item in the private revision contract against an exact final location and assign its closure status from the manuscript itself;
-4. inspect the actual DOCX, LaTeX, or other requested deliverable, not only a Markdown source, plan, or revision note;
-5. treat DOCX/Markdown agreement, section counts, citation counts, successful rendering, and style checks as necessary artifact checks, not semantic acceptance;
-6. generate any revision note from the verified final manuscript rather than using the note as evidence that a change occurred;
-7. identify any request that is only partially satisfied and state the remaining gap without relabeling it as complete.
-
-When the task meets the manuscript-quality criteria, freeze the candidate and apply [manuscript-quality-control.md](manuscript-quality-control.md) after the drafting pass. Resolve every `Blocker` and `Major` finding and derive final revision-contract status from the rechecked candidate. Use an independent reviewer when requested or materially beneficial; otherwise use a separated source-first verification pass and report that mode accurately.
-
-Claim completion only when the final artifact passes the author's requested outcome, the relevant scientific evidence boundary, the applicable literature gate, and the manuscript-quality gate. Report the material changes, verification mode, and unresolved author decisions concisely; do not expose the private revision contract unless requested.
+For complete or major revisions, use [manuscript-quality-control.md](manuscript-quality-control.md) for the shared source-first review, severity and completion rules; do not repeat that review under another checklist. For smaller work, check the affected content proportionately. Report the real verification mode and any still-unresolved request without calling partial work complete.

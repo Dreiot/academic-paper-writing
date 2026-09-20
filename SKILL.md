@@ -26,7 +26,7 @@ Infer the phase from the request and available artifacts. Ask only when choosing
 
 For a substantial author-directed revision of an existing draft outside a post-submission reviewer cycle, also read [references/author-revision.md](references/author-revision.md). It supplies the revision record and concrete paragraph/section continuity method; use that continuity method for substantial drafting as well. Treat the author's exact request and latest author-controlled manuscript as the revision record; do not route ordinary author feedback through the reviewer-response workflow.
 
-Whenever the task creates, changes, interprets, compares, or verifies content whose scholarly validity depends on external literature, read [references/literature-and-rhetoric.md](references/literature-and-rhetoric.md). The trigger follows the claim rather than the section name: it applies to literature-dependent background, novelty, theory, method choices, comparisons, experimental interpretation, discussion, limitations, application context, future work, reviewer responses, and figure or table narration. Literature search alone remains outside this Skill, but literature search required for the requested claim is part of the manuscript task. Honor an explicit closed-corpus or no-browsing instruction and keep the resulting literature claims corpus-bounded.
+For any manuscript claim whose scholarly meaning depends on external literature, read [references/literature-and-rhetoric.md](references/literature-and-rhetoric.md). This follows the claim, not its section. Reuse valid source support and search where coverage or a changed claim needs it; honor an explicit closed corpus or no-browsing instruction. Standalone literature search remains outside this Skill.
 
 If institutional or publisher authentication is needed for full text, read [references/literature-access.md](references/literature-access.md). After the user manually verifies a profile's official login route once, default to automatic access through the approved local browser, including browser-managed reauthentication. Interrupt only for an actual user-only step or new authorization decision under that reference, then resume the pending search. Never read, export, display, copy, log, or place the credential or token value in Skill files, manuscript files, Git, prompts, screenshots, or model-visible tool arguments.
 
@@ -44,19 +44,9 @@ When creating or substantially revising manuscript figures, read [references/sci
 
 ## Escalate evidence-claim conflicts to the user
 
-Do not hide a material evidence conflict or an unclear scientific claim behind vague wording. If the proposed claim's meaning, scope, novelty status, causal interpretation, or evidential support is materially contradictory or unclear, present a compact **Claim Decision** containing:
+Resolve routine factual corrections and presentation choices from direct sources and existing author decisions. When a material uncertainty in scientific meaning, scope, novelty, causality or support cannot be resolved that way and requires a new author choice, present a compact **Claim Decision**: the disputed claim and evidence, its consequence, credible options, and your recommendation plus the decision needed. Do not manufacture multiple options or use a mandatory form when one clear question suffices.
 
-1. the claim under consideration;
-2. the supporting evidence;
-3. the contradiction or ambiguity;
-4. its practical effect on the manuscript;
-5. two or three evidence-consistent wording or evidence options;
-6. a recommendation;
-7. the one decision needed from the user.
-
-Wait for the user's choice before finalizing the affected claim. Continue unaffected sections when useful. Routine terminology, sentence structure, formatting, and other reversible presentation choices are not Claim Decisions.
-
-Offer only scientifically permissible options. If a stronger factual claim is unsupported, it may be removed, narrowed, or identified as a hypothesis or future objective; user preference cannot turn absent or contradictory evidence into an established result.
+Wait only for that consequential decision while continuing unaffected work. An already authorized, evidence-supported correction or narrowing does not require the same approval again; do not silently weaken an author-controlled central claim when that changes the research position. Reversible reorganization, terminology and formatting within the task can proceed. Unsupported claims may be removed, narrowed or identified as hypotheses where authorized; user preference cannot make missing evidence an established result.
 
 ## Write like an academic author, not a defensive assistant
 

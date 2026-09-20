@@ -66,19 +66,8 @@ Do not repeat the same limitation in several sections merely to appear safe. Do 
 
 After the scientific content is correct, review the prose as a continuous manuscript rather than a collection of locally acceptable paragraphs. Preserve every claim and evidence boundary while improving paragraph order, transitions, sentence openings, cadence, and the balance between explanation and detail. Merge repeated setup or reset sentences, but do not shorten away a mechanism or necessary qualification.
 
-Compare the manuscript's narrative movement with several strong papers of the same article type and field. Learn how they sustain a line of reasoning across paragraph boundaries and vary paragraph density; do not copy their phrases or force the manuscript into their paragraph count. The final pass should make the author's reasoning easier to follow without adding new claims or decorative language.
+Where relevant exemplars were studied for the task, use their narrative practices to improve continuity and density without copying phrases or paragraph counts. New literature study follows the scope in [literature-and-rhetoric.md](literature-and-rhetoric.md); ordinary prose polishing does not require collecting another set of papers.
 
 ## Final prose audit
 
-Before delivery, check:
-
-- Can the reader identify each paragraph's argumentative function without requiring an identical opening or sentence order?
-- Are qualifiers tied to an identifiable evidence or scope reason?
-- Are contrast words expressing a real logical contrast?
-- Has any sentence answered a question no reader, source, editor, or reviewer raised?
-- Can attitude language be replaced by a more specific mechanism, condition, or result?
-- Is each material limitation stated clearly without being repeated?
-- Within each affected subsection, can neighboring passages supporting the same analytical judgment be consolidated, and does every retained boundary mark a real development rather than a new metric, display or sentence role alone?
-- Do several consecutive paragraphs or sentences repeat the same opening pattern, cadence, contrast formula, or conclusion shape?
-
-Revise the argumentative order before performing word-level synonym replacement. Removing a few marker phrases is insufficient when the paragraph is still organized as a pre-emptive defense.
+Use the diagnostics above in one continuous reading of the affected prose: check paragraph unity, meaningful transitions, justified qualifications and non-repetitive cadence. Recheck only relevant changes. Repair argumentative order before synonym replacement; deleting a few marker phrases cannot fix a passage still organized as pre-emptive defense.

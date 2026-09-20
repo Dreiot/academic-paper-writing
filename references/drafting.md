@@ -42,6 +42,8 @@ Do not create a section merely because this list contains it. Merge, split, or o
 
 A Chinese master manuscript is a complete academic paper, not a rough outline or a designed report. It must contain the arguments, evidence, explanations, figures, tables, equations, captions, and references needed for scholarly evaluation. Use the minimum styling needed to make them clear. Unless the user or target venue requests them, do not append a `技术注与补充材料索引`, evidence inventory, verification log, production note, repository map, or other internal traceability section. Keep such working material outside the reader-facing manuscript.
 
+A whole-manuscript rewrite should not default to abstract-level summaries of its scientific sections. Preserve or develop the comparative reasoning, mechanism explanation and evidence interpretation needed for the requested article, even when consolidating paragraphs or formulas. A draft/version filename or a preference for concise prose is not a page limit. Let substantive coverage determine length unless the author or journal supplies a real constraint; do not treat fewer paragraphs, equations or pages as evidence that the rewrite is better.
+
 ## Give each section a scientific job
 
 ### Abstract
@@ -64,9 +66,15 @@ Define the task, inputs, outputs, central notation, objective, component roles, 
 
 Explain why each major component exists and how it addresses the stated limitation. Keep mechanism, parameter fitting, model selection, and final evaluation conceptually distinct when the distinction matters.
 
+Before detailed component equations, make the whole method recoverable: inputs and outputs, shared versus component-specific quantities, iterative feedback and final prediction or selection. For a multi-stage or coupled framework, assess whether an overview diagram materially helps readers recover these relationships; if needed, include it as part of the authorized manuscript work using [scientific-figures.md](scientific-figures.md), reusing a verified existing asset where suitable. A symbol table or algorithm listing does not automatically replace this visual explanation. If a needed visual cannot be completed, identify that omission explicitly rather than silently declaring the method presentation complete. A straightforward method does not require a diagram merely to fill a slot.
+
 ### Experiments and results
 
 Make the experimental questions visible through the organization, but do not force every question into a heading. Report only datasets, baselines, splits, metrics, settings, ablations, sensitivity studies, and statistical analyses that actually exist or that the user has asked to plan. Separate observed results from interpretation.
+
+For each central experimental question, use the available evidence to state the concrete pattern, its magnitude and relevant conditions, and the inference it supports. When averages hide different directions, inspect available dataset/group-level contrasts; when a mechanism claim depends on internal changes, use existing diagnostic evidence or keep the interpretation descriptive. “Curves vary,” “results are heterogeneous,” or a list of precautions does not analyze a display. Do not demand new experiments to replace missing prose, or invent mechanisms from dataset names when the necessary diagnostic evidence is absent.
+
+Describe empirical objects at the level needed to interpret the comparison: dataset source/version, view or group construction and dimensions when these affect the method, material sampling/preprocessing, identifiable comparator algorithms and consequential reproduction changes. A count table, opaque internal alias or list of parameter values alone may not identify the study. Use existing records to fill such gaps, with necessary detail in the manuscript or explicitly available reproduction material; do not fabricate missing specifications.
 
 When the section contains numerical performance results, follow [numeric-reporting.md](numeric-reporting.md) for percentage scale, displayed precision, percentage-point differences, and exceptions that require more digits.
 
@@ -93,7 +101,7 @@ Keep the observation, its interpretation and its evidential limits distinguishab
 - Prefer established Chinese academic terminology; give a necessary English abbreviation at first occurrence and then use one stable form.
 - Preserve official method, dataset, benchmark, variable, and metric identities.
 - Build paragraphs from connected sentences rather than labels, fragments, or status language.
-- Treat paragraph breaks as changes in argumentative stage, question, comparison, or evidence role. Do not create one paragraph per paper, equation, result, or prompt bullet when the material belongs to the same line of reasoning.
+- Use the shared [paragraph-focus rule](anti-overdefense.md#5-paragraph-focus-check); a change from observation to interpretation alone does not require a break within one argumentative unit.
 - Choose connectives from the actual relation: continuation, progression, parallelism, contrast, cause, or consequence.
 - Keep internal Git, Gate, review, authority, artifact, and workflow terminology outside the manuscript.
 
@@ -103,15 +111,6 @@ Remove redundancy without removing reasoning needed to establish research signif
 
 ## Check the submission-grade Chinese manuscript
 
-- The research need, chosen objective, supported obstacle, method, experiments, and conclusion form one argument; a claimed literature gap has direct support.
-- Every substantive claim has supporting evidence or is explicitly framed as a hypothesis or objective.
-- Every literature-dependent statement has passed the required focused or comprehensive literature gate, including claim-level source support and any required journal-rhetoric study.
-- Motivation and positioning requirements pass the substantive level of the [reader-recovery test](manuscript-quality-control.md#test-what-the-reader-can-recover); coherent method description alone does not close them.
-- Related Work supports that position through source-grounded comparisons rather than repeating the Introduction or Method.
-- Symbols and component names remain consistent across text, formulas, tables, and figures.
-- Equations needed to understand the method are present and explained; decorative derivations are absent.
-- Negative and mixed evidence is not hidden, and limitations are not repeated mechanically.
-- No unresolved scientific, bibliographic, or narrative placeholder remains in the reader-facing manuscript; any pending author-only administrative metadata is reported outside it.
-- A later target-journal adaptation should not need to reconstruct the core problem, literature gap, method rationale, result interpretation, or conclusion. If it does, reopen this phase before adapting the journal format.
-- No unrequested technical-note, evidence-index, or supplementary-index section has been appended to the Chinese master manuscript.
-- The anti-overdefense checks pass.
+Apply [manuscript-quality-control.md](manuscript-quality-control.md) to the complete candidate, using the section responsibilities above, [literature-and-rhetoric.md](literature-and-rhetoric.md) for scholarly support, and [anti-overdefense.md](anti-overdefense.md) for prose. Do not repeat their checks under a separate phase checklist.
+
+This phase is complete only when the Chinese manuscript contains the scientific argument, necessary method explanations and evidence interpretation that later journal adaptation can build on. No unresolved scientific, bibliographic or narrative placeholder may be called submission-grade. Pending author-only administrative metadata can be reported outside the manuscript when it does not affect the argument. If English adaptation would need to reconstruct the scientific spine, reopen the affected content before adapting the format.
