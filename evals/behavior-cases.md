@@ -118,6 +118,8 @@ For full-rewrite acceptance changes, D3 in [argument-fixtures.md](argument-fixtu
 
 When these figure rules change, check that scientific correctness, technical explanation and professional visual finish are assessed together, while representation and composition remain content-led. A text-only capability check may verify that no fixed visual template or scientific content is invented, that existing journal/typography requirements are retained, and that evidence-bearing figures remain local-data-only. It must not be reported as an image-quality pass. Actual visual acceptance requires inspecting the produced figure at its intended manuscript size; mere file creation, correct labels or a preferred style alone is insufficient.
 
+For planning-range or style-scope edits, check the paired boundaries: a full-paper task with a thin corpus and unresolved nearest work calls for targeted additional study, while a supported local edit or adequate reused corpus does not require quota-filling; one paper may count toward both scientific and writing roles. Explanatory figures must fit academic communication without imposing a fixed layout or discarding useful color. Text checks alone do not establish actual reading coverage or visual quality.
+
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.

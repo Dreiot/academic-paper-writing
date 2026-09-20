@@ -29,6 +29,8 @@ If the journal prohibits generated scientific illustrations or requires disclosu
 
 When no journal is selected, use a journal-neutral scientific design: clean background, restrained color, legible labels at final print size, colorblind-distinguishable encodings, and no decorative elements that compete with the scientific message.
 
+For explanatory figures, make the style recognizably appropriate to an academic paper: precise technical labels, disciplined hierarchy, consistent visual semantics and purposeful visual emphasis. Beauty should strengthen the scientific explanation and professional credibility. Decorative treatment must earn its place by aiding comprehension; avoid presentation-style branding, promotional emphasis or effects that obscure relationships, distort geometry or distract from the mechanism. Follow the field's and target journal's visual conventions without copying a particular paper's composition. This does not impose monochrome, flat rendering, fixed shapes or a layout template; choose the visual treatment that best explains the verified content at publication size.
+
 ## Establish one visual system per manuscript
 
 Before the first new conceptual figure, keep a compact style brief within the existing task note where practical, covering:
