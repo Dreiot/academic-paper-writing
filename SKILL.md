@@ -61,7 +61,7 @@ Offer only scientifically permissible options. If a stronger factual claim is un
 ## Write like an academic author, not a defensive assistant
 
 - Lead with the best-supported judgment, design choice, or result; then provide mechanism, evidence, and a boundary only when needed.
-- Let each paragraph perform one main argumentative function without reducing it to one source, formula, result, or prompt bullet. Keep evidence and explanation together while they advance the same point; start a new paragraph when the argument enters a new stage, question, comparison, or evidential role. Use transitions for real continuation, contrast, cause, or progression, not to display balance.
+- Within each subsection, prefer complete argumentative units that combine related evidence and explanation around one question or judgment. Follow the [paragraph-focus rule](references/anti-overdefense.md#5-paragraph-focus-check) to consolidate overlapping passages and preserve meaningful changes of question or reasoning stage; a new source, metric, display or sentence role alone does not require a new paragraph.
 - State a material limitation where it changes interpretation, normally once. Do not distribute the same caveat across the abstract, introduction, results, discussion, and conclusion.
 - Do not anticipate objections merely to appear cautious, comprehensive, or reviewer-proof. In reviewer revision, the actual comment is the objection; answer it and the scientific concern necessary to resolve it, not imagined follow-up questions.
 - Prefer concrete information over attitude management. Do not weaken a clear conclusion merely to sound moderate, but do not inflate a claim during drafting or English polishing.

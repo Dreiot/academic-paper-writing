@@ -42,9 +42,11 @@ Delete sentences whose main function is to announce that the author is cautious,
 
 ### 5. Paragraph-focus check
 
-Let a paragraph explain one mechanism, establish one result, make one comparison, or complete one turn in the argument. Do not require every paragraph to contain benefits, limitations, risks, alternatives, future work, and a summary.
+Organize each subsection into complete argumentative units. Prefer consolidating neighboring passages that perform overlapping work for the same analytical question, comparison axis or central judgment. Observation, supporting evidence, interpretation and a warranted conclusion can be complementary parts of that unit; different sentence roles do not by themselves require separate paragraphs. Do not require every paragraph to contain benefits, limitations, risks, alternatives, future work and a summary.
 
-One main function does not mean one source, equation, result, or checklist item per paragraph. Keep a claim, its supporting evidence, mechanism, and necessary interpretation together while they form one argumentative step. Start a new paragraph when the reasoning enters a genuinely new stage, question, comparison axis, or evidence role. Merge adjacent paragraphs when the latter merely continues the same explanation; split only when keeping the moves together would obscure the progression.
+In results analysis, a change of dataset, metric, figure, panel or table is not automatically a paragraph boundary. When those materials jointly explain the same finding or tradeoff, connect them in a sustained paragraph rather than splitting description, explanation and takeaway into separate short blocks. Merge by editing: remove repeated setup and “the results show” openings, reorder nearby material when its logical dependencies permit, and retain source attachments and material exceptions. Simply deleting blank lines is not enough.
+
+Start a new paragraph when the argument moves to a genuinely different question, comparison axis, condition or inference stage—for example, overall performance versus a component's effect, or average behavior versus an exceptional regime requiring separate explanation. Sharing the broad label “results analysis” is not enough to merge independent questions. If a combined paragraph becomes hard to follow, split at a meaningful substage. Do not set fixed paragraph counts or lengths, collapse an entire subsection into a wall of text, or remove necessary reasoning merely to reduce the number of breaks.
 
 Vary paragraph length and opening structure naturally. Avoid a sequence in which every paragraph begins by naming a category, summarizes one source or result, and ends with the same explicit contrast or limitation. Use the preceding conclusion to lead into the next point when the relationship is real rather than resetting the discussion at every paragraph break.
 
@@ -76,7 +78,7 @@ Before delivery, check:
 - Has any sentence answered a question no reader, source, editor, or reviewer raised?
 - Can attitude language be replaced by a more specific mechanism, condition, or result?
 - Is each material limitation stated clearly without being repeated?
-- Does every paragraph boundary mark a real development in the argument, and do adjacent paragraphs connect without formulaic reset sentences?
+- Within each affected subsection, can neighboring passages supporting the same analytical judgment be consolidated, and does every retained boundary mark a real development rather than a new metric, display or sentence role alone?
 - Do several consecutive paragraphs or sentences repeat the same opening pattern, cadence, contrast formula, or conclusion shape?
 
 Revise the argumentative order before performing word-level synonym replacement. Removing a few marker phrases is insufficient when the paragraph is still organized as a pre-emptive defense.

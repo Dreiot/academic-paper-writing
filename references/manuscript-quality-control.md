@@ -64,6 +64,7 @@ Whether review is independent or performed as a separated evidence-based pass, i
 - whether other work is represented fairly and every material claim has direct support;
 - whether contributions are distinct, evidence-linked, and no broader than the manuscript establishes;
 - whether explanations and interpretations belong in the correct sections and do not merely restate prompt bullets;
+- whether paragraphs within each affected subsection form complete analytical units under [anti-overdefense.md](anti-overdefense.md#5-paragraph-focus-check), consolidating overlapping work on one question while preserving genuine shifts; fewer breaks or unchanged text joined together cannot alone establish this;
 - whether active author or reviewer requests are visibly implemented in the candidate;
 - whether the target journal's relevant scientific and rhetorical conventions are met;
 - whether the delivered artifact preserves the reviewed content.

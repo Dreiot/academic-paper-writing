@@ -72,6 +72,8 @@ When the section contains numerical performance results, follow [numeric-reporti
 
 Place an important negative, mixed, or scope-limiting result beside the conclusion it changes. Do not request more baselines, robustness checks, or experiments merely to make the draft look comprehensive.
 
+Within a results subsection, apply the [paragraph-focus rule](anti-overdefense.md#5-paragraph-focus-check): consolidate evidence and interpretation that jointly answer the same question, including across metrics or displays, while keeping genuinely distinct analyses legible. Reporting an observation, explaining it and drawing its supported implication need not become three separate paragraphs.
+
 ### Conclusion
 
 Answer the research question at the level established by the paper. Summarize the method and evidence without repeating the abstract sentence by sentence. Do not introduce a new claim, experiment, application area, or speculative defense.

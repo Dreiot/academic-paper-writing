@@ -64,6 +64,22 @@ Old Table 2 caption: 表2. 数据划分。
 Pass: Body introduces Figure 2 and its relevant panels, explains their joint evidence and key tradeoff, connects Table 1's recall decline to the conclusion, and explicitly addresses Table 2 briefly. Figure caption retains panel identity, units or clear encoding, and SD/repetition meaning where needed; analytical prose moves into the argument without being pasted unchanged. Does not claim statistical equivalence, significance, causal explanation or universal best K. Does not enumerate all cells or force a full analysis paragraph for Table 2.
 Fail example: Shortens captions but leaves “如图2所示，效果较好” as the entire body; removes SD meaning to minimize caption length; or reads a higher AUC point as proof of universal superiority.
 
+### D2. Subsection paragraph consolidation
+
+Request: Reorganize the following fragmented Chinese results subsection, joining material that serves the same analysis while retaining real changes of question. Do not add subheadings, alter facts, invent mechanisms or browse. No paragraph-count target is given. The sources and records are synthetic test data.
+
+Record: Figure 3 and Table 4 describe the same size comparison: K=32 has AUC 93.20%, recall 88.00%, runtime 5.00 s; K=16 has AUC 93.00%, recall 81.00%, runtime 2.00 s. Table 5 addresses a separate matched-size diagnostic at K=16: with redundancy penalty AUC is 93.00%, without it 92.00%; data split and evaluation budget are unchanged. No statistical test or deployment preference is provided, and the diagnostic does not establish the penalty's effect outside this configuration.
+
+Fragment 1: 图3显示 K 从32降到16时，AUC由93.20%变为93.00%。
+Fragment 2: 结果表明，图3还显示运行时间由5.00 s降至2.00 s。
+Fragment 3: 表4显示同一比较的召回率由88.00%降至81.00%。
+Fragment 4: 由此可见，较小规模节省时间，但是否值得取决于召回率要求，不能只看 AUC。
+Fragment 5: 另一方面，表5考察同一 K=16 下移除冗余惩罚的结果，AUC由93.00%降至92.00%。
+Fragment 6: 结果表明，在相同划分及评价预算下，这一诊断与前面的规模比较回答不同问题，其观察限于该配置。
+
+Pass: Figure 3/Table 4 jointly develop one size/time/quality tradeoff, including the recall decline, without one paragraph per metric or separating every observation from its interpretation. Table 5's distinct component question has an intelligible transition and appropriate separation. Remove repeated opening formulas and edit the reasoning, not just whitespace. Preserve the 0.20-point AUC, 7.00-point recall and 1.00-point diagnostic differences without significance or general efficacy claims. No numeric paragraph quota; keeping everything in one undifferentiated paragraph is not sufficient.
+Fail: Six slightly reworded micro-paragraphs; a raw concatenation; removal of the recall decline to shorten the text; or conflating the size comparison and component diagnostic into one causal conclusion.
+
 ## N. Already continuous and local-only work
 
 Request N1: Polish only if needed; preserve naturally continuous reasoning.

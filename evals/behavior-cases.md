@@ -56,7 +56,7 @@ Success means the empirical-method default and ordinary literature-search route 
 
 Provide a manuscript in which adjacent short paragraphs each restate one prompt bullet, source, formula, or result using repeated topic-sentence and contrast templates.
 
-Success means paragraph boundaries are rebuilt around genuine argumentative stages. Closely related evidence and explanation are merged, necessary stage changes remain visible, transitions arise from the preceding conclusion, and paragraph length varies naturally without turning the manuscript into an undifferentiated wall of text.
+Success means paragraph boundaries are rebuilt around genuine argumentative stages. Use D2 in [argument-fixtures.md](argument-fixtures.md#d2-subsection-paragraph-consolidation) for a concrete results-subsection input: linked observations and interpretation should be consolidated, while a distinct component question remains legible. Preserve meaningful exceptions and source scope. Do not grade by a fixed paragraph count, keyword presence, or deleted blank lines. Give the writer only the input and source record, then inspect actual prose separately.
 
 ### 9. Target-journal adaptation finds a major content gap
 
