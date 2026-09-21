@@ -54,7 +54,11 @@ Within normal abstract length, compress the actual need, specific question, desi
 
 Establish why the research question matters and its specific position relative to what is already known, then introduce the method and verifiable contributions. Apply the research-value and contribution tests above. A declaration of the study objective or an inventory of method components does not replace this reasoning; a narrower design question still needs a reason to be investigated.
 
-Judge the Introduction by whether this reasoning is established, not by paragraph count, length, citation count, or coverage of an instruction checklist. When revising an existing Introduction in response to author feedback, follow [author-revision.md](author-revision.md) and verify the requested argumentative change in the final manuscript.
+Read the opening in order: can the reader identify the research object and concrete problem before encountering technical details whose purpose depends on them? Retain an application example when it helps this entry; move or omit examples that merely delay the problem. Introduce a representation or route through the relationship it helps express, then explain its technical difficulty and the reason for the method choice. This is a dependency check, not a prescribed opening or paragraph count.
+
+Inspect adjacent paragraphs using [continuity](author-revision.md#build-continuity-before-polishing-connectives) and [paragraph focus](anti-overdefense.md#5-paragraph-focus-check). If they repeatedly overview the same method, merge or redistribute their content so the next passage advances the problem, rationale or evidence. The method overview explains how the response works; the contribution summary identifies distinct supported additions and findings. Edit both together rather than appending a second pipeline description. Honor an author's explicit contribution form without imposing a fixed count otherwise.
+
+Judge the actual argument, not length, citations, connectives or reduced paragraph count. For author revisions, follow [author-revision.md](author-revision.md) and verify the requested change in the final manuscript.
 
 ### Related work
 

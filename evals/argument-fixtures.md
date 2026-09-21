@@ -54,6 +54,13 @@ Local context: A candidate pool determines available local prediction units; dep
 Pass: Establishes why size control and the generation/extraction distinction matter, then compares mechanisms and achievements. F1's limited findings retain the comparator, tasks and mixed RMSE behavior; F2/F3 provide capabilities, not invented performance. Author forms remain correct, and studies serve shared comparisons.
 Fail example: “林岚等使用 RG 增加单元，再用 BE 删减并重拟合 [F1]。另一方面，许衡使用 BX 表达二进制选择 [F2]。进一步，结构学习工作组使用 CGL 更新门和系数 [F3]。因此，本文研究固定候选池的结构选择。” Even with correct author forms and no invented performance, the reason to control size and the source-supported achievements advancing the comparison remain missing.
 
+O1-results variant: Use the same author request, input and local context. Keep F1/F2 unchanged. For F3, provide its section 2 mechanism excerpt above, identifying “no result table is supplied” as the scope of that excerpt, and make the following separate original-source excerpt available. All material remains self-authored fiction. Do not give the writer the verification paragraph below.
+
+- F3, section 4, supplied as a separate source file: “We compare CGL against the same predictor with all gates fixed at one on simulated regression tasks C and D, using a common split and four seeds. Mean absolute error changes from 0.30 to 0.26 on C and remains 0.19 on D. Retained counts change from 28 to 18 on C and from 22 to 15 on D. These observations do not compare CGL with BE or BX. No significance test was conducted.”
+- Separate local reproduction record, not an F1 author result: “A later local rerun of BE on task A used a different split and seed: RMSE changed from 0.25 to 0.23. This record does not replace F1 section 4.”
+
+Verification only: Inspect correct multi-author, single-author and group-author identities; actual learning functions; F1's retained mixed finding and F3's task/comparator-scoped finding; no empirical claim for F2. The writer consults F3's available results instead of concluding that its method-only excerpt means the paper has no experiments. Do not attribute the local BE rerun to F1 or infer a ranking among BE/BX/CGL from unmatched evidence. Synthesis must explain the relation among candidate generation, extraction and coefficient learning, and why their treatment matters to retained size and fitting. Names, citation totals, method cards or an empty “provides a foundation” conclusion do not pass. No paragraph quota or mandatory limitation per study applies.
+
 ## D. Review language in results
 
 Request: Produce a results paragraph; identify any material moved elsewhere in a separate short note.
