@@ -13,6 +13,21 @@ Evidence: The intended monitoring deployment allows at most six sensors because 
 Pass: Distinguishes deployment need, author-selected conditions, supported interaction difficulty and design-induced mismatch; describes design and observed diversity without superiority or priority. Does not promote routine checks or refitting to contributions.
 Fail example: 现有方法均无法在有限预算下选择传感器，本文首次通过重拟合解决这一缺口。
 
+### M1. Carried contribution form and neighboring prose
+
+Reuse M's Evidence paragraph, including the prior capabilities and the unchanged average accuracy. This is a synthetic continuation of an author revision, not a real study. Give the writer the record below and M's evidence, not M's request, pass conditions or failure example.
+
+Earlier author request, still active: 将引言末尾的贡献明确写成两个编号条目，分别说明所采用的建模方案与已有实证认识。连贯的总结段不能代替这两个条目。
+Current request: 在当前文本上完成上述作者修订，同时编辑相邻的方法概述和结果总结，使引言末尾自然衔接。仅返回修订后的这部分中文正文；不改方法或证据，不运行实验，不浏览。
+Prior revision note (fictional artifact): 贡献表达已经完成，可进入下一版。
+Current text: 本文在固定传感器候选池与维护名额下，用二次冗余代理提出子集，再对每个有效子集拟合预测器并评价。代理用于探索相互依赖的传感器组合，其评分与拟合后的预测误差分别计算。本文因此把代理提案、子集拟合和预测评价连接起来，形成完整方案。实验在相同预算下返回了更多不同的可行子集，平均准确率没有改善。上述方法先提出子集，再拟合和评价，展示了完整流程及其结果。
+
+Verification only: The final prose implements the two numbered items, despite the inaccurate prior note. They carry distinct, supported content rather than restating the same pipeline twice or promoting checks/refitting alone. The surrounding overview/result prose is edited or redistributed so the items are not mechanically appended to unchanged repetitions. The additional feasible-subset diversity and unchanged accuracy remain distinguishable; no firstness, significance, guaranteed optimum or stable predictive benefit is invented. Numbering alone is insufficient. This extends behavior case 6, not a separate revision workflow.
+
+Boundary M1-free: Start a fresh writer context with the same Current text and M evidence. Do not include the Earlier author request, Current request or Prior revision note above; there is no carried formatting obligation in this variant. Use this request instead: 根据所给研究记录，修订这段引言末尾的方法与结果总结，使贡献清楚、上下文连贯。仅返回中文正文，不改方法或证据，不运行实验，不浏览。
+
+Verification only for M1-free: No fixed number or numbered format is required. A paragraph or a justified list may work; do not penalize a useful choice merely for being a list. Fail an imposed three-contribution template, padding a third item with routine work, or asking the author to choose a count before a supported edit can proceed. Distinct meaning, neighboring continuity and evidence calibration still apply.
+
 ## O. Overlapping classifications
 
 Request: Rebuild this Related Work fragment's reasoning and comparison axis, retaining source identities.
@@ -147,6 +162,34 @@ B4 results to conclusion: More distinct feasible subsets and lower retained coun
 
 Pass: B1 synthesizes prior knowledge, selected modeling requirements and the next formal objects; B2 derives measurable questions without success; B3 identifies the unresolved component effect; B4 retains mixed evidence. Same-level shifts explain the changed comparison axis. No fixed universal paragraph layout.
 Fail example: “下一章介绍算法及实验” alone; repeating all training steps; inferring component efficacy from the main comparison.
+
+### B5. Source-driven research-foundation coverage
+
+All Q sources below are self-authored fictional original-study excerpts for this test. Their titles and labels are not real bibliographic records. Supply the raw excerpts, current method record, request and the selected draft to each writer; do not supply the verification text or the other variant's draft.
+
+Shared sources:
+
+- Q1, *Fixed-neighbor curve codes*, section 2: “For unlabeled curves x_i, build an affinity matrix A once from distances in the observed space. Obtain codes z_i by minimizing sum_ij a_ij ||z_i-z_j||^2 under a non-collapse constraint. Freeze these codes and fit a decoder D by least-squares reconstruction of x_i from D z_i. This procedure supplies a neighborhood-preserving representation; no corrupted-curve comparison is reported here.”
+- Q2, *Reciprocal neighborhood reconstruction*, section 3: “Optimize codes Z, decoder D and nonnegative row-normalized affinities A in alternation. The criterion combines squared reconstruction error, sum_ij a_ij ||z_i-z_j||^2 and an affinity-size penalty. Distances in the current codes change A; A in turn constrains the next codes. No robust loss or prototype memberships appear in this model, and this excerpt makes no comparative performance claim.”
+- Q3, *Bounded-influence curve fitting*, section 2: “Fit D and z_i using sum_i rho_delta(||x_i-D z_i||), with fixed delta>0. Here rho_delta(r)=r^2/2 for 0<=r<=delta and delta(r-delta/2) otherwise. The derivative with respect to a large residual magnitude is capped at delta. Any neighborhood matrix is supplied and held fixed. The loss controls residual influence; it is not an estimate of group-membership uncertainty. This study extract contains no restoration result.”
+- Q4, *Soft prototype reconstruction*, section 3: “Codes z_i have nonnegative prototype affiliations u_ik summing to one over k. Jointly update Z, D, affiliations U and prototypes c_k using reconstruction error plus sum_ik u_ik ||z_i-c_k||^2 and a fixed positive entropy-regularization term sum_ik u_ik log u_ik. The prototype relation constrains codes while reconstruction connects codes to observations. No cross-curve affinity graph is learned in this model. No advantage over Q1–Q3 is established in this extract.”
+- Q5, *A decoder-solver note*, section 2: “A full-rank unconstrained least-squares decoder subproblem can be solved using a QR factorization. This note changes neither the loss nor the representation model and reports no restoration-quality or comparative timing result.”
+
+Shared current method record: The study restores unlabeled curves. It alternately updates codes and affinities using distances in the current codes, reconstructs observations with Q3's fixed-threshold loss, and couples codes to row-normalized soft prototype affiliations using Q4's prototype and entropy terms. The decoder, codes and prototypes are learned. The implementation also uses a numerical tolerance and QR for an auxiliary least-squares solve. There is no new measured restoration benefit, priority evidence or exact equivalence to one complete Q model. Only the Related Work foundation and its connection to the following Method section are in scope.
+
+Shared request: 依据所给原始摘录和当前方法记录，检查并按需修订相关工作，使读者能理解该方法实际学习关系的研究基础及其联系。保留有效分析并综合比较，最后接到方法章节；仅返回修订正文，闭合语料、不浏览，不改变模型或补做实验。
+
+B5 draft: 从曲线的邻域关系学习表示，可以使相近曲线获得相近编码。Q1 在观测空间建立相似图，随后学习保持邻域的编码，再拟合解码器 [Q1]。这种先确定图、再获得表示的关系为无标签曲线重构提供了基础。本文也学习曲线编码，因此下面给出模型。
+
+Verification only for B5: Q1's accurate account alone does not cover the current learning relations. The revision uses Q2 to explain structure/representation feedback, Q3 to distinguish residual influence from the chosen representation or soft uncertainty, and Q4 to explain joint affiliation/prototype/reconstruction learning. Compare these relations and connect their relevant roles to the study without declaring the combination novel or effective. A list of Q names, one independent card per extract, citation counts, or a citation for every implementation step is insufficient. Q5 does not require a new Related Work family merely because the implementation uses QR. Inspect what the reader can infer from the prose, not whether all source labels appear.
+
+Boundary B5-covered: In a fresh context use the same sources, method record and request, replacing only the draft with the following. Do not identify it to the writer as already sufficient.
+
+B5-covered draft: 曲线重构中，邻域既可作为预先固定的依据，也可与表示相互更新。Q1 由观测空间确定图，再学习编码和解码器 [Q1]；Q2 则由当前编码更新邻域，并让图约束下一轮编码 [Q2]。二者的区别是表示变化能否反馈到结构，而不只是是否使用相似图。拟合损失回答另一个问题：Q3 对大重构残差采用有界斜率，控制它们对拟合的影响，但不估计簇归属的不确定性 [Q3]。
+
+Q4 通过归一化软归属联系编码与原型，并与观测重构共同学习，使群组关系能够约束表示 [Q4]。这种软结构约束与残差影响控制承担不同职责。当前方法组合邻域反馈、稳健重构和软原型关系；这些已有研究为各自的学习关系提供基础，而该组合的实际重构表现仍需本研究证据。下面据此定义相互更新的变量与目标。
+
+Verification only for B5-covered: Necessary relations already have adequate source support. Retaining the passage or making a local repair is sufficient if its comparison and transition remain sound. Do not expand families, demand extra references or invent a gap to justify work; Q5 remains optional numerical context, not missing scientific coverage. No word, source or paragraph quota applies. This boundary tests scope restraint, not mandatory no-op behavior.
 
 ## L. Rhetorical transfer and incremental search
 
