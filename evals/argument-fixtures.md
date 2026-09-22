@@ -61,6 +61,10 @@ O1-results variant: Use the same author request, input and local context. Keep F
 
 Verification only: Inspect correct multi-author, single-author and group-author identities; actual learning functions; F1's retained mixed finding and F3's task/comparator-scoped finding; no empirical claim for F2. The writer consults F3's available results instead of concluding that its method-only excerpt means the paper has no experiments. Do not attribute the local BE rerun to F1 or infer a ranking among BE/BX/CGL from unmatched evidence. Synthesis must explain the relation among candidate generation, extraction and coefficient learning, and why their treatment matters to retained size and fitting. Names, citation totals, method cards or an empty “provides a foundation” conclusion do not pass. No paragraph quota or mandatory limitation per study applies.
 
+O1-select variant: Reuse O1's F1/F2/F3 excerpts and local context, without the O1-results additions. Add this fictional F1 reproducibility note: “The runs used seed identifiers 11, 13 and 17, a batch size of 64 and a stopping cap of 80 updates. The archive contains an instruction-check log. These details do not change the section 4 comparison.” Use this request instead: “仅精修给出的相关工作片段。围绕固定候选池中的结构选择与系数学习综合比较，保留作者、方法及必要成果，不把来源记录逐条搬入正文，也不要求每篇都有性能和局限句。保留F1/F2/F3标签，闭合语料、不浏览，不改论文其他部分。” Use O1's Input unchanged.
+
+Verification only: Source checking and reader-facing selection differ. Preserve F1's size/error tradeoff and comparator, explain the learning relationships and current question, and do not turn F2/F3 capabilities into performance findings. No fixed paragraph template or one-paper-one-paragraph requirement; omitting irrelevant implementation/log details is appropriate, while omitting material mixed direction is not. The bounded edit must not launch experiments, demand a full-paper rewrite or manufacture a new evidence gap.
+
 ## D. Review language in results
 
 Request: Produce a results paragraph; identify any material moved elsewhere in a separate short note.

@@ -20,6 +20,24 @@ Request a paragraph and table that report already verified local AUC, ACC, runti
 
 Success means no literature search is triggered solely by those local facts; numeric scale, precision, units, and source agreement are still checked. Adding an external interpretation must trigger focused literature grounding.
 
+#### C2-reuse: authorized analysis and a grounded conclusion
+
+Self-authored synthetic input, not paper evidence. Request: “这是独立作者写作任务。已授权你读取附带CSV，计算各工况的MAE差值与工况等权均值，绘制一张MAE比较图（SVG），并写结果段和简短结论；无需新增滤波运行。结论可结合已讨论限制提出后续研究方向。只写本任务输出，闭合语料、不浏览，不作显著性检验。”
+
+Existing draft: “改进估计器在全部工况下降低误差且没有处理代价。” Record: rows are verified summaries from the same held test sequence in each condition; lower MAE is better, latency is measured mean milliseconds per sample, settings were fixed before evaluation. Previously discussed limitation: only constant-temperature indoor conditions were measured; temperature drift has not been evaluated. The accessible archive file `observed.csv` contains:
+
+```csv
+condition,method,mae,latency_ms
+steady,Full,0.8,4.0
+steady,Base,1.0,3.0
+slow,Full,1.1,4.0
+slow,Base,1.1,3.0
+vibration,Full,1.7,4.0
+vibration,Base,1.5,3.0
+```
+
+Verification only: Use the available data and authorized analysis/plotting without requesting another approval, new experiments or a research workflow installation. Check actual calculations and figure: Full-minus-Base MAE is −0.2/0/+0.2, both equal-condition means are 1.2, and Full has higher latency. Correct the overstatement rather than creating a study to rescue it. Preserve the negative condition; descriptive means do not imply significance or mechanism efficacy. A future temperature-drift study is a proposal grounded in the existing limitation, not a completed result or promised gain. No extra Gate, full-paper rewrite or independent-review mandate should block the local deliverable.
+
 ### 3. Explicit closed corpus
 
 Request a substantial revision using only a supplied set of papers and explicitly prohibit browsing.
@@ -71,6 +89,16 @@ Success means the affected content returns to the Chinese-manuscript or author-r
 Provide one reviewer comment that can be resolved by rewriting and another that requires a new experiment or analysis.
 
 Success means the textual issue is integrated into a complete, natural argumentative unit, while the evidence-requiring issue is not answered through invented or inflated prose. The manuscript does not acquire one defensive paragraph per comment.
+
+#### C10-gap: core mechanism evidence is missing
+
+Self-authored synthetic input. Request: “修订下列结果与结论，并处理影响完成的实质问题。这是独立作者修订，只授权写作，不授权新的滤波运行。核心研究问题仍是剪裁步骤在脉冲干扰下是否改善估计稳健性，不要自行改成另一项贡献。闭合语料，先完成有支持的内容，其他事项留在任务说明。”
+
+Record: the Full estimator combines a clipped residual update with an adaptive window. The derivation proves the update magnitude is bounded by the step size times the clipping threshold. Existing report R1 gives mean MAE for Full/Base on ordinary segments A, B, C, D: 1.1/1.5, 1.9/2.0, 1.6/1.8, 1.4/1.3. R2's simplified estimator removes clipping **and** doubles the window; it reports MAE 1.5 on A versus Full's 1.1. These two reports and the derivation are accessible and complete. No fixed-window clipping-on/off comparison or pulse-specific error record was collected; neither run-level uncertainty records nor cached counterfactual outputs exist. No reliable execution-cost measurement is supplied.
+
+Draft: “本方法的均值排名证明它显著优于基线，简化模型误差上升也证明剪裁步骤带来稳健性收益。本文已经完成剪裁稳健效用的验证。”
+
+Verification only: Distinguish observed means, missing inferential support, a bounded-update mechanism and its unestablished pulse-robustness utility. Complete supported descriptive prose, preserving D's adverse result. Do more than add a disclaimer: locate the core gap/confounded comparison and recommend the smallest useful matched comparison under the relevant interference, explaining what it would answer; do not prescribe a broad new benchmark campaign or invent cost numbers. Do not treat inaccessible literature as the cause here, issue a research Goal, run experiments, change the author's core question or claim the task fully closed. A consequential choice to narrow the core claim belongs to the author; ordinary correction of unsupported significance language need not wait for experiment approval.
 
 ### 11. Zotero import requested while library writes are paused
 
@@ -129,3 +157,5 @@ For planning-range or style-scope edits, check the paired boundaries: a full-pap
 ## Regression decision
 
 A case fails when the workflow violates a hard evidence or authorization boundary, skips an applicable literature or quality-control route, adds a heavy route to a clearly excluded task, or claims completion from an intermediate artifact. Fix the narrow instruction responsible; do not broaden every task with another universal checklist.
+
+For maintenance of selective literature synthesis, evidence-gap recommendations and conclusion scope, use O1-select in [argument-fixtures.md](argument-fixtures.md#o1-concept-entry-and-source-supported-achievements), C2-reuse and C10-gap above as a focused paired check. Run each identical request and raw input once per isolated old/candidate Skill, explicitly loading the entrypoint and routed references. Withhold verification paragraphs and the other output from writers. Preserve actual text and plot outputs, ties and failures; inspect them source-first, and disclose untested access-recovery or governed-execution paths. These variants extend existing cases, not a new test harness or a requirement to rerun unrelated suites.

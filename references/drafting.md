@@ -76,7 +76,7 @@ Before detailed component equations, make the whole method recoverable: inputs a
 
 Make the experimental questions visible through the organization, but do not force every question into a heading. Report only datasets, baselines, splits, metrics, settings, ablations, sensitivity studies, and statistical analyses that actually exist or that the user has asked to plan. Separate observed results from interpretation.
 
-For each central experimental question, use the available evidence to state the concrete pattern, its magnitude and relevant conditions, and the inference it supports. When averages hide different directions, inspect available dataset/group-level contrasts; when a mechanism claim depends on internal changes, use existing diagnostic evidence or keep the interpretation descriptive. “Curves vary,” “results are heterogeneous,” or a list of precautions does not analyze a display. Do not demand new experiments to replace missing prose, or invent mechanisms from dataset names when the necessary diagnostic evidence is absent.
+For each central experimental question, state the concrete pattern, magnitude, conditions and supported inference. When averages hide different directions, inspect available group-level contrasts; when a mechanism claim depends on internal changes, use the relevant diagnostic evidence. Distinguish missing explanation from a substantive evidence gap under the [existing evidence check](manuscript-quality-control.md#verify-high-impact-facts-completely): the latter may need an analysis or research recommendation rather than another disclaimer. “Curves vary,” “results are heterogeneous,” or precautions alone do not analyze a display. Do not invent mechanisms from dataset names or demand experiments to repair prose alone.
 
 Describe empirical objects at the level needed to interpret the comparison: dataset source/version, view or group construction and dimensions when these affect the method, material sampling/preprocessing, identifiable comparator algorithms and consequential reproduction changes. A count table, opaque internal alias or list of parameter values alone may not identify the study. Use existing records to fill such gaps, with necessary detail in the manuscript or explicitly available reproduction material; do not fabricate missing specifications.
 
@@ -88,7 +88,7 @@ Within a results subsection, apply the [paragraph-focus rule](anti-overdefense.m
 
 ### Conclusion
 
-Answer the research question at the level established by the paper. Summarize the method and evidence without repeating the abstract sentence by sentence. Do not introduce a new claim, experiment, application area, or speculative defense.
+Answer the research question at the level established by the paper, summarizing the method and evidence without repeating the abstract. Future research may follow from limitations already discussed; distinguish a proposed direction or test from a completed result, and promise no performance gain. Do not introduce unrelated applications, unreported findings or speculative defenses. Future work is optional, not a required closing template.
 
 ## Explain figures and tables in the main text
 
