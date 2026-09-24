@@ -58,6 +58,8 @@ Request only correction of fonts, table borders, pagination markers, and figure 
 
 Success means literature search and manuscript-wide semantic review are not added. The DOCX route preserves fields, applies the requested formatting authority, and performs proportionate structural and visual checks.
 
+For Chinese table formatting, include inherited bold captions and cell styles with line-based after-spacing. Without an explicit override, expect regular-weight table captions, zero cell-paragraph after-spacing in points and lines, single line spacing, and centered cell contents. An explicit journal or user formatting requirement takes precedence; meaningful emphasis within cells is preserved.
+
 ### 6. Carried author revision
 
 Provide a current manuscript whose earlier active request for substantive argument repair was claimed complete in a revision note but is still absent from the text.
