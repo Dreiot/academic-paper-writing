@@ -58,7 +58,7 @@ Request only correction of fonts, table borders, pagination markers, and figure 
 
 Success means literature search and manuscript-wide semantic review are not added. The DOCX route preserves fields, applies the requested formatting authority, and performs proportionate structural and visual checks.
 
-For Chinese table formatting, include inherited bold captions and cell styles with line-based after-spacing. Without an explicit override, expect regular-weight table captions, zero cell-paragraph after-spacing in points and lines, single line spacing, and centered cell contents. An explicit journal or user formatting requirement takes precedence; meaningful emphasis within cells is preserved.
+For Chinese figure and table formatting, include inherited bold figure/table captions and first-row column headings, incorrect three-line border widths, and cell styles with line-based after-spacing. Without an explicit override, expect regular-weight figure/table captions (including numbering) and first-row column headings, top/header-separator/bottom rules of 1/0.5/1 pt, zero cell-paragraph after-spacing in points and lines, single line spacing, and centered cell contents. An explicit journal or user formatting requirement takes precedence; meaningful emphasis in data cells is preserved.
 
 ### 6. Carried author revision
 
