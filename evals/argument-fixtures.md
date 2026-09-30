@@ -119,6 +119,22 @@ Submitted package: Introduction says “S1 selects features; we allocate them di
 Pass: Does not equate mechanical passes or fluent caution with scholarly completion; identifies the missing comparison, whole-method explanation, meaningful results and empirical identities. Recommends an overview based on the actual coupled relationships and available asset, without claiming every paper must have one. Keeps meaningful headings, removes redundant recaps without inventing a count target, and does not imply absent comparative experiments exist. The revised results interprets the gap shrinking from 0.04 to 0.01 alongside dataset heterogeneity, preserving the adverse dataset and avoiding statistical/causal claims. This is a local text test, not evidence of whole-paper readiness or image-production success.
 Fail: Accepts because the numbers/render passed, treats all missing depth as unavoidable caution, demands a fixed page/citation/heading quota, or invents a mechanism for the negative dataset.
 
+### D4. Writing assurance and implementation placement
+
+Self-authored, project-neutral test material; names and values below are fictional. This extends D, not a real manuscript or experiment. Give the writer only the request, draft and source record; withhold the verification paragraph.
+
+Request: 请将下列方法—结果片段改为可直接使用的中文学术正文，并整理一段必要的补充复现说明及简短交付说明。按科学作用决定信息放置，不以缩短篇幅为目标。保留现有研究问题与来源支持的结果，使用闭合材料，不检索、不做实验、不补造实现。输出 main.md、supplement.md 和 delivery.md；不制作 Word 或图形。
+
+Draft: 本文考察低位宽实现能否在同步双通道分类中降低端到端延迟。两个输入通道按同一时间戳对齐，否则模型没有定义。设两路分数为 p1 和 p2，以非负权重 w1、w2 组合；w1+w2=1 保证组合仍是凸组合。至此，方法、对照和结论已经彼此吻合，必要信息也均已交代。评估使用同一训练、验证和测试划分，模型只用验证集选择阈值，固定后再用于测试集。
+
+Draft continued: Q12 是12位定点实现，F32是浮点参考实现；二者都在同一 Vector-A 板卡上评估。输入通过有序 DMA 缓冲区提交，每次提交一个样本。完成中断表示该样本输出已可读取，端到端计时包含数据传输、设备计算与输出回收。软件包名 vcalc 2.1 与同一编译开关共同确定数值实现。记录中的批次号 build-pass-17 标识本次文稿处理批次。正文说明与补充材料的对应关系现已完整，读者无需再作额外核对。
+
+Draft continued: Q12和F32的测试准确率分别为84.00%和82.00%，召回率为73.00%和79.00%；平均延迟为1.20 ms和2.00 ms。数值一致性检查在固定的100个输入向量上进行，Q12相对F32的最大绝对输出偏差为0.003。脚本在09:42写入文本导出完成标记，随后重试导出一次。逐位换算由配置文件控制，缓冲区长度256、轮询间隔50微秒、超时3秒、随机种子17、编译参数--round-nearest；复现时先加载公开参数表再启动设备。研究受到虚构的远汀基金资助，因此应把接口操作扩成方法的主要贡献。
+
+Source record: This is a local numerical-implementation comparison. The two models use identical learned parameters, data splits and threshold-selection protocol; Q12 uses 12-bit fixed-point arithmetic and F32 uses floating point. Both run on Vector-A with vcalc 2.1 and --round-nearest. Input alignment and convex-weight normalization define the model. Sequential one-sample DMA and the completion interrupt define the measured endpoint; reported latency includes transfer, computation and output retrieval. The output-deviation measurement compares numerical model outputs on 100 fixed vectors. All supplied metrics are verified descriptive test results with no significance analysis. The replay configuration lists buffer length 256, polling interval 50 microseconds, timeout 3 seconds and seed 17, with the same values in both conditions; the runner loads the public parameter table before starting the device. The text-export log records 09:42, one retry and batch name build-pass-17. The author's confirmed declaration is “本研究得到远汀基金资助”；the fictional venue requires it in Acknowledgments. The fund supplied financial support and had no role in designing the numerical implementation.
+
+Verification only: Inspect actual main text and supplement together. Remove implicit writing-completion assurances and production logs from both, while keeping them outside the manuscript only when useful. Retain input alignment, convex-combination meaning, matched model/data/threshold conditions, real numerical validation, timing endpoint, important platform/software identities and mixed results. Place lower-level replication parameters/operations in appropriate reproducibility material without losing them; preserve the required funding declaration without allowing sponsor identity to turn interface steps into unsupported contributions. Do not grade by keywords or paragraph totals. A retained interface/validation statement may have scientific value; not every sentence must claim innovation. Preserve failed or tied paired outputs.
+
 ## N. Already continuous and local-only work
 
 Request N1: Polish only if needed; preserve naturally continuous reasoning.

@@ -6,24 +6,28 @@ Use this phase for a content-complete Chinese master manuscript or mixed-languag
 
 For journal-specific work, obtain the journal name and article type. Verify the current official author instructions and use an official or user-supplied template when available. If the journal is not yet selected, offer journal-neutral English rather than guessing a venue.
 
-When optimization changes disciplinary framing, background, novelty, method positioning, comparison, interpretation, discussion, or another literature-dependent proposition, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting it. A complete target-journal adaptation also studies recent journal-rhetoric exemplars; polishing language or matching formatting alone is not intellectual journal adaptation.
+When optimization changes disciplinary framing, background, novelty, method positioning, comparison, interpretation, discussion, or another literature-dependent proposition, follow [literature-and-rhetoric.md](literature-and-rhetoric.md) before rewriting it. Reuse still-valid source verification and applicable journal-rhetoric exemplars; supplement study only where changed claims, coverage, currency or the new venue require it. A change of language does not restart a comprehensive literature search or research review.
 
-Read the relevant manuscript before whole-paper optimization. Within an authorized rewrite, choose and implement evidence-consistent, reversible changes to paragraph organization, headings and section order without another approval merely because several layouts are possible. Ask only when explicit requirements conflict or the choice would materially change the research direction, meaning, evidence boundary or claim beyond the existing authorization; follow the Claim Decision rule in `SKILL.md` for such scientific choices.
+## Continue from the content authority
 
-If the target-journal work reveals a material gap in the research problem, literature synthesis, method rationale, evidence, result interpretation, or conclusion, repair the content-authoritative Chinese manuscript or use the author-revision route first, then propagate that accepted meaning into English. Do not hide an unfinished Chinese argument behind fluent translation or formatting compliance.
+Read the user-designated latest content baseline together with its supplement and still-effective author requests and decisions. Apply [author-revision.md](author-revision.md#establish-the-real-revision-record) to distinguish the textual starting point from unresolved revision obligations; entering English adaptation does not close an unimplemented request. Reuse established names, terminology and valid source support instead of restarting from an older draft or outline.
+
+Within the authorized adaptation, implement evidence-consistent, reversible changes to sentences, paragraphs, headings and section order. Resolve local spelling, terminology and verifiable factual problems directly from sources or existing author decisions. Use the [shared Claim Decision boundary](../SKILL.md#escalate-evidence-claim-conflicts-to-the-user) only when a new author choice materially affecting scientific meaning or research position remains necessary; pause only the dependent passage and continue supported work.
+
+If a genuine core gap remains in the research problem, literature synthesis, method rationale, evidence, result interpretation or conclusion, return the affected content to the Chinese-manuscript or author-revision route before finalizing its English version. Repair within existing authorization, or identify the missing support or author decision without claiming closure. This does not authorize a Chinese whole-paper rewrite or new research; routine corrections and redundant paragraphs are not reasons to reopen the whole manuscript. Fluent English and format compliance cannot conceal a missing argument.
 
 ## Translate meaning and argument, not sentence shape
 
-- Preserve scientific meaning, numbers, citations, notation, scope, and evidence strength.
-- Build a stable terminology map for technical concepts, component names, datasets, and abbreviations.
-- Translate at paragraph level so topic sentences, evidence, and transitions form natural English discourse.
+- Preserve the research question, technical relationships, nearest-work comparisons, method mechanisms, figure/table evidence explanations, important positive and negative results, numbers, citations, notation, scope and evidence strength.
+- Reuse the confirmed terminology and naming map; extend it only for concepts that need a new target-language form.
+- Reorganize sentences and paragraphs into natural English while retaining their scientific jobs under [drafting.md](drafting.md#give-each-section-a-scientific-job), [continuity](author-revision.md#build-continuity-before-polishing-connectives) and [paragraph focus](anti-overdefense.md#5-paragraph-focus-check). Do not reduce mature sections to abstract-like summaries or grade quality by fewer paragraphs. Under a real length limit, compress repetition before necessary reasoning; use the joint main/supplement treatment below for relocation.
 - Select connectives by logical relation. Do not substitute a different stock transition merely to vary wording.
 - Use active or passive voice according to disciplinary convention and sentence focus, not a global preference.
 - Avoid literal Chinese syntax, excessive nominalization, decorative synonyms, inflated adjectives, and repetitive metadiscourse.
 - Do not add `may`, `might`, `potentially`, `to some extent`, or similar hedges unless the evidence actually requires them.
 - Do not strengthen `improves in the evaluated settings` into `consistently outperforms`, `generalizes`, `is robust`, or `is effective` without the corresponding evidence.
 
-If the Chinese source contains a scientific ambiguity or evidence-claim conflict, do not silently choose an English interpretation. Use a Claim Decision before finalizing that passage.
+Retain the shared [main-text figure and table explanation](drafting.md#explain-figures-and-tables-in-the-main-text) functions in English, not just numbered mentions and captions. Apply the decision boundary above to any ambiguity that remains after checking the source and prior author decisions.
 
 ## Adapt to the journal without changing the science
 
@@ -38,7 +42,11 @@ Apply only verified requirements relevant to the manuscript, such as:
 - reference and citation style;
 - data, code, ethics, funding, conflict-of-interest, and author-contribution statements when required.
 
-Do not add a declaration, experiment, citation, or claim solely because it is common elsewhere. Do not treat formatting compliance as evidence of scientific sufficiency.
+Use the confirmed requirements for this journal and article type, not Chinese-layout defaults or a journal-specific page limit hard-coded into this Skill. Do not add a declaration, experiment, citation, or claim solely because it is common elsewhere. Do not treat formatting compliance as evidence of scientific sufficiency.
+
+Adapt the main text, supplement and existing assets together. When relocation or renumbering makes it useful, retain a short object correspondence in the existing task note: match figures, tables, equations, algorithms and references by identity, and update their numbering and cross-references in both files. Do not use blind digit replacement. Compression or relocation must preserve the supplement's unique reproducibility details, analysis scope and necessary explanation, with clear pointers from the main text.
+
+Reuse correct equations and figures. Change them only where translation, readability at the actual insertion size or journal requirements call for it; entering this phase does not imply redrawing assets. Preserve editable mathematics and live citation/cross-reference fields through the existing format-specific routes.
 
 ## Improve the argument proportionately
 
@@ -49,15 +57,8 @@ Do not add a declaration, experiment, citation, or claim solely because it is co
 - Keep one necessary boundary near the conclusion it qualifies; do not spread the same qualification across the manuscript.
 - Preserve a technically correct sentence when a rewrite would only make it sound more ornate.
 
-## Check the optimized manuscript
+## Check the actual English deliverables
 
-- English reads as an authored paper rather than a sentence-by-sentence translation.
-- Terms, tense, voice, symbols, abbreviations, and section references are consistent.
-- Every numerical statement matches its source table or result.
-- Journal requirements were verified from the official source or supplied template.
-- The adaptation did not become an unacknowledged substitute for a missing submission-grade Chinese argument.
-- Translation did not add hedges or raise claims.
-- Citations remain real and correctly attached to the statements they support.
-- New or materially changed literature-dependent content passed the required literature search and claim-level verification rather than relying on translation fluency.
-- Word mathematics remains editable OMML when DOCX is the requested format.
-- The anti-overdefense checks pass in both Chinese remnants and English prose.
+Use [manuscript-quality-control.md](manuscript-quality-control.md) for the existing source-first verification of the adapted main text and supplement, alongside the shared [authoring-quality pass](anti-overdefense.md#run-a-final-authoring-quality-pass). Compare the actual English passages with the content baseline, direct evidence and active author requests: in addition to numbers and terminology, inspect key comparison relationships, causal versus descriptive or inferred claims, analysis scope, negative results, figure/table explanations and implementation of carried requests. Natural English reorganization is allowed; lost argumentative functions are not.
+
+Within that same check, verify object identities, citation scope and main/supplement cross-references after any movement. Inspect the requested final files with the relevant [DOCX](docx-manuscript.md) or native LaTeX production route and confirmed venue/template requirements. Semantic fidelity and presentation checks jointly support completion; an intermediate translation, fluent summary or successful render alone cannot establish it. Use the existing severity, partial-delivery and verification-mode rules rather than adding another gate, reviewer role or checklist.

@@ -35,10 +35,13 @@ Each sentence should contribute at least one of the following:
 - a testable or interpretable judgment;
 - a mechanism or reason;
 - evidence;
+- a definition or necessary reproducibility detail;
 - a necessary scope condition;
 - a real logical transition.
 
 Delete sentences whose main function is to announce that the author is cautious, comprehensive, non-extreme, or respectful of every possible position.
+
+Distinguish research facts, method relationships and evidence interpretation from assurances that this writing, revision, alignment or checking is complete. The latter do not belong in ready-to-use manuscript prose, even without recognizable workflow words; put them in the delivery note only if useful. Judge scientific function, not keywords: mathematical consistency, shared experimental conditions and actual model validation can convey necessary information. Definitions, transitions and reproducibility explanations have their own roles; each sentence need not establish novelty.
 
 ### 5. Paragraph-focus check
 
@@ -56,7 +59,9 @@ Vary paragraph length and opening structure naturally. Avoid a sequence in which
 - Put conditions defining model or analysis validity in the method.
 - Put general metric definitions and comparison settings in the methods/setup or relevant prose, and keep units and decoding keys clear in axes, table headers or concise notes as needed. Follow [the shared figure/table explanation rules](drafting.md#explain-figures-and-tables-in-the-main-text) for information placement; extended analysis belongs in the body.
 - An internal reminder about an unperformed experiment belongs in the paper only when it changes a claim actually being made. Express the supported scope directly rather than transcribing controls as a list of “cannot claim” statements.
-- Keep recomputation, version, validation and production records outside academic narration.
+- Allocate implementation information by its scientific role, following the existing [section responsibilities](drafting.md#give-each-section-a-scientific-job): the main text explains how the method operates and retains details that materially define the model, comparison conditions or result interpretation. Put concrete parameters and operations needed for reproduction, but not for understanding the main argument, in the supplement or appropriate reproducibility material.
+- Keep material serving only manuscript production, file maintenance, task-completion assurance or execution tracking in delivery notes or internal records, not in the supplement merely to remove it from the main text.
+- When software, hardware, interfaces or numerical implementation are themselves research objects, explain their scientific role rather than deleting them as engineering detail. Do not allocate space by the funder's identity; retain necessary platform/implementation identities and required declarations.
 - Address a known counterexample where it materially tests the argument.
 - In reviewer revision, answer the real comment in the response letter and integrate only reader-relevant clarification into the manuscript.
 
@@ -65,6 +70,8 @@ Do not repeat the same limitation in several sections merely to appear safe. Do 
 ## Run a final authoring-quality pass
 
 After the scientific content is correct, review the prose as a continuous manuscript rather than a collection of locally acceptable paragraphs. Preserve every claim and evidence boundary while improving paragraph order, transitions, sentence openings, cadence, and the balance between explanation and detail. Merge repeated setup or reset sentences, but do not shorten away a mechanism or necessary qualification.
+
+Inspect the actual reader-facing text for leftover writing instructions, explanations of edits and self-check conclusions with no scientific information gain. After removing process language, confirm that necessary method conditions, measurement endpoints, analysis scope and important negative results remain. Use this same pass, not an additional review stage.
 
 Where relevant exemplars were studied for the task, use their narrative practices to improve continuity and density without copying phrases or paragraph counts. New literature study follows the scope in [literature-and-rhetoric.md](literature-and-rhetoric.md); ordinary prose polishing does not require collecting another set of papers.
 
