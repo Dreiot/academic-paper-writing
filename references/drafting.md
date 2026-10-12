@@ -100,6 +100,8 @@ Use the main text to develop the observations that matter, their evidence-ground
 
 Keep the observation, its interpretation and its evidential limits distinguishable. Explain plausible mechanisms only to the degree supported by the sources and results, preserving material negative or mixed findings. Visual differences alone do not establish statistical significance, causation or component efficacy. Do not move a long caption wholesale into the body and call it analysis, repeat the same explanation in both places, or substitute “better performance” for the actual comparison and its meaning. Existing literature rules apply when the interpretation adds an external scholarly claim; direct reporting of supplied results does not itself restart retrieval.
 
+When compressing prose-heavy tables, consolidate shared conditions and use concise configuration phrases while retaining the information that identifies each comparator; explain their scientific role outside the table. Reuse correct assets. A change in stage meaning or actual insertion size calls for checking and adjusting the affected figure, not restarting visual beautification after every prose edit; use the existing [figure](scientific-figures.md) and [document](docx-manuscript.md) size/readability checks together with the text budget.
+
 ## Write natural Chinese academic prose
 
 - Prefer established Chinese academic terminology; give a necessary English abbreviation at first occurrence and then use one stable form.
@@ -112,6 +114,8 @@ Keep the observation, its interpretation and its evidential limits distinguishab
 Draft evidence-bearing sections before relying on the abstract or contribution list. The authoring order may differ from the final reading order.
 
 Remove redundancy without removing reasoning needed to establish research significance. When an author identifies weak motivation or literature analysis, add supported comparisons and explanations where necessary; fewer words or paragraphs are not the default improvement. Under an explicit length limit, compress repeated background and secondary implementation details first.
+
+For an actual length-limited revision, use [the shared compression rule](optimization.md#compress-to-the-actual-length-gap), including its proportional edit scope and stopping condition; do not maintain a separate Chinese compression procedure.
 
 ## Check the submission-grade Chinese manuscript
 

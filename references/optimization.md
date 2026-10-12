@@ -48,13 +48,21 @@ Adapt the main text, supplement and existing assets together. When relocation or
 
 Reuse correct equations and figures. Change them only where translation, readability at the actual insertion size or journal requirements call for it; entering this phase does not imply redrawing assets. Preserve editable mathematics and live citation/cross-reference fields through the existing format-specific routes.
 
+## Compress to the actual length gap
+
+For Chinese or English length-limited revision, establish the real limit and current excess before choosing the scale of edits. A substantial excess may require reallocating information across the main text, displays and supplement. For a small excess, first shorten paragraph-like table cells, repeated background, same-level overviews and navigation without scientific work; do not restart mature sections wholesale. Preserve valid content and assets rather than treating a shorter version as a new draft.
+
+Before cutting, identify the comparisons, conceptual handoffs, mechanisms, evidence and conditions needed to recover the argument. Remove repetition first, then relocate detail by its scientific role. Sentences may be merged or rewritten: retain why the next question follows, what a comparison changes and holds fixed, and what its observations support, not merely names, numbers and conclusions. Apply [information responsibilities](author-revision.md#build-continuity-before-polishing-connectives) and the [shared display guidance](drafting.md#explain-figures-and-tables-in-the-main-text); content-complete Chinese does not mean repeating the whole pipeline in every section, and faithful English does not mean preserving Chinese syntax or redundancy.
+
+Do not meet length by default through smaller type, lost uncertainty estimates, hidden adverse comparisons or abstract-like results discussion. Coordinate text cuts with the figures' actual readable insertion size under [scientific-figures.md](scientific-figures.md) and [docx-manuscript.md](docx-manuscript.md); higher dpi cannot repair labels that are too small on the page. Stop unnecessary compression once the actual limit is met. A text count or expected layout saving does not establish a page count: without inspecting the corresponding render, report pagination as unverified. Use the existing final source-first pass below to inspect the relationships left in the delivered text.
+
 ## Improve the argument proportionately
 
 - Make the research gap precise and supported rather than broad or adversarial.
 - Ensure the stated contributions match what the method and experiments establish.
 - Remove repetition across abstract, introduction, results, and conclusion.
 - Replace vague evaluative language with the actual mechanism, comparison, or observed result.
-- Keep one necessary boundary near the conclusion it qualifies; do not spread the same qualification across the manuscript.
+- Concentrate full qualifications while retaining locally necessary scope under [anti-overdefense.md](anti-overdefense.md#concentrate-necessary-boundaries).
 - Preserve a technically correct sentence when a rewrite would only make it sound more ornate.
 
 ## Check the actual English deliverables

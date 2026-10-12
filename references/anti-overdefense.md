@@ -20,6 +20,8 @@ Do not invent an opposing position merely to demonstrate balance.
 
 Remove the defensive phrase provisionally. If the factual meaning, logical relation, evidential accuracy, and claim boundary remain unchanged, omit it. If a boundary is needed, replace attitude management with the concrete condition or result.
 
+After removing a negative or defensive construction, ask whether the reader could infer a broader conclusion. Retain the necessary condition in direct factual language rather than replacing it with a more confident adjective.
+
 For example, prefer a sentence that states where a method performs well and where it does not over a sentence that first denies universal superiority.
 
 ### 3. Logic check
@@ -61,11 +63,12 @@ Vary paragraph length and opening structure naturally. Avoid a sequence in which
 - An internal reminder about an unperformed experiment belongs in the paper only when it changes a claim actually being made. Express the supported scope directly rather than transcribing controls as a list of “cannot claim” statements.
 - Allocate implementation information by its scientific role, following the existing [section responsibilities](drafting.md#give-each-section-a-scientific-job): the main text explains how the method operates and retains details that materially define the model, comparison conditions or result interpretation. Put concrete parameters and operations needed for reproduction, but not for understanding the main argument, in the supplement or appropriate reproducibility material.
 - Keep material serving only manuscript production, file maintenance, task-completion assurance or execution tracking in delivery notes or internal records, not in the supplement merely to remove it from the main text.
+- Research process is not the same as production history: data inclusion, development-time selection, changes of analysis scope and measurement endpoints may determine interpretation. Resolve vague process wording from the relevant record; if it is missing, identify the smallest material gap instead of inventing prespecification or independence. Arrange descriptive labels, code parameters and deterministic ordering details by scientific role: programming syntax and repeated reminders may go, but statistical definitions, analysis identity and consequential settings remain.
 - When software, hardware, interfaces or numerical implementation are themselves research objects, explain their scientific role rather than deleting them as engineering detail. Do not allocate space by the funder's identity; retain necessary platform/implementation identities and required declarations.
 - Address a known counterexample where it materially tests the argument.
 - In reviewer revision, answer the real comment in the response letter and integrate only reader-relevant clarification into the manuscript.
 
-Do not repeat the same limitation in several sections merely to appear safe. Do not weaken a supported conclusion by giving unsupported possibilities equal space.
+Concentrate the full explanation of a qualification, but retain a brief condition wherever it is needed to make the local claim true. “Normally once” is not a repetition ban: independently readable abstracts and contribution statements must not depend on a later caveat to avoid misleading readers. Do not repeat a complete limitation list merely to appear safe, or weaken a supported conclusion by giving unsupported possibilities equal space.
 
 ## Run a final authoring-quality pass
 
