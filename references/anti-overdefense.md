@@ -6,7 +6,7 @@ Overdefensive writing spends substantial space answering objections that do not 
 
 Lead with the best-supported point when that makes the reasoning clearer. Claim-first is a default orientation, not a four-step template for every paragraph. Problem development, literature comparison, method explanation and result reporting can use different rhythms and orders.
 
-Avoid beginning with stacked conditions, disclaimers, imagined misunderstandings, and balanced positions before the paper states what it found or proposes. A boundary may appear earlier when it is required to define the claim correctly, but it should not become a ceremonial opening.
+Do not draft a paragraph as a checklist of mistakes the study will avoid. Express necessary constraints through the actual method: what is observed, available when, fitted on which units or evaluated against which endpoint, and how these choices serve the research question. When cautions crowd out that explanation, reshape the paragraph rather than merely replacing connectives. Keep a negative statement when it makes a useful scientific distinction, and leave production-only reminders outside the manuscript. Natural prose comes from clear relationships and varied cadence, not grander jargon, a fixed positive-sentence template or stronger unsupported claims.
 
 ## Run five diagnostic checks
 

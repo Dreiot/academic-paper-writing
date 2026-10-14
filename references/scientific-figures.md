@@ -60,7 +60,7 @@ For each conceptual figure:
 6. make targeted corrections for scientific meaning, technical explanation, visual hierarchy, professional finish and final-size readability while retaining the shared style brief; stop when these material checks pass, or report the unresolved limitation instead of continuing open-ended cosmetic variations;
 7. save the selected project-bound image with a stable descriptive name and retain enough prompt and source context to reproduce its visual intent.
 
-A conceptual illustration explains the method; it is not experimental evidence. Use a concise caption to identify it as a schematic where needed, and explain its relationships and scientific role in the main text under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text). Neither caption nor prose may turn generated appearance, spatial arrangement or relative size into an observed quantitative result.
+A conceptual illustration explains the method; it is not experimental evidence. Identify it as a schematic when needed to prevent a real misreading, preferably in a concise title or caption; do not automatically append repeated “not measured” or “not completed” disclaimers to every figure when its role is already clear. Retain necessary decoding information and explain the relationships in the main text under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text). Neither caption nor prose may turn generated appearance, spatial arrangement or relative size into an observed quantitative result.
 
 ## Generate result figures only from authentic local data
 

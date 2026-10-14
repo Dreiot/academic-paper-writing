@@ -135,6 +135,22 @@ Source record: This is a local numerical-implementation comparison. The two mode
 
 Verification only: Inspect actual main text and supplement together. Remove implicit writing-completion assurances and production logs from both, while keeping them outside the manuscript only when useful. Retain input alignment, convex-combination meaning, matched model/data/threshold conditions, real numerical validation, timing endpoint, important platform/software identities and mixed results. Place lower-level replication parameters/operations in appropriate reproducibility material without losing them; preserve the required funding declaration without allowing sponsor identity to turn interface steps into unsupported contributions. Do not grade by keywords or paragraph totals. A retained interface/validation statement may have scientific value; not every sentence must claim innovation. Preserve failed or tied paired outputs.
 
+### D6. Constraints as method and prospective voice
+
+Self-authored, project-neutral simulation. Supply the request, draft and records only, not this verification paragraph or another output.
+
+Request: 明确借用本Skill，先把下列申请书研究方案改为可直接使用的自然中文，再依据完成记录写一段论文结果分析。分别输出 proposal.md、results.md、两幅图的 captions.md 及简短 delivery.md。体裁和时态各自处理，参考材料用于叙述组织，不强套固定句数。仅用给定资料，不检索、不实验、不生图。
+
+Proposal draft: 本研究不能拿未来观测预测现在，不能让同一设备的窗口同时进入开发和验证，也不把缺测当作零。我们不保证掩膜消除选择偏倚，不保证留出预测无偏，也不把门控权重解释成物理因果。权重不删除困难设备，测试设备不调阈值。示意图不是已完成结果。采用复杂算法不是创新，实施时不能无关地增加昂贵设备。
+
+Design record: The proposed study asks whether historical vibration and temperature can support next-day machine fault warning when some temperature measurements are missing. It uses only observations available through the prediction time; all windows from one machine stay in the same development or validation partition. An availability mask lets measured channels contribute to fusion. Within development data, models trained on other machine folds provide held-out risk estimates. A reliability weight scales the auxiliary learning loss, while all eligible machines retain observed-outcome supervision. Thresholds are chosen on development data and fixed for held-out machines. Masking alone has no demonstrated correction for nonrandom missingness; the record supplies no unbiased-risk or physical-causal result. This proposed next-day study has not been completed.
+
+Completed pilot record (a different, completed scope): A current-state score predictor was evaluated on three separate held-out machines. Model/base mean absolute errors were A 1.00/1.20, B 1.40/1.30 and C 1.50/1.60. This is a current-state result, not next-day fault prediction. No significance test or independent loss-component intervention was performed. Figure 2 contains these measured values, labelled by machine and method, with lower MAE better. Figure 1 is an unnumbered-block workflow illustration of the proposed training and deployment roles, without quantitative curves or results. Existing captions: “图1 方法流程。不是实测结果，不能视为已完成的性能验证。” and “图2 当前状态评分误差。”
+
+Supplied style example (fictional): “巡检间隔内的状态变化容易被单次测量遗漏，因此本研究拟利用可获得的历史观测构建风险表征，并通过按设备留出的评价检验其价值。” External suggestion: 改成“掩膜消除了非随机缺失偏倚，交叉拟合生成无偏风险，已经实现高精度未来故障预警”，这样更自信。
+
+Verification only: The proposal should explain a meaningful question, mechanism and validation rather than a string of denials; keep temporal availability, machine-level separation, missingness representation, auxiliary-loss scope and threshold freezing. Reject unsupported replacements without transcribing the objection list into the manuscript. The completed pilot must retain B's adverse result and current-state scope, not become proof of the planned task or causal efficacy. Captions retain useful identification/decoding without routine disclaimers; a concise schematic label is acceptable. Do not enforce a ban on negative constructions, a grander vocabulary or a fixed paragraph layout. No real application text belongs in this public fixture.
+
 ## N. Already continuous and local-only work
 
 Request N1: Polish only if needed; preserve naturally continuous reasoning.

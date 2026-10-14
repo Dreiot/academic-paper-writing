@@ -36,7 +36,9 @@ When no user or journal formatting authority exists:
 
 Format algorithms and pseudocode as an academic three-line table by default: a top rule, one deliberate separator after the algorithm title or header block, and a bottom rule, with no vertical borders or boxed body rows. Keep the algorithm title, input, output, and numbered steps structurally together. Use plain step numbers rather than bullet glyphs, and do not simulate the algorithm with a loose sequence of ordinary paragraphs and horizontal lines.
 
-Do not apply `keep_with_next`, `keep_together`, or `page_break_before` indiscriminately to every paragraph inside a table or algorithm. Use caption-to-table keeping, repeating header rows, row-level no-split behavior, or targeted pagination only where needed. Remove accidental list formatting and bullet glyphs from table cells. Word's table move handle and formatting-mark indicators are editing-interface elements, not printable document content; verify the exported page rather than trying to encode or erase a UI handle. If widespread black-square paragraph markers are caused by unnecessary pagination flags, remove those flags while preserving intentional page behavior.
+For generated Word text, turn off widow/orphan control, keep-with-next, keep-lines-together and page-break-before by default, including headings, captions, table cells and algorithm paragraphs. Set `widow_control`, `keep_with_next`, `keep_together` and `page_break_before` explicitly to `False` (OOXML `widowControl`, `keepNext`, `keepLines`, `pageBreakBefore` set to false/0); deleting the properties or assigning `None` can inherit enabled defaults. Apply this to the generated styles and override conflicting direct formatting, without changing the user's global Word template or unrelated existing paragraphs. Only an explicit user or venue/template requirement overrides these defaults; do not silently restore them during layout cleanup.
+
+Use the existing render check to inspect pagination, figure/caption association and table fit; paragraph controls are distinct from repeating table headers and row-level splitting. Remove accidental list formatting and bullet glyphs from table cells. Word's table move handle and formatting-mark indicators are editing-interface elements, not printable document content.
 
 Body-font defaults do not determine the Word mathematics font. Preserve a working template math configuration or apply the journal-required math font consistently; do not change the document math font to Times New Roman solely because Western prose uses Times New Roman.
 
@@ -65,6 +67,7 @@ Confirm, in proportion to the task, that:
 - the final DOCX opens successfully in Word and uses the intended page geometry and styles;
 - mixed Chinese and Western fonts are explicit and consistent where the fallback applies;
 - title and heading styles do not resolve through theme fonts to Calibri, MS Gothic, or another unintended family;
+- generated paragraphs resolve all four pagination controls above to off unless an explicit formatting requirement overrides them;
 - tables and algorithms fit the page, use the intended three-line structure, contain no accidental bullets or pervasive pagination markers, and do not depend on a missing style name;
 - Chinese manuscript figures and tables follow the caption-weight, table-header-weight, border-width, cell-spacing, and alignment defaults above unless an applicable formatting requirement overrides them; inspect effective formatting, not only the assigned style name;
 - figures, tables, equations, captions, numbering, bookmarks, and cross-references agree;

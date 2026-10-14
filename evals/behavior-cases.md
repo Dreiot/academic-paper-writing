@@ -60,6 +60,8 @@ Success means literature search and manuscript-wide semantic review are not adde
 
 For Chinese figure and table formatting, include inherited bold figure/table captions and first-row column headings, incorrect three-line border widths, and cell styles with line-based after-spacing. Without an explicit override, expect regular-weight figure/table captions (including numbering) and first-row column headings, top/header-separator/bottom rules of 1/0.5/1 pt, zero cell-paragraph after-spacing in points and lines, single line spacing, and centered cell contents. An explicit journal or user formatting requirement takes precedence; meaningful emphasis in data cells is preserved.
 
+Include inherited enabled widow/orphan, keep-with-next, keep-lines-together and page-break-before settings in generated headings, body, captions and table paragraphs. Check effective false overrides for all four, not merely absent XML properties; an explicitly required local exception remains scoped to its target. Do not change global Word defaults or unrelated content.
+
 ### 6. Carried author revision
 
 Provide a current manuscript whose earlier active request for substantive argument repair was claimed complete in a revision note but is still absent from the text.
@@ -161,6 +163,8 @@ When these figure rules change, check that scientific correctness, technical exp
 For planning-range or style-scope edits, check the paired boundaries: a full-paper task with a thin corpus and unresolved nearest work calls for targeted additional study, while a supported local edit or adequate reused corpus does not require quota-filling; one paper may count toward both scientific and writing roles. Explanatory figures must fit academic communication without imposing a fixed layout or discarding useful color. Text checks alone do not establish actual reading coverage or visual quality.
 
 ## Regression decision
+
+For constraint-to-narrative or proposal-genre changes, use [D6](argument-fixtures.md#d6-constraints-as-method-and-prospective-voice), withholding its verification paragraph from writers. Compare one actual pre-change and one updated output on the same raw input when assessing behavior, preserving ties and failures. Judge natural explanation and retained scientific conditions together; fewer negative words alone is not success. Caption-only text checks do not verify rendered figures.
 
 For length preservation, mixed external advice and stage-semantic integration changes, use the project-neutral J2, D5 and J3 extensions in [revision-scope-fixtures.md](revision-scope-fixtures.md). Run each affected request once per isolated baseline/candidate, giving writers only raw inputs and their request, not criteria or the other output. J2-small and J2-large use the same original text, not serial compressions. Inspect source fidelity, recoverable argument, proportionate compression and readability separately, including deleted/merged material and main/display/supplement relationships. D5 tests selective adoption of suggestions and scientific process versus production history; J3 tests changed editorial grouping without changing data roles or algorithm meaning. Keep ties, failures and untested rendering explicit, without a new review layer or favorable resampling.
 

@@ -20,6 +20,8 @@ For a governed research project, read the current `AGENTS.md`, `docs/PROJECT_COR
 
 Infer the phase from the request and available artifacts. Ask only when choosing the phase would materially change the deliverable.
 
+When the user explicitly borrows this Skill for a research proposal, reuse its evidence and prose principles while following the proposal's template and supplied exemplars. Adapt rhythm and emphasis to the research question, proposed mechanism and validation plan; distinguish established work from intended findings. Do not impose paper sections or turn internal feasibility checks into the proposal's narrative. This is a genre adjustment, not a separate workflow.
+
 - **Submission-grade Chinese manuscript:** read [references/drafting.md](references/drafting.md). Use Chinese by default and complete the scientific content, literature grounding, argument, prose, any needed figures and tables, references, and necessary mathematics to a level that should require journal adaptation rather than later substantive reconstruction.
 - **Target-journal adaptation:** read [references/optimization.md](references/optimization.md). Translate or rewrite into natural academic English and adapt a content-complete manuscript to the user-selected journal and article type. Reopen the Chinese-manuscript or author-revision phase when a material scientific or rhetorical gap remains.
 - **Reviewer revision:** read [references/revision.md](references/revision.md). Analyze actual editor and reviewer comments, revise the manuscript naturally, and prepare response text when requested.
