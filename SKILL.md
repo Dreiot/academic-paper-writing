@@ -1,6 +1,6 @@
 ---
 name: academic-paper-writing
-description: "Draft, translate, journal-adapt, or substantially revise academic manuscripts and manuscript figures, including author revisions and reviewer responses. Do not use for standalone literature searches, general translation, routine copyediting, research discussion reports, or ordinary document formatting."
+description: "Draft, translate, journal-adapt, or substantially revise academic manuscripts and manuscript figures, including author revisions, reviewer responses, and requested external-editor polishing prompts or returned-draft assessment/integration. Do not use for standalone literature searches, general translation, routine copyediting alone, research discussion reports, or ordinary document formatting."
 ---
 
 # Academic Paper Writing
@@ -19,6 +19,8 @@ For a governed research project, read the current `AGENTS.md`, `docs/PROJECT_COR
 ## Route to the writing phase
 
 Infer the phase from the request and available artifacts. Ask only when choosing the phase would materially change the deliverable.
+
+For a complete manuscript or substantive revision, read [references/manuscript-basis.md](references/manuscript-basis.md). Establish or reuse the field, study and article type, audience, and evidence roles before choosing the structure or writing exemplars; maintain one local manuscript basis file for reusable evidence, learning, and active author requirements. Local wording or formatting work and discussion-only requests do not trigger its creation.
 
 When the user explicitly borrows this Skill for a research proposal, reuse its evidence and prose principles while following the proposal's template and supplied exemplars. Adapt rhythm and emphasis to the research question, proposed mechanism and validation plan; distinguish established work from intended findings. Do not impose paper sections or turn internal feasibility checks into the proposal's narrative. This is a genre adjustment, not a separate workflow.
 
@@ -43,6 +45,8 @@ When writing or revising manuscript discussion of figures or tables, follow [the
 If the user asks to use Zotero, the source DOCX contains live Zotero citation fields, or a citation task genuinely needs the user's local Zotero library, also read [references/zotero.md](references/zotero.md) and use the installed Zotero capability when available. Zotero is a conditional integration, not a prerequisite for ordinary drafting, translation, or revision. Zotero-library imports and other library writes are currently paused; use only the read-only operations permitted by that reference until the user explicitly re-enables writes after the integration is improved.
 
 When creating or substantially revising manuscript figures, read [references/scientific-figures.md](references/scientific-figures.md). Use ImageGen for non-evidentiary workflow, principle, mechanism, and method-overview illustrations; generate every result or evidence-bearing figure from authentic local data without a generative image model.
+
+For a user-requested polishing prompt or external-editor handoff, or requested assessment/integration of a returned polished candidate, read [references/external-polishing.md](references/external-polishing.md). Generate a scoped prompt for Gemini or the user's chosen editor only when requested; otherwise assess or integrate within the designated scope. Ordinary drafting, revision, or a general wish for natural prose does not trigger prompt generation or external submission.
 
 ## Escalate evidence-claim conflicts to the user
 

@@ -4,7 +4,9 @@ Use this phase to turn verified research materials into the content-authoritativ
 
 ## Establish the paper's spine
 
-Construct the argument by separating four kinds of information before writing:
+Start with the field and study/article type in the [manuscript basis](manuscript-basis.md#identify-the-writing-context). Establish the concrete research question, what prior work makes known or unresolved, how this study addresses it, and what the evidence answers. A clinical association, an experimental finding, a theoretical result, and a new algorithm can require different argument and evidence structures; do not turn all of them into a proposed-method paper.
+
+For work proposing a method or technical design, separate four kinds of information before writing:
 
 - **Original need:** the practical or modeling problem that existed before the proposed method, and why addressing it matters.
 - **Chosen objective and conditions:** what this study elects to achieve and hold fixed. An author-selected budget, architecture, variable, or evaluation condition is not automatically a requirement for the entire field.
@@ -27,18 +29,7 @@ Apply [literature-and-rhetoric.md](literature-and-rhetoric.md) to every part of 
 
 If the target journal is unknown, use a journal-neutral structure informed by high-quality venues in the field. A private production placeholder may be used temporarily for a missing local fact, but the reader-facing manuscript cannot be called submission-grade while a scientific, bibliographic, or narrative placeholder remains. Author-supplied administrative metadata such as final affiliations or funding identifiers may remain an external completion item when it does not change the paper's scientific argument. If evidence and a claim conflict or the scientific meaning is unclear, use the Claim Decision process from `SKILL.md`.
 
-The final layout may adapt to the field and paper type. For an empirical methods paper, a useful default is:
-
-1. title, abstract, and keywords;
-2. introduction;
-3. related work;
-4. problem formulation and notation;
-5. proposed method;
-6. experimental setup;
-7. results and analysis;
-8. conclusion.
-
-Do not create a section merely because this list contains it. Merge, split, or omit sections when the paper's argument or target venue calls for a different structure.
+Choose the final structure from the field, article type, and relevant venue requirements. Empirical biomedical or social research may use Introduction, Methods, Results, and Discussion; a methods paper may need a separate literature comparison, formulation, and experimental analysis; a theoretical paper may center definitions, propositions, and proofs. These are examples, not fixed templates. Put earlier work, limitations, and the concluding judgment where the genre and argument need them; do not create separate sections merely because another article type uses them.
 
 A Chinese master manuscript is a complete academic paper, not a rough outline or a designed report. It must contain the arguments, evidence, explanations, figures, tables, equations, captions, and references needed for scholarly evaluation. Use the minimum styling needed to make them clear. Unless the user or target venue requests them, do not append a `技术注与补充材料索引`, evidence inventory, verification log, production note, repository map, or other internal traceability section. Keep such working material outside the reader-facing manuscript.
 
@@ -74,6 +65,8 @@ Before detailed component equations, make the whole method recoverable: inputs a
 
 ### Experiments and results
 
+For observational and experimental studies, organize around substantive questions and findings rather than a list of assays, statistical tests, or software outputs. Use existing primary observations and quantitative summaries together when each contributes necessary evidence. In fields using experimental images, this can include morphology, molecular measurements, and functional observations where they actually exist and answer the question; it is not a requirement to add these modalities to every paper. Keep sample/analysis units and material uncertainty clear, with essential results in the body and fuller detail in suitable tables or supplements. Simplifying presentation does not authorize changing the analysis or suppressing adverse findings. Follow [scientific-figures.md](scientific-figures.md#present-original-observations) for evidence images.
+
 Make the experimental questions visible through the organization, but do not force every question into a heading. Report only datasets, baselines, splits, metrics, settings, ablations, sensitivity studies, and statistical analyses that actually exist or that the user has asked to plan. Separate observed results from interpretation.
 
 For each central experimental question, state the concrete pattern, magnitude, conditions and supported inference. When averages hide different directions, inspect available group-level contrasts; when a mechanism claim depends on internal changes, use the relevant diagnostic evidence. Distinguish missing explanation from a substantive evidence gap under the [existing evidence check](manuscript-quality-control.md#verify-high-impact-facts-completely): the latter may need an analysis or research recommendation rather than another disclaimer. “Curves vary,” “results are heterogeneous,” or precautions alone do not analyze a display. Do not invent mechanisms from dataset names or demand experiments to repair prose alone.
@@ -86,9 +79,17 @@ Place an important negative, mixed, or scope-limiting result beside the conclusi
 
 Within a results subsection, apply the [paragraph-focus rule](anti-overdefense.md#5-paragraph-focus-check): consolidate evidence and interpretation that jointly answer the same question, including across metrics or displays, while keeping genuinely distinct analyses legible. Reporting an observation, explaining it and drawing its supported implication need not become three separate paragraphs.
 
+### Discussion
+
+Develop the best-supported answer and explain what it adds to the field. Relate the study's concrete findings to relevant prior evidence, explain meaningful agreement or disagreement and plausible reasons supported by sources, and state the resulting scientific or practical value. Description of measured changes alone does not supply an authorial judgment. Keep the research focus distinct from the strength of its answer under the [manuscript basis](manuscript-basis.md#identify-the-writing-context); neither naming a studied mechanism nor finding associated markers establishes causal confirmation.
+
+When a paper combines different evidence streams, make each stream's question, inferential role, and limits legible before drawing their supported connection. Complementary observations do not automatically validate one another or establish a single causal chain. Whether they need separate subsections depends on the argument and venue, not a universal clinical/basic or qualitative/quantitative split.
+
+Build a continuous argument using the existing [continuity](author-revision.md#build-continuity-before-polishing-connectives) and [paragraph-focus](anti-overdefense.md#5-paragraph-focus-check) rules. Cover relevant prior work, value, and material limitations without turning them into one mandatory module or paragraph each. Explain how a limitation changes interpretation; do not repeatedly withdraw a supported finding or replace the ending with an inventory of unperformed studies. Future work, when useful, should resolve a specific question left by the evidence. Use these functions within a combined Results and Discussion when that is the appropriate genre.
+
 ### Conclusion
 
-Answer the research question at the level established by the paper, summarizing the method and evidence without repeating the abstract. Future research may follow from limitations already discussed; distinguish a proposed direction or test from a completed result, and promise no performance gain. Do not introduce unrelated applications, unreported findings or speculative defenses. Future work is optional, not a required closing template.
+Answer the research question at the level established by the paper and state the resulting knowledge or significance. Synthesize the findings rather than listing endpoints, numbers, or procedural steps again. A defining method contribution or decisive quantity may belong when the article type or author request needs it; neither method recap nor a blanket ban on methods or numbers is universal. Preserve conditions needed to make the conclusion true. Future research may follow from limitations already discussed; distinguish it from completed work and promise no gain. Do not introduce unrelated applications, unreported findings, or speculative defenses. Future work and a separate Conclusion section are optional unless required by the venue or author.
 
 ## Explain figures and tables in the main text
 

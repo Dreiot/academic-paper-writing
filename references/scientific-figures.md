@@ -64,7 +64,7 @@ A conceptual illustration explains the method; it is not experimental evidence. 
 
 ## Generate result figures only from authentic local data
 
-Create result and evidence-bearing figures with deterministic plotting, analysis, or domain-specific visualization code operating on the authorized local data and result artifacts. Do not call ImageGen or another generative image model for any result figure or evidence-bearing panel.
+Create quantitative result figures with deterministic plotting, analysis, or domain-specific visualization code operating on the authorized local data and result artifacts. Assemble primary observation panels from authentic source records under the rules below; do not replace them with reconstructed illustrations. Do not call ImageGen or another generative image model for any result figure or evidence-bearing panel.
 
 - Preserve the exact observed values, sample identities, group labels, units, missingness, negative results, mixed results, and uncertainty represented by the source.
 - Do not invent plausible points, smooth away inconvenient variation, remove outliers, interpolate missing values, change denominators, or add significance markers without an authorized analytical basis.
@@ -77,6 +77,17 @@ Create result and evidence-bearing figures with deterministic plotting, analysis
 Give result visualizations the same attention to composition, legibility and professional finish as conceptual illustrations. Choose a presentation that makes the important comparisons and relationships clear, while preserving observed magnitudes, uncertainty and material adverse or mixed evidence. Styling may not alter, hide or exaggerate the result or imply unsupported relationships. Prefer vector or high-resolution deterministic output when supported by the plotting route and target journal.
 
 Design each figure for its final manuscript placement rather than generating or plotting first and shrinking later. Use the target journal's single- or double-column width when known; otherwise fit within the document's available text width while preserving aspect ratio. Check effective raster resolution and label size after insertion. If the intended placement makes labels or scientific structure unreadable, recompose or split the figure instead of accepting an oversized page, distorted aspect ratio, or miniature text.
+
+## Present original observations
+
+When the field and research question call for empirical images or other primary records, inspect the existing material as well as the derived plots. Microscopy, blots, gels, specimen images, and other observation panels are evidence-bearing. Use them when they contribute to the argument, following venue requirements; do not require every assay, image type, or raw record in every manuscript.
+
+- Retain a traceable correspondence among the selected panel, source file, sample, group, condition, acquisition context, and relevant quantification. Explain the selection basis for a representative panel in the working record; it must fairly reflect the data rather than select for a desired effect.
+- Preserve originals. Use only scientifically justified, disclosed processing and assembly consistent with the field and journal; make material cropping, splicing, or combinations legible. Do not alter observed features, selectively enhance an apparent effect, or use generative restoration or fill.
+- Supply scale bars, labels, acquisition information, controls, or uncropped source material where needed for interpretation or required by the venue. Do not invent unavailable originals or missing acquisition details.
+- Align image examples with the quantified evidence and independent sampling structure. Several fields, bands, wells, or technical views from one biological unit do not become independent replicates by appearing in different panels. A representative image alone does not establish a group-level effect.
+
+Keep source/selection pointers in the existing [manuscript basis](manuscript-basis.md#keep-one-reusable-local-file) or the linked source record, and reader-relevant decoding information in concise legends. Reuse the quantitative and final-size checks above where applicable; no second image-evidence audit is required.
 
 ## Assemble and validate the figure set
 

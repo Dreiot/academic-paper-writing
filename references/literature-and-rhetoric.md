@@ -8,6 +8,17 @@ Direct reporting of verified local results, exact definitions of the paper's own
 
 If the user explicitly defines a closed evidence corpus or prohibits external browsing, work within that boundary. Verify relevant sources in the permitted corpus, identify the result as corpus-bounded outside the manuscript when needed, and do not claim current, exhaustive, or global novelty coverage. Use a Claim Decision only when the requested scholarly claim cannot be made credibly within that boundary.
 
+## Match sources to their role
+
+Use the field, study/article type, readers, and evidence roles in the [manuscript basis](manuscript-basis.md#identify-the-writing-context) to choose sources. Distinguish the uses that actually matter:
+
+- **Scientific support:** primary evidence for a specific background statement, comparison, interpretation, or explanation, with its population/model, conditions, endpoints, and claim strength preserved.
+- **Writing exemplar:** a suitable article for learning argument order, terminology, paragraph continuity, evidence displays, or discussion/conclusion practices. Prefer a similar field, article type, and evidence structure; a stronger causal design may teach reasoning but does not license its conclusions here.
+- **Methodological precedent:** a relevant analysis or procedure and its assumptions. Sharing a statistical test, tool, or sample count does not make the paper a whole-manuscript exemplar or establish that the present design is adequate.
+- **Venue/reporting requirement:** an official guideline or applicable reporting framework. A practice observed in a published article is not automatically a mandatory rule.
+
+A paper may serve several roles if each is supported. Identify the role and material mismatch where confusion would affect writing; do not force separate source lists. Quality depends on directness, transparent evidence, and fit as well as venue reputation. Use recent work where currency matters and retain foundational work where it remains relevant. Search favorable, adverse, and condition-dependent evidence when they bear on the claim, rather than collecting only papers that support the desired direction.
+
 ## Choose the necessary search depth
 
 Use the smallest search that can support the requested scholarly outcome, but never substitute a token search for a literature-dependent judgment.
@@ -24,10 +35,10 @@ A fresh search requires live scholarly discovery, publisher, DOI, or connected-l
 
 Before a comprehensive search, identify the literature families that the manuscript actually depends on, such as:
 
-- the research object and problem setting;
-- the central method family and its terminology variants;
-- direct comparators and the nearest novelty-adjacent approaches;
-- theoretical, algorithmic, or empirical mechanisms used to justify the design;
+- the research object, population/model, or problem setting;
+- the central phenomenon, exposure, intervention, or method and its terminology variants;
+- direct comparators, competing explanations, and the nearest studies or approaches;
+- theoretical or empirical mechanisms used to justify the design or interpretation;
 - application-domain evidence invoked in the manuscript;
 - the target journal and the closest high-quality venues.
 
@@ -37,13 +48,11 @@ Prioritize peer-reviewed primary research that is directly relevant and exposes 
 
 ## Set an adaptive comprehensive-search target
 
-Set effort from claim breadth, available verified sources and remaining uncertainty, not paper-count quotas. Full articles and strong novelty claims usually need broader discovery than a local edit. Continue while there is a concrete reason to expect a missing family, closer alternative or claim-changing contradiction; stop when those relevant questions and source support are adequately resolved. Do not read unrelated papers to fill a target or treat a fixed count as proof of completeness.
+Set effort from claim breadth, available verified sources and remaining uncertainty. Full articles and strong novelty claims usually need broader discovery than a local edit. Continue while a concrete unresolved family, closer study, or claim-changing contradiction requires it. Coverage is sufficient when important propositions have direct support, positioning-critical neighbors are substantively compared, consequential adverse or condition-dependent evidence is addressed, and suitable exemplars support the editorial choices actually needed. Novelty wording must fit the search's reach.
 
-For a complete manuscript or major scholarly rewrite, a useful initial planning reference is roughly 20–30 relevant papers screened, 8–12 core papers studied in full text, and 3–5 suitable writing exemplars. These are orientation ranges, not minima, caps or independent quotas. A paper can serve both scientific and rhetorical roles, and valid earlier full-text study may be reused. Do not apply these whole-paper ranges to local edits or count a download, abstract or bibliographic record as completed full-text study.
+Use these coverage conditions to stop the search; paper counts are not a completion test or a default workload target. A task-specific effort estimate may be useful when the user needs planning, but it does not replace coverage. One paper may serve several verified roles, and valid earlier reading can be reused. Do not count a download, abstract, or metadata record as full-text study or read unrelated papers to meet a total.
 
-If effective coverage is substantially below these ranges, check whether the central research families, closest alternatives or needed writing exemplars were missed. Fill actual gaps; when narrower scope or valid reused evidence makes a smaller corpus sufficient, briefly explain that basis rather than fetching unrelated papers or pausing for count approval. Conversely, reaching the ranges does not close an unresolved scientific comparison. In the delivery note, give a concise account of material new reading, reused verification and inaccessible decisive sources, with approximate counts when known; do not invent totals or create another mandatory tracking log.
-
-Sufficient coverage means that each important family and positioning-critical comparator has primary support for the actual comparison, novelty wording fits the search's reach, and journal-rhetoric choices rest on applicable examples rather than imitation. Summarize scope and any consequential gap in the existing task record. Inaccessible decisive material remains an explicit gap; deliver supported work with the affected claim or section provisional instead of inventing content or declaring complete coverage.
+Summarize material new reading, reused verification, and consequential gaps in the shared basis and a concise delivery note where useful, without a second log. Known counts may describe work actually done; they need not be manufactured or tracked for their own sake. Inaccessible decisive material remains an explicit gap; deliver supported work with the affected claim or section provisional rather than inventing content or declaring complete coverage.
 
 ## Recover access to necessary full text
 
@@ -82,9 +91,9 @@ Keep method capability and experimental finding distinct: the former explains an
 
 Determine applicability boundaries and technical consequences only where they matter to the comparison, supported by the original source, a mathematical relationship or existing evidence. A source's different task is not itself a defect: foundational, neighboring and scope-setting studies have different roles.
 
-Ask what directly applying the nearest available method would already answer and what would still require research. If it can already achieve the stated objective, acknowledge this and explain the independent question or knowledge the present study adds, if supported. Analyze consequential differences rather than stopping at distinct variables, architecture, hardware, or sequence. If their significance cannot be established, identify the missing comparison or source instead of inventing a limitation or declaring positioning complete.
+Ask what the nearest studies already establish and what the present study adds under its actual conditions. Compare the research question, population/model, design, measurements, and explanatory reach as relevant. For methods papers, ask what directly applying the nearest available method would already answer and what would still require research. If it can already achieve the stated objective, acknowledge this and explain the independent question or knowledge the present study adds, if supported. Analyze consequential differences rather than stopping at distinct variables, architecture, hardware, or sequence. If their significance cannot be established, identify the missing comparison or source instead of inventing a limitation or declaring positioning complete.
 
-Give the positioning-critical neighbors enough space to establish the actual relationship among their learned variables, objective/selection rule and the present question. One accurate sentence naming each mechanism can still be insufficient for a full paper. Distinguish foundational citations that may remain brief from neighbors that carry the motivation. Use accessible primary passages or still-valid source-located records to develop that comparison; an access limitation is not a reason to silently replace it with title-level coverage and mark the scholarly task complete. Keep the affected requirement provisional when its necessary support remains unavailable, while continuing useful supported writing.
+Give the positioning-critical neighbors enough space to establish their relationship to the present question. For methods research, this may require explaining learned variables and objective/selection rules; other study types need the corresponding design, observation, or inference relationships. One accurate sentence naming each mechanism can still be insufficient for a full paper. Distinguish foundational citations that may remain brief from neighbors that carry the motivation. Use accessible primary passages or still-valid source-located records to develop that comparison; an access limitation is not a reason to silently replace it with title-level coverage and mark the scholarly task complete. Keep the affected requirement provisional when its necessary support remains unavailable, while continuing useful supported writing.
 
 Compare the shared relationships, consequential differences and what they mean for the research question and present motivation. Module inventories, “provides a foundation” and “each has strengths and weaknesses” cannot replace this reasoning. Preserve complementary routes without inventing a progression or predecessor's defect.
 
@@ -100,20 +109,21 @@ For comprehensive journal work, inspect relevant sections of suitable writing ex
 - how the need for a design choice leads into the proposed method;
 - how contributions are separated and connected to later evidence;
 - how methods, experiments, discussion, limitations, and conclusion are kept in their proper roles;
+- how primary observations, images or other original records are combined with quantitative summaries, and how the main text and supplement divide the evidence;
 - how the venue handles paragraph scale, transitions, citation placement, and claim strength;
 - how many studies are synthesized within one paragraph, where paragraph breaks mark a genuine argumentative turn, and how the final sentence of one paragraph prepares the next.
 
-When a borrowed writing practice materially changes organization, briefly link its source location, argumentative function and actual manuscript change in the shared task note when traceability is needed. For motivation or positioning repair, verify supported comparison and significance in the prose; added citations, categories or a bridge alone do not establish that outcome. If a practice is not applicable, do not force a change to prove it was studied.
+When a borrowed writing practice materially changes organization, retain its source location, argumentative function, applicability, and actual manuscript use in the [shared basis](manuscript-basis.md#keep-one-reusable-local-file). For motivation or positioning repair, verify supported comparison and significance in the prose; added citations, categories or a bridge alone do not establish that outcome. If a practice is not applicable, do not force a change to prove it was studied. Compare how exemplars handle evidence of similar strength; do not import their section counts, assays, statistical schemes, or rhetorical certainty as universal requirements.
 
 Adapt relevant practices from high-quality exemplars to the manuscript's own reasoning, comparing examples when needed to distinguish useful conventions from one author's choices. Do not copy sentences, distinctive phrasing, a complete organization, or a motivation unsupported for this study. Learning journal rhetoric informs editorial decisions rather than imitation.
 
-Prefer rhetoric exemplars with the same article type and a related methodological domain. Keep their editorial role separate from scientific evidence: a paper chosen to study writing style supports a manuscript claim only when its content independently supports that claim.
+Apply the source-role distinctions above when a paper serves both editorial and scientific purposes. Study the relevant methods and results as well as its polished ending when needed to understand what permits its conclusion; record actual reading scope rather than treating a discussion-only reading as whole-paper verification.
+
+For substantial drafting or revision, synthesize applicable exemplar practices into a short writing brief in the shared basis. Give the draft or editor positive, usable direction on terminology, argument progression, evidence order, body/display/supplement responsibilities, and discussion/conclusion practices as relevant. For example, specify the reasoning that connects two evidence streams rather than merely asking for less modular prose. Distinguish shared conventions, author-specific choices, and the present manuscript's decisions; an individual exemplar does not set a rule. Reuse and adjust this brief as needed, without fixed sentence lengths, paragraph counts, copied phrasing, banned-word inventories, or another approval stage.
 
 ## Keep private working evidence
 
-Reuse one task-local note or existing bibliography/evidence record where practical. Retain the source identity and support location for consequential claims, new-search scope when relevant, material changes and unresolved gaps. Record a rhetorical transfer there only when it matters. Small edits need no separate search log, matrix, pattern map or fixed status labels; complex searches or user-requested audits may justify richer records. Keep facts, inferences and uncertainty distinguishable regardless of record format.
-
-Working records remain outside the reader-facing manuscript and are neither committed nor delivered unless requested. Their existence cannot establish scholarly sufficiency.
+Use the [manuscript basis](manuscript-basis.md#keep-one-reusable-local-file) for substantial work and reuse an existing source record for smaller tasks. Its retention, authority, and sharing rules also apply here. Do not maintain a second literature log with the same facts. Small edits need no new file, search matrix, or fixed status labels; richer records are justified only by the actual task. A populated record cannot establish scholarly sufficiency.
 
 ## Pass the literature gate
 

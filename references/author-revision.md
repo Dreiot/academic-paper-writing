@@ -26,7 +26,7 @@ If the request for deep reconstruction and a fixed structure can both be satisfi
 
 ## Keep a proportionate revision record
 
-Use the existing task brief or a compact temporary note to retain the requested outcome, relevant passage/source and invariant, and how the final text will demonstrate the change. Track only what helps complete the active revision; a small local edit does not require a separate contract, six fields or a fixed status vocabulary. Complex multi-round revisions may use a detailed map when it prevents missed obligations.
+Use the [shared manuscript basis](manuscript-basis.md#keep-one-reusable-local-file) for substantive work and an existing task brief for smaller edits. Retain the requested outcome, relevant passage/source and invariant, and how the final text will demonstrate the change there, rather than maintaining a duplicate revision record. Track only what helps complete the active revision; a small local edit does not require a new file, separate contract, six fields or a fixed status vocabulary. Complex multi-round revisions may use a detailed map within that record when it prevents missed obligations.
 
 Keep unresolved requests visible until withdrawn, superseded or verified in the delivered manuscript. Drafting notes cannot certify their own completion; apply the actual-text check below and, when in scope, [manuscript-quality-control.md](manuscript-quality-control.md). Keep working records outside the paper unless requested.
 
