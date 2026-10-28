@@ -36,7 +36,7 @@ If institutional or publisher authentication is needed for full text, read [refe
 
 For a complete journal article, substantial multi-section revision, major literature-dependent claim change, or compound manuscript-and-technical task, read [references/manuscript-quality-control.md](references/manuscript-quality-control.md). Its hard requirement is a traceable separation between producing the candidate and verifying it against the author's request and direct evidence—not a particular agent arrangement. Use specialist delegation or an independent reviewer when the user requests it or it materially improves reliability; otherwise use separated source-first verification and relevant deterministic checks. Never describe a self-check as independent review.
 
-For any substantial drafting or rewriting, also read [references/anti-overdefense.md](references/anti-overdefense.md). For a new or substantially edited Word/DOCX manuscript, read [references/docx-manuscript.md](references/docx-manuscript.md). When that deliverable contains mathematics, also read [references/omml.md](references/omml.md).
+For substantive writing, analysis, translation, revision, or polishing within this Skill, read the [shared prose standard](references/anti-overdefense.md). For a new or substantially edited Word/DOCX manuscript, read [references/docx-manuscript.md](references/docx-manuscript.md). When that deliverable contains mathematics, also read [references/omml.md](references/omml.md).
 
 When presenting quantitative results in manuscript prose, tables, or figures, read [references/numeric-reporting.md](references/numeric-reporting.md) and apply one consistent reader-facing scale and precision without changing the underlying data.
 
@@ -56,11 +56,7 @@ Wait only for that consequential decision while continuing unaffected work. An a
 
 ## Write like an academic author, not a defensive assistant
 
-- Lead with the best-supported judgment, design choice, or result; then provide mechanism, evidence, and a boundary only when needed.
-- Within each subsection, prefer complete argumentative units that combine related evidence and explanation around one question or judgment. Follow the [paragraph-focus rule](references/anti-overdefense.md#5-paragraph-focus-check) to consolidate overlapping passages and preserve meaningful changes of question or reasoning stage; a new source, metric, display or sentence role alone does not require a new paragraph.
-- State a material limitation where it changes interpretation, normally once. Do not distribute the same caveat across the abstract, introduction, results, discussion, and conclusion.
-- Do not anticipate objections merely to appear cautious, comprehensive, or reviewer-proof. In reviewer revision, the actual comment is the objection; answer it and the scientific concern necessary to resolve it, not imagined follow-up questions.
-- Prefer concrete information over attitude management. Do not weaken a clear conclusion merely to sound moderate, but do not inflate a claim during drafting or English polishing.
+Apply the [shared prose standard](references/anti-overdefense.md) across sections and languages: establish evidence-supported judgments through clear, continuous reasoning. Its sentence, paragraph, qualification-placement, and authoring checks are shared by all writing phases rather than repeated as phase-specific rules.
 
 ## Handle journals, citations, and artifacts proportionately
 

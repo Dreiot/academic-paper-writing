@@ -75,9 +75,7 @@ Describe empirical objects at the level needed to interpret the comparison: data
 
 When the section contains numerical performance results, follow [numeric-reporting.md](numeric-reporting.md) for percentage scale, displayed precision, percentage-point differences, and exceptions that require more digits.
 
-Place an important negative, mixed, or scope-limiting result beside the conclusion it changes. Do not request more baselines, robustness checks, or experiments merely to make the draft look comprehensive.
-
-Within a results subsection, apply the [paragraph-focus rule](anti-overdefense.md#5-paragraph-focus-check): consolidate evidence and interpretation that jointly answer the same question, including across metrics or displays, while keeping genuinely distinct analyses legible. Reporting an observation, explaining it and drawing its supported implication need not become three separate paragraphs.
+Use the [shared prose standard](anti-overdefense.md) for result interpretation, paragraph progression, and the distinct placement of actual counterevidence and common limitations. Do not request more baselines, robustness checks, or experiments merely to make the draft look comprehensive.
 
 ### Discussion
 
@@ -85,7 +83,7 @@ Develop the best-supported answer and explain what it adds to the field. Relate 
 
 When a paper combines different evidence streams, make each stream's question, inferential role, and limits legible before drawing their supported connection. Complementary observations do not automatically validate one another or establish a single causal chain. Whether they need separate subsections depends on the argument and venue, not a universal clinical/basic or qualitative/quantitative split.
 
-Build a continuous argument using the existing [continuity](author-revision.md#build-continuity-before-polishing-connectives) and [paragraph-focus](anti-overdefense.md#5-paragraph-focus-check) rules. Cover relevant prior work, value, and material limitations without turning them into one mandatory module or paragraph each. Explain how a limitation changes interpretation; do not repeatedly withdraw a supported finding or replace the ending with an inventory of unperformed studies. Future work, when useful, should resolve a specific question left by the evidence. Use these functions within a combined Results and Discussion when that is the appropriate genre.
+Use the [shared prose standard](anti-overdefense.md) and [continuity method](author-revision.md#build-continuity-before-polishing-connectives) to develop these relationships. Future work, when useful, should resolve a specific question left by the evidence. Use these functions within a combined Results and Discussion when that is the appropriate genre.
 
 ### Conclusion
 
@@ -107,9 +105,7 @@ When compressing prose-heavy tables, consolidate shared conditions and use conci
 
 - Prefer established Chinese academic terminology; give a necessary English abbreviation at first occurrence and then use one stable form.
 - Preserve official method, dataset, benchmark, variable, and metric identities.
-- Build paragraphs from connected sentences rather than labels, fragments, or status language.
-- Use the shared [paragraph-focus rule](anti-overdefense.md#5-paragraph-focus-check); a change from observation to interpretation alone does not require a break within one argumentative unit.
-- Choose connectives from the actual relation: continuation, progression, parallelism, contrast, cause, or consequence.
+- Apply the [shared prose standard](anti-overdefense.md) to Chinese sentence structure, paragraph progression, and inferential wording.
 - Keep internal Git, Gate, review, authority, artifact, and workflow terminology outside the manuscript.
 
 Draft evidence-bearing sections before relying on the abstract or contribution list. The authoring order may differ from the final reading order.

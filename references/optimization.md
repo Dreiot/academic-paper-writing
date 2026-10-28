@@ -20,12 +20,7 @@ If a genuine core gap remains in the research problem, literature synthesis, met
 
 - Preserve the research question, technical relationships, nearest-work comparisons, method mechanisms, figure/table evidence explanations, important positive and negative results, numbers, citations, notation, scope and evidence strength.
 - Reuse the confirmed terminology and naming map; extend it only for concepts that need a new target-language form.
-- Reorganize sentences and paragraphs into natural English while retaining their scientific jobs under [drafting.md](drafting.md#give-each-section-a-scientific-job), [continuity](author-revision.md#build-continuity-before-polishing-connectives) and [paragraph focus](anti-overdefense.md#5-paragraph-focus-check). Do not reduce mature sections to abstract-like summaries or grade quality by fewer paragraphs. Under a real length limit, compress repetition before necessary reasoning; use the joint main/supplement treatment below for relocation.
-- Select connectives by logical relation. Do not substitute a different stock transition merely to vary wording.
-- Use active or passive voice according to disciplinary convention and sentence focus, not a global preference.
-- Avoid literal Chinese syntax, excessive nominalization, decorative synonyms, inflated adjectives, and repetitive metadiscourse.
-- Do not add `may`, `might`, `potentially`, `to some extent`, or similar hedges unless the evidence actually requires them.
-- Do not strengthen `improves in the evaluated settings` into `consistently outperforms`, `generalizes`, `is robust`, or `is effective` without the corresponding evidence.
+- Apply the [shared prose standard](anti-overdefense.md) and [section responsibilities](drafting.md#give-each-section-a-scientific-job) in natural disciplinary English. Rebuild affected reasoning units when necessary rather than retaining Chinese sentence shapes or mechanically splitting clauses. Keep established scientific meaning and evidence strength. Under a real length limit, use the joint main/supplement treatment below for relocation.
 
 Retain the shared [main-text figure and table explanation](drafting.md#explain-figures-and-tables-in-the-main-text) functions in English, not just numbered mentions and captions. Apply the decision boundary above to any ambiguity that remains after checking the source and prior author decisions.
 

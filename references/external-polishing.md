@@ -36,9 +36,7 @@ Include what the task needs from the following, combining or omitting items as a
 - **Effective author requirements:** terminology, length or format constraints, and still-open requests relevant to the edited scope. Distinguish local author preferences from universal scientific or journal rules.
 - **Output and uncertainty handling:** usable candidate prose with citations/placeholders preserved; a short note outside the prose only for consequential changes or unresolved decisions. Do not invent sources, data, completed experiments, or missing parameters; flag a gap instead.
 
-Apply the existing [natural-prose guidance](anti-overdefense.md) and [meaning-preserving optimization rules](optimization.md#translate-meaning-and-argument-not-sentence-shape) as concrete editorial direction. Prefer connected reasoning, appropriate disciplinary expressions, and varied cadence over a long banned-word list. Necessary qualifications remain; repeated defensive language and generic assurances do not.
-
-Require clean, continuous final-state prose. Editing constraints guide the work and do not become manuscript narration; keep production history, drafting instructions, and commentary on edits outside the prose. Surface a consequential unresolved decision separately when needed.
+Apply the [shared prose standard](anti-overdefense.md) through the relevant writing brief. When structural rewriting is authorized, specify the reasoning unit and its job before sentence polishing; language-only editing retains the designated argument. Use the [meaning-preserving optimization rules](optimization.md#translate-meaning-and-argument-not-sentence-shape) for translation. Deliver clean final-state prose, with consequential unresolved decisions outside it.
 
 ## Integrate a returned candidate when requested
 

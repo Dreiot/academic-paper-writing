@@ -48,11 +48,11 @@ A revision is substantive when it changes at least one relevant relationship in 
 
 Synonym substitution, shortening, sentence reordering, retaining the same paragraph functions under new wording, changing headings, adding citations without using them in the argument, or preserving a requested paragraph count is not sufficient by itself. Do not report a section as "substantively rewritten" solely because its text differs or its length changed.
 
-Translate detailed prompt bullets into connected academic reasoning. Do not write one sentence per instruction item or make a paragraph read like a compliance checklist.
+Use the [shared authoring method](anti-overdefense.md#run-a-final-authoring-quality-pass) to turn the requested outcome into a complete reasoning unit before sentence polishing.
 
 ## Build continuity before polishing connectives
 
-This method also applies to substantial drafting; it does not require an author-revision contract for a new paper. Read the core judgment and conclusion of each affected paragraph in order. Determine whether the next paragraph continues, deepens, contrasts, changes the object, or needlessly restarts. Repair the sequence and missing reasoning before choosing connective words.
+Use the [shared paragraph and sentence checks](anti-overdefense.md#5-paragraph-focus-check) within this method. It also applies to substantial drafting and requires no separate author-revision contract for a new paper. The guidance below develops the cross-section dependencies that those checks identify.
 
 When a subsection changes the research object or technical perspective, provide the smallest conceptual frame and comparison basis needed before naming methods or acronyms. For example, establish why structural size needs control before compression methods; what generation and extraction each decide before comparing their studies; or the relation between discrete subsets and quadratic structural evaluation before optimization work. Directly continue information already supplied nearby. One or two useful sentences need not become a new background paragraph, and a connective alone cannot replace the reason for the shift.
 

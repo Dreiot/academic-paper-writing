@@ -1,83 +1,59 @@
-# Anti-overdefensive academic prose
+# Evidence-grounded, continuous academic prose
 
-Overdefensive writing spends substantial space answering objections that do not exist, proving that the author is moderate, or withdrawing a claim before establishing it. Academic rigor still requires real boundaries, counterevidence, and responses to actual reviewer concerns. The purpose of this guide is to place those defenses where they serve the argument.
+This is the shared prose standard for substantive writing, analysis, translation, revision, and polishing across the manuscript. Apply it within the requested genre and scope. It governs reasoning, sentence structure, paragraph progression, and the placement of qualifications together; it is not a Discussion-only checklist or an additional review stage.
 
-## Use claim-first order
+## Establish supported judgments
 
-Lead with the best-supported point when that makes the reasoning clearer. Claim-first is a default orientation, not a four-step template for every paragraph. Problem development, literature comparison, method explanation and result reporting can use different rhythms and orders.
+Express the best-supported judgment directly and develop the evidence and reasoning that make it useful. Problem development, literature synthesis, methods, and interpretation can need different orders. Choose the order that advances the question rather than a fixed claim-first opening or a claim–evidence–caveat template for every paragraph.
 
-Do not draft a paragraph as a checklist of mistakes the study will avoid. Express necessary constraints through the actual method: what is observed, available when, fitted on which units or evaluated against which endpoint, and how these choices serve the research question. When cautions crowd out that explanation, reshape the paragraph rather than merely replacing connectives. Keep a negative statement when it makes a useful scientific distinction, and leave production-only reminders outside the manuscript. Natural prose comes from clear relationships and varied cadence, not grander jargon, a fixed positive-sentence template or stronger unsupported claims.
+Use accurate research objects, measured endpoints, comparisons, and inferential verbs to carry scientific meaning. Once methods and surrounding context establish the scope, continue within it without restating the same qualification after each finding. Calibrated wording should make the proposition itself accurate.
 
 ## Run five diagnostic checks
 
+Use these checks within the existing authoring and source-first verification pass, proportionately to the affected text.
+
 ### 1. Phantom-objection check
 
-For every concession, clarification, disclaimer, or pre-emptive rebuttal, identify the problem it answers. Keep it only when the problem is present in the evidence, literature, method assumptions, target audience, editor decision, or reviewer comment, or when omission would materially damage the argument.
-
-Do not invent an opposing position merely to demonstrate balance.
+Keep a concession or rebuttal when it resolves a real evidential distinction, material ambiguity, or actual reviewer concern. Do not invent objections or display caution merely to anticipate possible criticism. State what the evidence supports rather than first making a broader claim and then withdrawing it.
 
 ### 2. Deletion check
 
-Remove the defensive phrase provisionally. If the factual meaning, logical relation, evidential accuracy, and claim boundary remain unchanged, omit it. If a boundary is needed, replace attitude management with the concrete condition or result.
-
-After removing a negative or defensive construction, ask whether the reader could infer a broader conclusion. Retain the necessary condition in direct factual language rather than replacing it with a more confident adjective.
-
-For example, prefer a sentence that states where a method performs well and where it does not over a sentence that first denies universal superiority.
+Read a qualification with the established methods and immediate context. If removing it leaves the proposition accurate and its evidential strength unchanged, omit it. If a condition is needed for that proposition to be true, integrate it briefly into the statement. Test the actual meaning in context, not every imaginable overinterpretation.
 
 ### 3. Logic check
 
-Treat expressions such as `需要强调的是`, `这并不意味着`, `并非……而是……`, `it should be noted`, `this does not imply`, and `not merely ... but ...` as diagnostic signals, not banned phrases. Retain them only when they perform a real clarification, contrast, exclusion, or correction.
+Make support, explanation, comparison, progression, and changes of question explicit through the content. Use contrast and concession for genuine differences or counterevidence. Avoid a recurring cycle of proposing an explanation, weakening it, and calling for further validation. Paragraph endings should establish a useful understanding or carry the reader onward according to the passage's job.
 
-Do not use contrast syntax to display a balanced attitude when the two ideas are compatible. Name the actual relationship: continuation, parallelism, inclusion, contrast, cause, consequence, or scope.
+Expressions such as `however`, `this does not imply`, `并非……而是……`, and `需要强调的是` are diagnostic signals, not banned words. Retain them for real logical work. Use uncertainty verbs when the evidence requires them; do not add automatic hedges to a supported finding.
 
 ### 4. Information-gain check
 
-Each sentence should contribute at least one of the following:
+Give each sentence a clear main clause and primary job: a finding, explanation, comparison, definition, necessary condition, or transition. When nested clauses stack findings, literature comparison, mechanism, concession, and outlook into one sentence, redistribute those jobs in reasoning order. Preserve their connections rather than producing disconnected short statements. Choose voice and terminology for the discipline and vary sentence length naturally; there is no universal word limit.
 
-- a testable or interpretable judgment;
-- a mechanism or reason;
-- evidence;
-- a definition or necessary reproducibility detail;
-- a necessary scope condition;
-- a real logical transition.
-
-Delete sentences whose main function is to announce that the author is cautious, comprehensive, non-extreme, or respectful of every possible position.
-
-Distinguish research facts, method relationships and evidence interpretation from assurances that this writing, revision, alignment or checking is complete. The latter do not belong in ready-to-use manuscript prose, even without recognizable workflow words; put them in the delivery note only if useful. Judge scientific function, not keywords: mathematical consistency, shared experimental conditions and actual model validation can convey necessary information. Definitions, transitions and reproducibility explanations have their own roles; each sentence need not establish novelty.
+Each sentence should add scientific information or a necessary connection. Omit assurances that the author is cautious or that writing, checking, or revision is complete. Keep production history and editing instructions outside reader-facing prose.
 
 ### 5. Paragraph-focus check
 
-Organize each subsection into complete argumentative units. Prefer consolidating neighboring passages that perform overlapping work for the same analytical question, comparison axis or central judgment. Observation, supporting evidence, interpretation and a warranted conclusion can be complementary parts of that unit; different sentence roles do not by themselves require separate paragraphs. Do not require every paragraph to contain benefits, limitations, risks, alternatives, future work and a summary.
+Build complete argumentative units around a shared question or judgment. Observations, sources, explanation, and a supported conclusion can belong to one unit; changes of metric, display, citation, or sentence role do not alone require a new paragraph. Merge overlapping units by removing repeated setup and ordering their evidence, not simply deleting blank lines.
 
-In results analysis, a change of dataset, metric, figure, panel or table is not automatically a paragraph boundary. When those materials jointly explain the same finding or tradeoff, connect them in a sustained paragraph rather than splitting description, explanation and takeaway into separate short blocks. Merge by editing: remove repeated setup and “the results show” openings, reorder nearby material when its logical dependencies permit, and retain source attachments and material exceptions. Simply deleting blank lines is not enough.
+Start a new paragraph for a meaningful change of question, comparison axis, condition, or inference stage. Preserve useful subdivisions and vary paragraph scale without fixed counts or lengths. Do not turn a subsection into a wall of text or require every paragraph to include a limitation and future work.
 
-Start a new paragraph when the argument moves to a genuinely different question, comparison axis, condition or inference stage—for example, overall performance versus a component's effect, or average behavior versus an exceptional regime requiring separate explanation. Sharing the broad label “results analysis” is not enough to merge independent questions. If a combined paragraph becomes hard to follow, split at a meaningful substage. Do not set fixed paragraph counts or lengths, collapse an entire subsection into a wall of text, or remove necessary reasoning merely to reduce the number of breaks.
-
-Vary paragraph length and opening structure naturally. Avoid a sequence in which every paragraph begins by naming a category, summarizes one source or result, and ends with the same explicit contrast or limitation. Use the preceding conclusion to lead into the next point when the relationship is real rather than resetting the discussion at every paragraph break.
+Read successive sentences and paragraphs for what each adds to the preceding understanding. Reuse established objects and terms, explain necessary changes of perspective, and avoid repeated broad-background restarts. Use the [continuity method](author-revision.md#build-continuity-before-polishing-connectives) for detailed cross-section revision.
 
 ## Concentrate necessary boundaries
 
-- Place substantive negative or mixed findings beside the result interpretation they change; concision must not erase them.
-- Put conditions defining model or analysis validity in the method.
-- Put general metric definitions and comparison settings in the methods/setup or relevant prose, and keep units and decoding keys clear in axes, table headers or concise notes as needed. Follow [the shared figure/table explanation rules](drafting.md#explain-figures-and-tables-in-the-main-text) for information placement; extended analysis belongs in the body.
-- An internal reminder about an unperformed experiment belongs in the paper only when it changes a claim actually being made. Express the supported scope directly rather than transcribing controls as a list of “cannot claim” statements.
-- Allocate implementation information by its scientific role, following the existing [section responsibilities](drafting.md#give-each-section-a-scientific-job): the main text explains how the method operates and retains details that materially define the model, comparison conditions or result interpretation. Put concrete parameters and operations needed for reproduction, but not for understanding the main argument, in the supplement or appropriate reproducibility material.
-- Keep material serving only manuscript production, file maintenance, task-completion assurance or execution tracking in delivery notes or internal records, not in the supplement merely to remove it from the main text.
-- Research process is not the same as production history: data inclusion, development-time selection, changes of analysis scope and measurement endpoints may determine interpretation. Resolve vague process wording from the relevant record; if it is missing, identify the smallest material gap instead of inventing prespecification or independence. Arrange descriptive labels, code parameters and deterministic ordering details by scientific role: programming syntax and repeated reminders may go, but statistical definitions, analysis identity and consequential settings remain.
-- When software, hardware, interfaces or numerical implementation are themselves research objects, explain their scientific role rather than deleting them as engineering detail. Do not allocate space by the funder's identity; retain necessary platform/implementation identities and required declarations.
-- Address a known counterexample where it materially tests the argument.
-- In reviewer revision, answer the real comment in the response letter and integrate only reader-relevant clarification into the manuscript.
-
-Concentrate the full explanation of a qualification, but retain a brief condition wherever it is needed to make the local claim true. “Normally once” is not a repetition ban: independently readable abstracts and contribution statements must not depend on a later caveat to avoid misleading readers. Do not repeat a complete limitation list merely to appear safe, or weaken a supported conclusion by giving unsupported possibilities equal space.
+- Put design assumptions, sampling or analysis units, measurement definitions, and comparison conditions in methods/setup or the relevant definition. A material change of population, condition, or inferential scope needs a clear local statement. Independently readable abstracts and summaries must carry the concise conditions needed for their own claims.
+- Present actual negative or mixed findings with the interpretation they affect. They are research evidence. Distinguish them from repeated reminders of limitations already established elsewhere.
+- Explain shared limitations of design, sample, measurement, external reach, and unperformed validation together where the genre needs them, usually in the Discussion. Explain their consequence once. Conclusions should retain the resulting knowledge and significance, with any condition needed for an accurate takeaway rather than a routine limitation list.
+- Keep method-defining and interpretation-critical details where readers need them; place additional reproducibility detail in suitable supplementary material. Follow [section responsibilities](drafting.md#give-each-section-a-scientific-job) and [display guidance](drafting.md#explain-figures-and-tables-in-the-main-text). Selection history, data access, software, hardware, or implementation remain scientific content when they determine validity or are research objects; production bookkeeping does not.
+- In reviewer revision, answer the actual comment in the response letter and integrate reader-relevant scientific clarification into the paper.
 
 ## Run a final authoring-quality pass
 
-After the scientific content is correct, review the prose as a continuous manuscript rather than a collection of locally acceptable paragraphs. Preserve every claim and evidence boundary while improving paragraph order, transitions, sentence openings, cadence, and the balance between explanation and detail. Merge repeated setup or reset sentences, but do not shorten away a mechanism or necessary qualification.
+When prose stalls, repeatedly establishes and withdraws a judgment, or overloads sentences, reconstruct the smallest complete reasoning unit before polishing wording. Identify its question and supported judgment, select the necessary evidence, and arrange the inferential steps. Then rewrite sentences and the affected neighboring transitions. Removing marker phrases, splitting sentences mechanically, or adding connectives cannot supply missing reasoning.
 
-Inspect the actual reader-facing text for leftover writing instructions, explanations of edits and self-check conclusions with no scientific information gain. After removing process language, confirm that necessary method conditions, measurement endpoints, analysis scope and important negative results remain. Use this same pass, not an additional review stage.
-
-Where relevant exemplars were studied for the task, use their narrative practices to improve continuity and density without copying phrases or paragraph counts. New literature study follows the scope in [literature-and-rhetoric.md](literature-and-rhetoric.md); ordinary prose polishing does not require collecting another set of papers.
+Preserve the scientific meaning, source attachment, necessary conditions, and important contrary findings, not the location or wording of every disclaimer. Reuse applicable exemplar learning and the manuscript's writing brief; ordinary style work does not trigger a new literature search. This is the shared authoring pass, not a second sequence of gates or reviews.
 
 ## Final prose audit
 
-Use the diagnostics above in one continuous reading of the affected prose: check paragraph unity, meaningful transitions, justified qualifications and non-repetitive cadence. Recheck only relevant changes. Repair argumentative order before synonym replacement; deleting a few marker phrases cannot fix a passage still organized as pre-emptive defense.
+Read the actual affected text continuously: are judgments clear, reasoning connected, sentence jobs legible, paragraphs progressive, and qualifications placed by function? Apply the existing [quality verification](manuscript-quality-control.md) at the task's scale and stop when its requirements pass. Counts, fluent transitions, or a completion note do not establish this outcome.
