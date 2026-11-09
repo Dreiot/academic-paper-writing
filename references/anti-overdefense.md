@@ -56,4 +56,6 @@ Preserve the scientific meaning, source attachment, necessary conditions, and im
 
 ## Final prose audit
 
-Read the actual affected text continuously: are judgments clear, reasoning connected, sentence jobs legible, paragraphs progressive, and qualifications placed by function? Apply the existing [quality verification](manuscript-quality-control.md) at the task's scale and stop when its requirements pass. Counts, fluent transitions, or a completion note do not establish this outcome.
+Review the full affected passages and the neighboring text needed to interpret them, including wording carried over from the previous draft. Read key result sentences on their own using the terms already defined for the reader. Check that each identifies what was observed or established, the comparison where relevant, and any population, condition, time point, or inferential scope that changes its meaning. Make the strength of the evidence clear in the wording.
+
+Then read the passage continuously to check that judgments are clear, sentences and paragraphs advance the reasoning, and qualifications serve their purpose where they appear. Apply the deletion check to new and retained wording. Place details where they help readers interpret or reproduce the work. When the affected text includes an abstract, also check its [selection of results](drafting.md#abstract). Apply the existing [quality verification](manuscript-quality-control.md) at the task's scale and stop when its requirements pass. Counts, fluent transitions, or a completion note do not establish this outcome.

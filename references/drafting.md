@@ -41,6 +41,8 @@ A whole-manuscript rewrite should not default to abstract-level summaries of its
 
 Within normal abstract length, compress the actual need, specific question, design response and principal supported result. “The field is important” followed by “we propose a method” does not establish motivation. Let the question indicate why the response matters, without requiring a literature review, a particular connective or a fixed sentence count. Use exact numbers only when verified and introduce no contribution absent from the paper.
 
+Select the findings that directly answer the research question and support the conclusion before compressing their wording. Include secondary or supporting results only if they materially change the interpretation or scope of the main findings, or if the venue or applicable reporting framework requires them. Retain negative or mixed evidence when it changes the conclusion.
+
 ### Introduction
 
 Establish why the research question matters and its specific position relative to what is already known, then introduce the method and verifiable contributions. Apply the research-value and contribution tests above. A declaration of the study objective or an inventory of method components does not replace this reasoning; a narrower design question still needs a reason to be investigated.
