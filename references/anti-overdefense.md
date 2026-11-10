@@ -22,19 +22,19 @@ Read a qualification with the established methods and immediate context. If remo
 
 ### 3. Logic check
 
-Make support, explanation, comparison, progression, and changes of question explicit through the content. Use contrast and concession for genuine differences or counterevidence. Avoid a recurring cycle of proposing an explanation, weakening it, and calling for further validation. Paragraph endings should establish a useful understanding or carry the reader onward according to the passage's job.
+Let the section's scientific job determine the progression. Give readers the context they need to follow the question, develop the relevant explanation or comparison, and carry it to the level of interpretation the section can support. An example can establish one step in that reasoning without closing it. Use contrast for genuine differences or counterevidence. State a qualified judgment at its supported strength instead of asserting it broadly and then narrowing it.
 
 Expressions such as `however`, `this does not imply`, `并非……而是……`, and `需要强调的是` are diagnostic signals, not banned words. Retain them for real logical work. Use uncertainty verbs when the evidence requires them; do not add automatic hedges to a supported finding.
 
 ### 4. Information-gain check
 
-Give each sentence a clear main clause and primary job: a finding, explanation, comparison, definition, necessary condition, or transition. When nested clauses stack findings, literature comparison, mechanism, concession, and outlook into one sentence, redistribute those jobs in reasoning order. Preserve their connections rather than producing disconnected short statements. Choose voice and terminology for the discipline and vary sentence length naturally; there is no universal word limit.
+Give each sentence a clear main clause and primary job: a finding, explanation, comparison, definition, necessary condition, or transition. When nested clauses stack findings, literature comparison, mechanism, concession, and outlook into one sentence, redistribute those jobs in reasoning order. Preserve their connections and let sentence length vary with the reasoning.
 
-Each sentence should add scientific information or a necessary connection. Omit assurances that the author is cautious or that writing, checking, or revision is complete. Keep production history and editing instructions outside reader-facing prose.
+Write for the intended disciplinary readers. Use established technical terms and idiomatic phrasing. Explain a familiar concept or routine procedure only when its use in this study changes the meaning, interpretation or reproducibility. Delete a phrase that merely announces the claim that follows, or repeats it without adding information. Retain terms that name a defined quantity or operation; vary the surrounding sentence rather than its technical meaning. Leave production history outside the manuscript.
 
 ### 5. Paragraph-focus check
 
-Build complete argumentative units around a shared question or judgment. Observations, sources, explanation, and a supported conclusion can belong to one unit; changes of metric, display, citation, or sentence role do not alone require a new paragraph. Merge overlapping units by removing repeated setup and ordering their evidence, not simply deleting blank lines.
+Build each paragraph around a question or judgment that advances the section. When several examples or comparisons bear on it, organize them by the relationships they reveal and explain what they show together. A change of metric, display or citation alone does not warrant a new paragraph or another miniature conclusion. Merge overlapping units by removing repeated setup and ordering their evidence.
 
 Start a new paragraph for a meaningful change of question, comparison axis, condition, or inference stage. Preserve useful subdivisions and vary paragraph scale without fixed counts or lengths. Do not turn a subsection into a wall of text or require every paragraph to include a limitation and future work.
 
@@ -56,6 +56,6 @@ Preserve the scientific meaning, source attachment, necessary conditions, and im
 
 ## Final prose audit
 
-Review the full affected passages and the neighboring text needed to interpret them, including wording carried over from the previous draft. Read key result sentences on their own using the terms already defined for the reader. Check that each identifies what was observed or established, the comparison where relevant, and any population, condition, time point, or inferential scope that changes its meaning. Make the strength of the evidence clear in the wording.
+Review the full affected passages and the neighboring text needed to interpret them, including wording carried over from the previous draft. In language-only edits, change the smallest span needed for clearer expression and compare it with the original. Retain the source's terms and verbs that determine the quantity, comparison, conditions or strength of inference. Where a synonym could change any of these, improve the surrounding phrasing. Preserve citations. In substantive work, check key result sentences against the [direct evidence](manuscript-quality-control.md#verify-high-impact-facts-completely), including the inference made from them.
 
-Then read the passage continuously to check that judgments are clear, sentences and paragraphs advance the reasoning, and qualifications serve their purpose where they appear. Apply the deletion check to new and retained wording. Place details where they help readers interpret or reproduce the work. When the affected text includes an abstract, also check its [selection of results](drafting.md#abstract). Apply the existing [quality verification](manuscript-quality-control.md) at the task's scale and stop when its requirements pass. Counts, fluent transitions, or a completion note do not establish this outcome.
+Read the affected text in sequence. Check that each paragraph adds a discernible step toward the section's purpose and that its ending either connects to the next step or states the judgment the evidence supports. Apply the deletion check to new and retained wording. Place details where they help readers interpret or reproduce the work. For an abstract, also check its [selection of results](drafting.md#abstract). Apply the existing [quality verification](manuscript-quality-control.md) at the task's scale.

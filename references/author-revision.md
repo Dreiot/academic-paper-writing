@@ -1,6 +1,6 @@
 # Author-directed substantive revision
 
-Use this reference when an author asks for a substantial revision to an existing manuscript outside a formal editor or reviewer response cycle. This route can operate within Chinese drafting or English optimization. It is not a response-letter workflow.
+Use this reference for author-directed changes to a manuscript's argument, explanation, evidence use or organization, including a single affected passage. It applies in any manuscript language and during journal adaptation. Formal editor or reviewer responses use [revision.md](revision.md).
 
 ## Establish the real revision record
 
