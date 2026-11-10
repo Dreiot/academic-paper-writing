@@ -18,7 +18,7 @@ For a complete paper, whether newly drafted, rewritten or adapted to a journal, 
 
 Use one or more of these mechanisms according to what materially improves reliability:
 
-- **Independent reviewer or subagent:** preferred for a complete paper, broad novelty positioning, high-stakes scientific interpretation, or a demonstrated failure of self-review, when a separate reviewer can directly inspect the candidate and evidence.
+- **Independent reviewer or subagent:** preferred for a complete paper, broad novelty positioning, high-stakes scientific interpretation, or a demonstrated failure of self-review. Give the reviewer the author's request, the exact candidate, and the direct evidence needed for the assignment. For an integrated review, include the affected figures and tables at a readable size. Ask what readers can recover from the argument and displays, where they would misread them, and what was actually inspected. For a narrow evidence check, report its scope separately from integrated review.
 - **Specialist delegation:** literature research, local evidence checking, mathematics, figures, or document engineering may be assigned to bounded specialists while one manuscript owner performs integration.
 - **Separated verification pass:** when independent review is unavailable or unnecessary, finish the candidate, set aside the production narrative, rebuild the acceptance checklist from the author's original request and direct authorities, then inspect the final candidate source-first rather than validating the writer's intentions.
 - **Deterministic or tool-assisted checks:** recompute derived values when authorized, compare manuscript numbers with accepted tables, validate citation identities and source locations, check formula or OOXML structure, and render the final artifact where layout matters.
@@ -106,7 +106,9 @@ Apply B to motivation and positioning, at the scale of the affected reasoning fo
 
 ## Close the quality gate
 
-Repair supported findings and recheck every material change against the candidate and direct evidence. If an independent reviewer is used, return material repairs to that reviewer when practical; otherwise perform a focused new verification pass that does not rely on the earlier completion explanation.
+For each material finding, identify the affected location, direct support or reader-facing consequence, and what the repair needs to accomplish. The manuscript owner verifies the finding and implements supported repairs within scope, recording where each lands in the final artifact in the existing brief or review notes. Resolve unsupported suggestions against the sources and use the existing decision route for consequential unresolved choices.
+
+Recheck the repair in the final artifact. After a late edit, reopen the affected interpretation and its dependencies: a redrawn figure with its caption and body references, a shortened method with its reproducibility details, or a changed conclusion wherever the claim recurs. Return material repairs to the independent reviewer when practical; otherwise perform a focused new source-first pass. Successful rendering and unchanged result values support this check without closing semantic findings on their own.
 
 Do not claim the manuscript or affected major revision complete until:
 
