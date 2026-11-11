@@ -8,7 +8,7 @@ Figures and tables are prominent entry points into a paper's reasoning and evide
 
 Choose the visual representation from the research question, verified relationships and intended reader understanding. Make the central idea, relevant technical operations and dependencies readily understandable, with enough detail to explain how the method works or what the evidence shows. Let the research determine the balance between overview and detail. Preserve creative freedom: do not prescribe paper-specific objects, a fixed layout, a panel count or a mandatory visual vocabulary. Match complexity to the information; a simple design can be complete when it communicates the necessary relationships well.
 
-Evaluate the figure both on its own and at its actual manuscript size. Aesthetic refinement should improve comprehension and emphasis while preserving the meaning and visibility of the scientific content. Use the shared style brief and target-journal requirements to keep the visual set coherent without forcing different scientific roles into identical compositions. Keep substantial explanation in the body under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text), with concise captions and the local information needed to decode the display.
+Evaluate the figure both on its own and at its actual manuscript size. Aesthetic refinement should improve comprehension while preserving scientific meaning. Use the shared style brief and venue requirements to keep the visual set coherent. Follow [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text) for numbered titles, in-figure keys and body explanation, including any explicit requirement for captions or notes.
 
 ## Classify the figure before production
 
@@ -60,7 +60,7 @@ For each conceptual figure:
 6. make targeted corrections for scientific meaning, technical explanation, visual hierarchy, professional finish and final-size readability while retaining the shared style brief; stop when these material checks pass, or report the unresolved limitation instead of continuing open-ended cosmetic variations;
 7. save the selected project-bound image with a stable descriptive name and retain enough prompt and source context to reproduce its visual intent.
 
-A conceptual illustration explains the method; it is not experimental evidence. Identify it as a schematic when needed to prevent a real misreading, preferably in a concise title or caption; do not automatically append repeated “not measured” or “not completed” disclaimers to every figure when its role is already clear. Retain necessary decoding information and explain the relationships in the main text under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text). Neither caption nor prose may turn generated appearance, spatial arrangement or relative size into an observed quantitative result.
+A conceptual illustration explains the method. Identify it as a schematic in the short title when needed to prevent a real misreading, without routine disclaimers. Explain its relationships in the body under [drafting.md](drafting.md#explain-figures-and-tables-in-the-main-text). Generated appearance, spatial arrangement and relative size cannot establish observed quantitative results.
 
 ## Generate result figures only from authentic local data
 
@@ -87,7 +87,7 @@ When the field and research question call for empirical images or other primary 
 - Supply scale bars, labels, acquisition information, controls, or uncropped source material where needed for interpretation or required by the venue. Do not invent unavailable originals or missing acquisition details.
 - Align image examples with the quantified evidence and independent sampling structure. Several fields, bands, wells, or technical views from one biological unit do not become independent replicates by appearing in different panels. A representative image alone does not establish a group-level effect.
 
-Keep source/selection pointers in the existing [manuscript basis](manuscript-basis.md#keep-one-reusable-local-file) or the linked source record, and reader-relevant decoding information in concise legends. Reuse the quantitative and final-size checks above where applicable; no second image-evidence audit is required.
+Keep source/selection pointers in the existing [manuscript basis](manuscript-basis.md#keep-one-reusable-local-file) or linked source record. Put reader-facing decoding information in the body and visual keys under the shared display guidance. Reuse the quantitative and final-size checks above.
 
 ## Assemble and validate the figure set
 
@@ -100,7 +100,7 @@ Check the complete manuscript figure set, not only each image in isolation:
 - result figures use a compatible typographic and color system without imitating generated illustration textures;
 - shared objects retain consistent labels and visual encodings; distinguish different entities or data roles where reuse of a symbol or arrow could imply the wrong relationship. Make shared inputs, comparison directions and the scope of any decision marks clear where they matter;
 - every label, equation, number, and arrow is readable at intended single- or double-column size;
-- captions distinguish schematic explanation from observed results and retain essential decoding information and required data scope; substantial explanation and interpretation follow the shared main-text rules;
+- titles and substantive body references identify schematic or observed content, data scope and decoding information under the shared display rules;
 - numbering and panel references agree, and the body actually introduces and explains each figure's role, findings or design relationships rather than only citing its number;
 - raster images meet actual resolution requirements, vector outputs remain genuinely vector, and no watermark, model artifact, malformed text, or clipped element remains;
 - the final DOCX or PDF render preserves figure sharpness, placement, captions, and page flow.

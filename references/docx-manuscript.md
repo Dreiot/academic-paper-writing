@@ -48,7 +48,7 @@ Body-font defaults do not determine the Word mathematics font. Preserve a workin
 - Preserve `SEQ`, `REF`, `PAGEREF`, citation, bibliography, and other live fields, together with their bookmarks and relationships.
 - Do not flatten fields, accept tracked changes, remove comments, or convert a dynamic bibliography to static text unless the user explicitly requests that result.
 - Avoid whole-paragraph replacement when a paragraph contains live fields, comments, bookmarks, or tracked changes. Use a field-preserving Word or targeted OOXML edit path.
-- Treat a clean manuscript, marked manuscript, supplement, and response letter as distinct deliverables. Do not overwrite the source or confuse the marked copy with the primary clean copy.
+- Follow the [version-package policy](../SKILL.md#handle-journals-citations-and-artifacts-proportionately). Keep the matching main Word file, human-readable Word supplement and assets together. Clean, marked and response-letter files retain distinct roles when requested.
 
 When inserting a figure, determine its intended single-column, double-column, or page-text width before setting the size. Preserve the source aspect ratio, keep the image within the available text area, and avoid defaulting every figure to full-page width. At the actual insertion size, labels, line weights, symbols, and panel letters must remain readable without excessive zoom. If a figure becomes unreadable when it fits the page, simplify, recompose, or split it instead of shrinking it further. Keep the figure and caption visually associated and re-render the page to check white space, sharpness, wrapping, and page breaks.
 

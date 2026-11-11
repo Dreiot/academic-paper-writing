@@ -34,9 +34,9 @@ Write for the intended disciplinary readers. Use established technical terms and
 
 ### 5. Paragraph-focus check
 
-Build each paragraph around a question or judgment that advances the section. When several examples or comparisons bear on it, organize them by the relationships they reveal and explain what they show together. A change of metric, display or citation alone does not warrant a new paragraph or another miniature conclusion. Merge overlapping units by removing repeated setup and ordering their evidence.
+Develop a paragraph through the steps of one question or comparison. Keep related sources, observations and interpretation together while that reasoning continues. A new method name, metric, display or citation does not by itself start a paragraph or require a miniature conclusion. Consolidate repeated setup and order the evidence; deleting paragraph breaks alone does not create continuity.
 
-Start a new paragraph for a meaningful change of question, comparison axis, condition, or inference stage. Preserve useful subdivisions and vary paragraph scale without fixed counts or lengths. Do not turn a subsection into a wall of text or require every paragraph to include a limitation and future work.
+Start a new paragraph when the question, level of explanation or inferential direction changes enough to give the reader a useful boundary. Vary paragraph scale with the argument, without fixed counts or lengths. Check long paragraphs for mixed jobs as well as short ones for fragmentation. Neither a limitation nor a conclusion is required at every paragraph ending.
 
 Read successive sentences and paragraphs for what each adds to the preceding understanding. Reuse established objects and terms, explain necessary changes of perspective, and avoid repeated broad-background restarts. Use the [continuity method](author-revision.md#build-continuity-before-polishing-connectives) for detailed cross-section revision.
 
