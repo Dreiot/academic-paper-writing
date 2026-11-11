@@ -21,7 +21,7 @@ Read this reference when an academic manuscript presents quantitative results in
 ## Validate the presentation
 
 - Do not mix `0.9365` and `93.65%` for the same metric within one manuscript unless a formula explicitly requires the fractional form.
-- Ensure prose, tables, figures, abstracts, captions, and conclusions show the same rounded value and scale for the same result.
+- Check numerical agreement across text and displays only after matching the underlying comparison. Same-named measures with different protocols may have different values; label the consequential difference and retain each verified result.
 - Verify that percent headers, signs, units, confidence intervals, and percentage-point language survive Word or PDF rendering.
-- If displayed percentages no longer total exactly 100% because of independent rounding, change precision or add a short rounding note only when the discrepancy could confuse interpretation.
+- If separately rounded values do not visibly sum or subtract to the reported total or paired difference, retain the result calculated from the original values. Add a short rounding note only where the discrepancy could confuse interpretation.
 - Preserve negative and mixed results; formatting and rounding must not make an unfavorable or null difference appear favorable.

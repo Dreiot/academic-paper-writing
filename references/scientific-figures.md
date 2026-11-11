@@ -98,7 +98,7 @@ Check the complete manuscript figure set, not only each image in isolation:
 
 - conceptual figures share the approved visual system and remain faithful to the method;
 - result figures use a compatible typographic and color system without imitating generated illustration textures;
-- the same component, dataset, method, group, or variable uses consistent naming and color across figures unless a clear legend explains a necessary change;
+- shared objects retain consistent labels and visual encodings; distinguish different entities or data roles where reuse of a symbol or arrow could imply the wrong relationship. Make shared inputs, comparison directions and the scope of any decision marks clear where they matter;
 - every label, equation, number, and arrow is readable at intended single- or double-column size;
 - captions distinguish schematic explanation from observed results and retain essential decoding information and required data scope; substantial explanation and interpretation follow the shared main-text rules;
 - numbering and panel references agree, and the body actually introduces and explains each figure's role, findings or design relationships rather than only citing its number;
