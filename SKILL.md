@@ -55,9 +55,9 @@ For a user-requested polishing prompt or external-editor handoff, or requested a
 
 ## Escalate evidence-claim conflicts to the user
 
-Resolve routine factual corrections and presentation choices from direct sources and existing author decisions. When a material uncertainty in scientific meaning, scope, novelty, causality or support cannot be resolved that way and requires a new author choice, present a compact **Claim Decision**: the disputed claim and evidence, its consequence, credible options, and your recommendation plus the decision needed. Do not manufacture multiple options or use a mandatory form when one clear question suffices.
+Resolve routine factual corrections and presentation choices from direct sources and existing author decisions. Obtain the user's confirmation before replacing an agreed comparison (including its baseline, metric, setting, or conditions) or changing the paper's central contribution, including narrowing it. Use a compact **Claim Decision** for these changes and other unresolved material author choices about scientific meaning, scope, novelty, causality, or support. State the proposed change, its evidence and consequences, the recommendation, and the decision needed. For a proposed replacement, explain how the original comparison will be handled. Present credible alternatives when they exist, with one clear question.
 
-Wait only for that consequential decision while continuing unaffected work. An already authorized, evidence-supported correction or narrowing does not require the same approval again; do not silently weaken an author-controlled central claim when that changes the research position. Reversible reorganization, terminology and formatting within the task can proceed. Unsupported claims may be removed, narrowed or identified as hypotheses where authorized; user preference cannot make missing evidence an established result.
+Wait only for that consequential decision while continuing unaffected work. Reuse existing authorization when it covers the specific evidence-supported change. Reversible reorganization, terminology and formatting within the task can proceed. Unsupported claims may be removed, narrowed or identified as hypotheses where authorized. User preference cannot make missing evidence an established result.
 
 ## Write like an academic author, not a defensive assistant
 
