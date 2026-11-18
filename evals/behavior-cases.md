@@ -62,6 +62,12 @@ For Chinese figure and table formatting, include inherited bold figure/table cap
 
 Include inherited enabled widow/orphan, keep-with-next, keep-lines-together and page-break-before settings in generated headings, body, captions and table paragraphs. Check effective false overrides for all four, not merely absent XML properties; an explicitly required local exception remains scoped to its target. Do not change global Word defaults or unrelated content.
 
+#### A one-sentence edit in a governed project
+
+Try two requests in fresh contexts with the same draft: “A had lower task-equal mean error than B [8].” The first asks only for smoother wording and retains the citation. The second asks whether A can also be described as more stable. Supply the project instructions and a current-stage pointer to the approved results. Two tasks both have SD 0.20 for A and 0.10 for B, while an earlier pilot reverses that ordering.
+
+Check the delivered sentence and which sources were used. Wording alone should preserve the comparison and citation without opening unrelated research-state files. The interpretation requires the approved variability record and a sentence consistent with it. Neither request needs a new experiment or full-paper review.
+
 ### 6. Carried author revision
 
 Provide a current manuscript whose earlier active request for substantive argument repair was claimed complete in a revision note but is still absent from the text.

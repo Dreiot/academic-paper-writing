@@ -246,7 +246,7 @@ Information Sciences 的英文论文。保持现有证据强度，先修复段�
 
 本 Skill 可以独立使用。普通论文撰写不会自动创建 Goal、Gate、证据包、正式审查或 Git 事务。
 
-当论文位于受治理科研项目中时，它会读取当前 `AGENTS.md`、`docs/PROJECT_CORE.md`、`docs/CURRENT_STAGE.md` 和必要证据，避免使用过时结果或越过 claim 边界，但不会把这些内部状态写进论文。只有用户明确同时调用 [`$codex-research-workflow`](https://github.com/Dreiot/codex-research-workflow)，或任务本身已经是受治理 Goal 时，才组合执行两套工作流。
+受治理项目遵循适用的 `AGENTS.md`。保持原意的语言润色以作者原文和相邻上下文为依据。涉及研究定位或已批准结论时查阅 `docs/PROJECT_CORE.md`，依赖当前研究状态或结果版本时查阅 `docs/CURRENT_STAGE.md`，改变科学解释时核对相应直接证据。读者可从交付的正文、图表和补充材料独立理解研究。只有用户明确同时调用 [`$codex-research-workflow`](https://github.com/Dreiot/codex-research-workflow)，或任务本身已由科研工作流管理时，才组合执行两套工作流。
 
 ## 文件结构
 
