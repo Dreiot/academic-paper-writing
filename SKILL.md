@@ -51,7 +51,7 @@ If the user asks to use Zotero, the source DOCX contains live Zotero citation fi
 
 When creating or substantially revising manuscript figures, read [references/scientific-figures.md](references/scientific-figures.md). Use ImageGen for non-evidentiary workflow, principle, mechanism, and method-overview illustrations; generate every result or evidence-bearing figure from authentic local data without a generative image model.
 
-For a user-requested polishing prompt or external-editor handoff, or requested assessment/integration of a returned polished candidate, read [references/external-polishing.md](references/external-polishing.md). Generate a scoped prompt for Gemini or the user's chosen editor only when requested; otherwise assess or integrate within the designated scope. Ordinary drafting, revision, or a general wish for natural prose does not trigger prompt generation or external submission.
+For an external editorial handoff, returned candidate, or Gemini collaboration authorized for this author, read [external drafting and review](references/external-polishing.md). Codex may choose the model and delegate drafting, revision, translation, polishing, or reviewer-response drafting within that authorization. Match the requested outcome: a prompt, an opinion, an independent review, or a verified manuscript edit. Codex owns the evidence check and final integration.
 
 ## Escalate evidence-claim conflicts to the user
 

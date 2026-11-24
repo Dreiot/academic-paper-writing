@@ -1,6 +1,16 @@
-# Optional external polishing handoff
+# External drafting, revision and review
 
-Use this reference when the user requests a prompt or handoff for Gemini or another external editor, or asks to assess or integrate a returned polished candidate. Prompt generation remains optional: do not generate one as a routine attachment to manuscript work or infer the request from a wish to reduce formulaic prose. Producing the handoff does not itself authorize uploading material, contacting an external service, or replacing the manuscript with a returned candidate.
+Use the author's active request or explicit standing preference to determine whether to consult an external model and which materials it may receive. For a prompt-only request, deliver the prompt. For an opinion-only request, deliver the assessment. Follow the project's data permissions and the author's latest scope.
+
+## Delegate through Antigravity
+
+When this author uses Gemini for manuscript work, Codex can choose the model and perform the authorized round trip. The personal Antigravity skill at `~/.gemini/config/skills/manuscript-revision/SKILL.md` records the local preference and supplies the writer/reviewer instructions. Read the relevant guidance locally. Give the worker the task-specific instructions in its brief: the Daniiislo bridge disables slash-command expansion. Where this personal setup is absent, use the author's instructions and available editor.
+
+- **Choose a model for the remaining judgment.** Use `gemini-4-neon-high` for substantive drafting, meaning-sensitive translation and routine scientific review. Use `gemini-4-hydrogen-high` for well-specified local edits with settled scientific meaning. Use `gemini-4-neon-xhigh` where resolving competing evidence, a derivation or a challenge to the central claim requires deeper reasoning. Honor an explicit choice. Check available models if a selection fails. For a model comparison requested by the author, preserve the named conditions.
+- **Prepare the actual task.** Start from the newest author-controlled text, including comments, manual edits and protected wording. State the section's job, the permitted change, the necessary neighboring text, and the relevant evidence with comparison conditions. Give the worker only the intended files or excerpts and a candidate destination. Use an allowed workspace or stage the authorized materials in it. An existing test workspace is not a reason to expose an entire research directory.
+- **Dispatch and review.** Use the registered bridge's `create_worker` and `dispatch_task`. For writing, select an implementer and have it produce the candidate. For a requested independent opinion, create a fresh reviewer with the candidate, original evidence and review question. Withhold prior critiques and the writer's defense on the first pass. The bridge's tester mode is advisory: use review copies and request findings in the reply. A second reading by the same model is a separate-context opinion. Report who reviewed what.
+- **Handle author feedback.** An instruction to revise covers the indicated edit and its verification. An invitation to discuss calls for an assessment. Carry forward author decisions and distinguish them from an editor's suggestions. Ask the author only for a consequential unresolved choice under the existing Claim Decision rule. The writer may offer a short, evidence-linked dissent in its handoff when it affects interpretation.
+- **Close the loop.** Inspect the actual candidate against the brief and evidence. The bridge's changed-file list can omit successful writes. Use `send_followup` on the active writer for specific outstanding findings, then check the resulting file. Finish when the requested edit is sound. Close the worker and provide its CLI recovery command (`agy --conversation <id>`) when helpful. If the author has since edited the file or continued directly in Antigravity, use their latest version and decisions for integration. For Word manuscripts with live fields, equations or revisions, use verified document-aware editing and check those structures. A text candidate can be integrated through the existing DOCX workflow.
 
 ## Set the requested editorial role
 
@@ -8,6 +18,8 @@ Select the operation the user requests:
 
 | Operation | Scope and output |
 | --- | --- |
+| Delegate drafting or revision | Give the writer the section's purpose, direct evidence and author's decisions. Inspect the actual candidate before integration. |
+| Obtain an independent opinion | Use a separate context. Return source-located findings, integrating changes only within the requested scope. |
 | Prepare a prompt | Produce the editing instructions and necessary context or material list for the designated draft. |
 | Assess a returned candidate | Compare the candidate with the designated baseline and direct evidence; return an assessment within the requested scope. Assessment alone leaves manuscript files unchanged. |
 | Integrate a returned candidate | Edit the authorized manuscript scope under the single owner and verify the resulting artifact. |
