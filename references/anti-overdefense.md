@@ -8,7 +8,7 @@ Express the best-supported judgment directly and develop the evidence and reason
 
 Use accurate research objects, measured endpoints, comparisons, and inferential verbs to carry scientific meaning. Once methods and surrounding context establish the scope, continue within it without restating the same qualification after each finding. Calibrated wording should make the proposition itself accurate.
 
-When establishing or substantially reorganizing the manuscript's argument, center it on the contributions of greatest scientific or practical value that direct evidence supports. Select and order results, figures, and tables by what they establish, qualify, or rule out. Explain the direction, magnitude, conditions, and meaning of decisive comparisons. Describe a tradeoff only when comparable evidence supports both the benefit and the cost.
+When establishing or substantially reorganizing the manuscript's argument, organize it around the research question and the central contributions supported by the evidence. Select and order results, figures, and tables by what they establish, qualify, or rule out. State supported advantages explicitly within their applicable conditions. Report the direction, magnitude, and relevant uncertainty of key comparisons as applicable. Describe an observed tradeoff when comparable evidence supports both the benefit and the cost.
 
 ## Run five diagnostic checks
 
@@ -16,7 +16,7 @@ Use these checks within the existing authoring and source-first verification pas
 
 ### 1. Phantom-objection check
 
-Keep a concession or rebuttal when it resolves a real evidential distinction, material ambiguity, or actual reviewer concern. Do not invent objections or display caution merely to anticipate possible criticism. State what the evidence supports rather than first making a broader claim and then withdrawing it.
+Use neutral academic language and state claims at the strength the evidence supports. Keep a concession or rebuttal when it resolves a real evidential distinction, material ambiguity, or actual reviewer concern. Omit promotional language, imagined objections, and self-criticism that does not help readers interpret the evidence.
 
 ### 2. Deletion check
 
