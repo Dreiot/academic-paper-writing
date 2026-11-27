@@ -69,6 +69,7 @@ When an author changes stage definitions or terminology, first match the underly
 Apply this reasoning to the affected boundaries:
 
 - **Related work to method:** synthesize what the earlier mechanisms establish, identify the study's selected question and needed model relationships, and lead into formal definitions. A transition cannot establish unverified novelty.
+- **Related work to discussion:** when literature positioning or domain benchmarks are substantially expanded in Related Work, check that Discussion interprets the study's findings and limitations in dialogue with those coordinates (and that Introduction's positioning remains aligned); if the author restricts edits strictly to Related Work, leave other sections untouched and note the pending downstream sync points in the delivery summary.
 - **Method to experiments:** derive the experimental questions from intended effects and testable method properties, without announcing success or retelling the training algorithm.
 - **Main comparison to ablation or diagnosis:** name the local question that the overall result leaves unresolved and the analysis that can address it. Overall performance does not independently establish each component's effect.
 - **Results to conclusion:** identify what the evidence answered and why it matters, retaining material mixed findings without listing every number again.
